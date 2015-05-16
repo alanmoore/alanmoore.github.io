@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+<header class="card__header">
+    <time datetime="{{ page.date }}" class="circle  circle--date  drop-shadow  text-shadow">{{ page.month }}</time>
+    <h4 class="title  card-offset">{{ page.title }} </h4>
+    <h3 class="card__subtitle  card__subtitle--offset  text-shadow">{{ page.subtitle }} </h3>
+</header>
+<p><strong>{{ page.intro }}</strong></p>
+{{ content }}
+{% if page.link %}
+    <footer class="card__footer">
+        <a href="{{ page.link }}" target="_blank" class="btn  text-shadow">View 
+        {{ page.site_name }} <i class="fa  fa-external-link-square"></i></a>
+        {% if page.archived %} {{ include archived_site.html }}{% endif %}
+    </footer>
+{% endif %}

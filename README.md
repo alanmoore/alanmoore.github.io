@@ -1,1 +1,2 @@
-# alanmoore.github.io
+# blog
+Jekyll-based blog

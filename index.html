@@ -1,0 +1,45 @@
+---
+layout: page
+menu-title: Home
+title: I'm Alan Moore. Nice to meet you.
+order: 1
+---
+<h3 class="title">I'm Alan Moore. </h3>
+<p>I design and build user interfaces to improve user experience in web sites and web applications. This site is a combined blog, portfolio and resumé / C.V. showcasing my work in the field of web design from the last 18 years. </p>
+<ul class="cards">
+    {% for post in site.posts %}
+        {% if post.type == 'portfolio' %}
+           <li class="card">
+                <header class="card__header">
+                    <time datetime="{{ post.date }}" class="circle  circle--year  drop-shadow  text-shadow">{{ post.year }}</time>
+                    <h4 class="title  card-offset">{{ post.site_name }} </h4>
+                    {% if post.header_image %}
+                    <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" alt="{{ post.site_name }}" class="card__image" />
+                    <h5 class="card__subtitle  text-shadow">{{ post.skills }} </h5>
+                    {% else %}
+                    <h5 class="card__subtitle  card__subtitle--offset  text-shadow">{{ post.skills }} </h5>
+                    {% endif %}
+                    
+                </header>
+                <p>Client: {{ post.client_name }}</p>
+                <p><strong>{{ post.intro }}</strong></p>
+                <footer class="card__footer">
+                    <a href="{{ post.permalink }}" class="btn  text-shadow">Read More <i class="fa  fa-caret-down"></i></a>
+                </footer>
+            </li>
+        {% else %}
+            <li class="card">
+                <header class="card__header">
+                    <time datetime="{{ post.date }}" class="circle  circle--date  drop-shadow  text-shadow">{{ post.month }}</time>
+                    <h4 class="title  card-offset">{{ post.title }} </h4>
+                    <h3 class="card__subtitle  card__subtitle--offset  text-shadow">{{ post.subtitle }} </h3>
+                </header>
+                <p>{{ post.intro }}</p>
+                <footer class="card__footer">
+                    <a href="{{ post.permalink }}" class="btn  text-shadow">Read More <i class="fa  fa-caret-down"></i></a>
+                </footer>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+

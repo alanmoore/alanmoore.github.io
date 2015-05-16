@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <div class="page  visible" id="page">
+            {% include header.html %}
+            {{ content }}
+            {% include footer.html %}
+        </div>
+        <div class="page  visible" id="nav">
+            <nav role="navigation" class="main-nav  main-nav--mobile">
+        		{% include navigation.html %}
+        	</nav>
+        </div>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    	<script type="text/javascript">
+	       $(document).ready(function() {
+                var isMobile = window.orientation;
+
+                if((isMobile===-90)||(isMobile===0)||(isMobile===90)||(isMobile===180)) {
+                    // this is a mobile device, act accordingly
+                    window.onorientationchange = function(event){
+                        doResize();
+                    }
+                } else {
+                    // this is a desktop device 
+                    $(window).smartresize(function(){ 
+                        doResize();
+                    });
+                }
+
+                $('.page').addClass('js-active');
+                
+                doResize();
+
+                $('.menu-toggle').click(function() {
+                    $('#nav').addClass('fixed').addClass('visible').siblings('.page').removeClass('visible');
+                    event.preventDefault();
+                    return false;
+                });
+
+                $('.menu-hide').click(function() {
+                    doResize();
+                    event.preventDefault();
+                    return false;
+                });
+
+            });
+
+            function doResize() {
+                $('#nav').removeClass('fixed').removeClass('visible').siblings('.page').eq(0).addClass('visible');
+            }
+
+            // http://paulirish.com/2009/throttled-smartresize-jquery-event-handler/
+            // prevent window.onresize firing a spastic number of times in Chrome
+            // usage: $(window).smartresize(function(){  // code that takes it easy... });
+
+            (function($,sr){
+                // debouncing function from John Hann
+                // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
+                var debounce = function (func, threshold, execAsap) {
+                    var timeout;
+                    return function debounced () {
+                        var obj = this, args = arguments;
+                        function delayed () {
+                            if (!execAsap) func.apply(obj, args);
+                            timeout = null; 
+                        };
+                        if (timeout) 
+                            clearTimeout(timeout);
+                        else if (execAsap)
+                            func.apply(obj, args);
+                        timeout = setTimeout(delayed, threshold || 100); 
+                    };
+                }
+                // smartresize 
+                jQuery.fn[sr] = function(fn){  
+                    return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr); 
+                };
+            })(jQuery,'smartresize');
+	    </script>
+    </body>
+</html>
