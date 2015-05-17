@@ -698,7 +698,8 @@ b, i {
 
 em {
   font-family: 'HelveticaNeueW01-46Ligh', 'Helvetica Neue', helvetica, arial, sans-serif;
-  font-weight: normal; }
+  font-weight: normal;
+  font-style: normal; }
 
 strong {
   font-family: 'HelveticaNeueW01-65Medi', 'Helvetica Neue', helvetica, arial, sans-serif;
@@ -734,6 +735,10 @@ li {
   background-size: 1em 0.78em;
   margin-left: 0;
   padding-left: 1.6em; }
+
+img {
+  max-width: 100%;
+  height: auto; }
 
 .drop-shadow {
   box-shadow: 0px 3px 0px 0px rgba(139, 139, 139, 0.75); }
@@ -1125,7 +1130,9 @@ li {
 
 .circle--date {
   font-size: 18px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px; }
 
 .circle--head {
   background-image: url(../images/alanhead.png);
@@ -1229,6 +1236,15 @@ li {
   .footer__list-item .ss-icon {
     font-size: 1.2em;
     line-height: 0.1; }
+
+table {
+  margin-bottom: 1em;
+  width: 100%; }
+
+th,
+td {
+  border-bottom: 1px solid rgba(184, 184, 184, 0.9);
+  padding-right: 5px; }
 
 .page {
   transition: opacity .5s; }

@@ -61,6 +61,7 @@ b, i {
 em {
     font-family: 'HelveticaNeueW01-46Ligh', 'Helvetica Neue', helvetica, arial, sans-serif;
     font-weight: normal;
+    font-style: normal;
 }
 
 strong {
@@ -105,6 +106,11 @@ li {
     background-size: 1em 0.78em;   
     margin-left: 0;
     padding-left: 1.6em;
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
 }
 
 .drop-shadow {
@@ -531,6 +537,8 @@ li {
 .circle--date {
     font-size: 18px; 
     padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .circle--year {
@@ -656,6 +664,17 @@ li {
         font-size: 1.2em;
         line-height: 0.1;
     }
+}
+
+table {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 1px solid $light-grey;
+    padding-right: 5px;
 }
 
 .page {

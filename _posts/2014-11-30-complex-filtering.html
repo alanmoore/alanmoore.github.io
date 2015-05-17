@@ -1,0 +1,31 @@
+---
+layout: 		post
+title:  		"Complex Filtering"
+date:   		2014-11-01 08:45
+month: 			"30th Oct. 2014"
+permalink: 		complex-filtering
+type:			post
+link: 			http://jsfiddle.net/alan_moore_regent/ejggvLj0/result/
+site_name:		JSfiddle Result
+subtitle: 		When regular grid filters just won't do
+intro: 			A concept for filtering large data tables displayed as grids. 
+---
+
+<p>At Regent, we display large tables of data. When I say large, I mean 24 columns and 30,000 
+	records.</p>
+<p>With that much to choose from, the ability to filter the data displayed is <em>very</em> 
+	useful. We use Kendo UI, and <a target="_blank"
+	href="http://demos.telerik.com/kendo-ui/grid/filter-menu-customization">its grids include the 
+	ability to filter by clicking an icon in the column's header</a>.</p>
+<p>This isn't a terrible solution by any means, but when all 24 columns have the filter, and the
+	data is large enough that one third of those columns extend off the screen, it can be difficult
+	to tell, at a glance, which columns are filtered. It's impossible to see <em>how</em> they are 
+	filtered, which is a problem regardless of the amount of data displayed. </p>
+<p>Here's a JSfiddle of a filtering concept I put together. I needed a quick prototype, so 
+	although you can <a href="http://jsfiddle.net/alan_moore_regent/ejggvLj0/" target="_blank">view 
+	the fiddle in full here</a>, the code is <em>not</em> production ready. I recommend you view 
+	the result using the link below. </p>
+<img src="/images/posts/complex-filtering.png" alt="Complex Filtering" />
+<p>Each of the columns which can be filtered are listed in the dropdown menu, but this also allows 
+	the option of <em>not</em> filtering certain columns by simply leaving them out of the list. 
+	This is a simple, flexible option for filtering large datasets. </p> 
