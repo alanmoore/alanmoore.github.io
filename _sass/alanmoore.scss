@@ -49,6 +49,7 @@ body {
         font-size: 16px;
     }
     color: $dark-grey;
+    text-align: center;
 }
 
 b, i {
@@ -78,6 +79,10 @@ a {
     &:hover {
         color: black;
     }
+}
+
+pre {
+    font-size: 0.8em;
 }
 
 p,
@@ -130,6 +135,11 @@ li {
     }
 }
 
+.page {
+    text-align: center;
+
+}
+
 .fixme {
     background-color: $green;
     color: white;
@@ -155,6 +165,7 @@ li {
     padding-left: 12px;
     max-width: $max-page-width;
     margin: 0 auto;
+    text-align: left;
     @media (min-width: $sm) {
         background-image: url(../images/alanhead.png); 
         background-repeat: no-repeat;
@@ -382,22 +393,35 @@ li {
 
 .main,
 .footer {
-    max-width: $max-page-width;
     margin: 0 auto;
     padding-left: 12px;
     padding-right: 12px;
     @media (min-width: $max-page-plus-gutter) {
+        margin: 0 auto;
         max-width: $max-page-plus-gutter;
         padding-left: 100px;
     }
     @media (min-width: $lg) {
+        max-width: $max-page-width + 385px;
+        padding-left: 385px;
+    }
+    @media (min-width: $max-page-width) {
         max-width: $max-page-width;
-        margin-left: 385px;
-        padding-left: 0;
+    }
+    @media (min-width: $max-page-plus-gutter) {
+        margin: 0 auto;
+        max-width: $max-page-plus-gutter;
+        padding-left: 100px;
+    }
+    @media (min-width: $lg) {
+        max-width: $max-page-width + 385px;
+        padding-left: 385px;
+        margin-left: 0;
     }
 }
 
 .main {
+    text-align: left;
     margin-top: 17px;
     @media (min-width: $sm) {
         margin-top: 145px;
@@ -649,6 +673,9 @@ li {
     height: 0;
     overflow: hidden;
     opacity: 0;
+    @media (min-width: $max-page-width) {
+        position: static;
+    }
 }
 
 .js-active.visible {

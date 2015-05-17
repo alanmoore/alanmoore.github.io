@@ -97,33 +97,37 @@ intro: 			My approach to coding, circa March 2014
 	necessary using LESS @includes. </p>
 <p>OOCSS requires the use of class names rather than specific selectors. Consider a navigation: </p>
 <pre><code>
-	&lt;nav role="navigation"&gt;
-		&lt;ul&gt;
-			&lt;li&gt;&lt;a href="#"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="#"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;
-				&lt;a href="#"&gt;Nav Item&lt;/a&gt;
-				&lt;ul&gt;
-					&lt;li&gt;&lt;a href="#"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
-					&lt;li&gt;&lt;a href="#"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
-				&lt;/ul&gt;
-			&lt;/li&gt;
-		&lt;/ul&gt;
-	&lt;/nav&gt;
+  &lt;nav role="navigation"&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;a href="#"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;a href="#"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;a href="#"&gt;Nav Item&lt;/a&gt;
+        &lt;ul&gt;
+	        &lt;li&gt;
+	          &lt;a href="#"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
+	        &lt;li&gt;
+	          &lt;a href="#"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
 </code></pre>
 <p>These elements can be targeted like so: </p>
 <pre><code>
-nav[role="navigation"] {...}		/* 1 */
-nav[role="navigation"] ul {...}		/* 2 */
-nav[role="navigation"] li {...}		/* 3 */
-nav[role="navigation"] a {...}		/* 4 */
+nav[role="navigation"] {...}           /* 1 */
+nav[role="navigation"] ul {...}        /* 2 */
+nav[role="navigation"] li {...}        /* 3 */
+nav[role="navigation"] a {...}         /* 4 */
 </code></pre>
 <p>Item 1 is fine, but items 2, 3 and 4 will be applied to the sub-nav, which can produce undesired 
 	results. There is, of course, specifity: </p>
 <pre><code>
-nav[role="navigation"] ul ul {...}		/* 5 */
-nav[role="navigation"] ul ul li {...}	/* 6 */
-nav[role="navigation"] ul ul a {...}	/* 7 */
+nav[role="navigation"] ul ul {...}     /* 5 */
+nav[role="navigation"] ul ul li {...}  /* 6 */
+nav[role="navigation"] ul ul a {...}   /* 7 */
 </code></pre>
 <p>Things are getting complicated. In the pursuit of 'clean' markup, this kind of spaghetti CSS is 
 	often a side-effect. Revisiting this code months later, it can take a while to understand what 
@@ -132,28 +136,32 @@ nav[role="navigation"] ul ul a {...}	/* 7 */
 <p>Consider the following: </p>
 <pre><code>
 &lt;nav role="navigation" class="main-nav"&gt;
-	&lt;ul class="nav-list"&gt;
-		&lt;li class="nav-item"&gt;&lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
-		&lt;li class="nav-item"&gt;&lt;a href="#" class="`link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
-		&lt;li class="nav-item"&gt;
-			&lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;
-			&lt;ul class="sub-nav"&gt;
-				&lt;li class="sub-nav-item"&gt;&lt;a href="#" class="main-nav__sub-menu-link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
-				&lt;li class="main-nav__sub-menu-item"&gt;&lt;a href="#" class="main-nav__sub-menu-link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
-			&lt;/ul&gt;
-		&lt;/li&gt;
-	&lt;/ul&gt;
+  &lt;ul class="nav-list"&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;a href="#" class="`link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;
+      &lt;ul class="sub-nav"&gt;
+        &lt;li class="sub-nav-item"&gt;
+          &lt;a href="#" class="main-nav__sub-menu-link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="main-nav__sub-menu-item"&gt;
+          &lt;a href="#" class="main-nav__sub-menu-link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/nav&gt;
 </code></pre>
 <p>At first glance, this looks messier. But consider this CSS: </p>
 <pre><code>
-.main-nav {...}		/* 1 */
-.nav-list {...}		/* 2 */
-.nav-item {...}		/* 3 */
-.nav-link {...}		/* 4 */
-.sub-nav {...}		/* 5 */
-.sub-nav-item {...}	/* 6 */
-.sub-nav-link {...}	/* 7 */
+.main-nav {...}        /* 1 */
+.nav-list {...}        /* 2 */
+.nav-item {...}        /* 3 */
+.nav-link {...}        /* 4 */
+.sub-nav {...}         /* 5 */
+.sub-nav-item {...}    /* 6 */
+.sub-nav-link {...}    /* 7 */
 </code></pre>
 <p>
 Not only is the CSS easier to parse, but a change to .main-nav cannot affect .sub-nav like a 
@@ -178,14 +186,14 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
 	Consider Bootstrap grids. It is possible to work like so:</p>
 <pre><code>
 &lt;div class="container-fluid"&gt;
-	&lt;div class="col-6"&gt;
-		&lt;h1&gt;Title&lt;/h1&gt;
-		&lt;p&gt;Text&lt;/p&gt;
-	&lt;/div&gt;
-	&lt;div class="col-6"&gt;
-		&lt;h2&gt;Subtitle&lt;/h2&gt;
-		&lt;p&gt;More Text&lt;/p&gt;
-	&lt;/div&gt;
+  &lt;div class="col-6"&gt;
+    &lt;h1&gt;Title&lt;/h1&gt;
+    &lt;p&gt;Text&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class="col-6"&gt;
+    &lt;h2&gt;Subtitle&lt;/h2&gt;
+    &lt;p&gt;More Text&lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
 <p>The columns can be styled directly. Since .col-x has a margin-left and margin-right value, and 
@@ -197,18 +205,18 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
 <p>Instead, consider this code: </p>
 <pre><code>
 &lt;div class="container-fluid"&gt;
-	&lt;div class="col-6"&gt;
-		&lt;div class="some-content"&gt;
-			&lt;h1&gt;Title&lt;/h1&gt;
-			&lt;p&gt;Text&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;div class="col-6"&gt;
-		&lt;div class="some-content"&gt;
-			&lt;h2&gt;Subtitle&lt;/h2&gt;
-			&lt;p&gt;More Text&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
+  &lt;div class="col-6"&gt;
+    &lt;div class="some-content"&gt;
+      &lt;h1&gt;Title&lt;/h1&gt;
+      &lt;p&gt;Text&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="col-6"&gt;
+    &lt;div class="some-content"&gt;
+      &lt;h2&gt;Subtitle&lt;/h2&gt;
+      &lt;p&gt;More Text&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </code></pre>
 <p>Yes, there is more markup. It was necessary to separate the grid from the content. There are now 
@@ -231,54 +239,62 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
 <p>Consider our previous example: </p>
 <pre><code>
 &lt;nav role="navigation" class="main-nav"&gt;
-	&lt;ul class="nav-list"&gt;
-		&lt;li class="nav-item"&gt;&lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
-		&lt;li class="nav-item"&gt;&lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
-		&lt;li class="nav-item"&gt;
-			&lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;
-			&lt;ul class="sub-nav"&gt;
-				&lt;li class="sub-nav-item"&gt;&lt;a href="#" class="main-nav__sub-menu-link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
-				&lt;li class="main-nav__sub-menu-item"&gt;&lt;a href="#" class="main-nav__sub-menu-link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
-			&lt;/ul&gt;
-		&lt;/li&gt;
-	&lt;/ul&gt;
+  &lt;ul class="nav-list"&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="nav-item"&gt;
+      &lt;a href="#" class="nav-link"&gt;Nav Item&lt;/a&gt;
+      &lt;ul class="sub-nav"&gt;
+        &lt;li class="sub-nav-item"&gt;
+          &lt;a href="#" class="main-nav__sub-menu-link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="main-nav__sub-menu-item"&gt;
+          &lt;a href="#" class="main-nav__sub-menu-link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
 </nav>
 </code></pre>
 <p>It uses this CSS:</p>
 <pre><code>
-.main-nav {...}		/* 1 */
-.nav-list {...}		/* 2 */
-.nav-item {...}		/* 3 */
-.nav-link {...}		/* 4 */
-.sub-nav {...}		/* 5 */
-.sub-nav-item {...}	/* 6 */
-.sub-nav-link {...}	/* 7 */
+.main-nav {...}        /* 1 */
+.nav-list {...}        /* 2 */
+.nav-item {...}        /* 3 */
+.nav-link {...}        /* 4 */
+.sub-nav {...}         /* 5 */
+.sub-nav-item {...}    /* 6 */
+.sub-nav-link {...}    /* 7 */
 </code></pre>
 <p>These are some generic class names. .nav-link may well be used elsewhere in error. </p>
 <pre><code>
 &lt;nav role="navigation" class="main-nav"&gt;
-	&lt;ul class="main-nav__list"&gt;
-		&lt;li class="main-nav__item"&gt;&lt;a href="#" class="main-nav__link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
-		&lt;li class="main-nav__item"&gt;&lt;a href="#" class="main-nav__link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
-		&lt;li class="main-nav__item"&gt;
-			&lt;a href="#" class="main-nav__link"&gt;Nav Item&lt;/a&gt;
-			&lt;ul class="sub-menu"&gt;
-				&lt;li class="sub-menu__item"&gt;&lt;a href="#" class="sub-menu__link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
-				&lt;li class="sub-menu__item"&gt;&lt;a href="#" class="sub-menu__link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
-			&lt;/ul&gt;
-		&lt;/li&gt;
-	&lt;/ul&gt;
+  &lt;ul class="main-nav__list"&gt;
+    &lt;li class="main-nav__item"&gt;
+      &lt;a href="#" class="main-nav__link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="main-nav__item"&gt;
+      &lt;a href="#" class="main-nav__link"&gt;Nav Item&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="main-nav__item"&gt;
+      &lt;a href="#" class="main-nav__link"&gt;Nav Item&lt;/a&gt;
+      &lt;ul class="sub-menu"&gt;
+        &lt;li class="sub-menu__item"&gt;
+          &lt;a href="#" class="sub-menu__link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="sub-menu__item"&gt;
+          &lt;a href="#" class="sub-menu__link"&gt;SubNav Item&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/nav&gt;
 </code></pre>
 <p>At first glance, this looks messier. But consider this CSS: </p>
 <pre><code>
-.main-nav {...}					/* 1 */
-.main-nav__list {...}			/* 2 */
-.main-nav__item {...}			/* 3 */
-.main-nav__link {...}			/* 4 */
-.sub-menu {...}		/* 5 */
-.sub-menu__item {...}	/* 6 */
-.sub-menu__link {...}	/* 7 */
+.main-nav {...}        /* 1 */
+.main-nav__list {...}  /* 2 */
+.main-nav__item {...}  /* 3 */
+.main-nav__link {...}  /* 4 */
+.sub-menu {...}        /* 5 */
+.sub-menu__item {...}  /* 6 */
+.sub-menu__link {...}  /* 7 */
 </code></pre>
 <ul>
 	<li>A Block has a single name, written .block, such as .main-nav. </li>

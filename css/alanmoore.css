@@ -4,11 +4,11 @@
  *
  * github.com/inuitcss | inuitcss.com
  */
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
  */
 @import url("//hello.myfonts.net/count/260aca");
 html {
@@ -29,7 +29,8 @@ body {
    ========================================================================== */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
 article,
@@ -41,6 +42,7 @@ footer,
 header,
 hgroup,
 main,
+menu,
 nav,
 section,
 summary {
@@ -69,7 +71,7 @@ audio:not([controls]) {
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
 [hidden],
 template {
@@ -81,10 +83,11 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background: transparent; }
+  background-color: transparent; }
 
 /**
- * Improve readability when focused and also mouse hovered in all browsers.
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
  */
 a:active,
 a:hover {
@@ -174,7 +177,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -297,16 +299,13 @@ input[type="number"]::-webkit-outer-spin-button {
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
- *    (include `-moz` to future-proof).
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  /* 2 */
-  box-sizing: content-box; }
+  box-sizing: content-box;
+  /* 2 */ }
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
@@ -686,7 +685,8 @@ body {
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', helvetica, arial, sans-serif;
   font-weight: normal;
   font-size: 14px;
-  color: #4a4a4a; }
+  color: #4a4a4a;
+  text-align: center; }
   @media (min-width: 475px) {
     body {
       font-size: 16px; } }
@@ -712,6 +712,9 @@ a {
   color: #69B9D4; }
   a:hover {
     color: black; }
+
+pre {
+  font-size: 0.8em; }
 
 p,
 ul {
@@ -756,6 +759,9 @@ li {
     background: #8BC53F;
     color: white; }
 
+.page {
+  text-align: center; }
+
 .fixme {
   background-color: #8BC53F;
   color: white;
@@ -778,7 +784,8 @@ li {
   padding-top: 23px;
   padding-left: 12px;
   max-width: 650px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: left; }
   @media (min-width: 475px) {
     .header-bar {
       background-image: url(../images/alanhead.png);
@@ -990,23 +997,39 @@ li {
 
 .main,
 .footer {
-  max-width: 650px;
   margin: 0 auto;
   padding-left: 12px;
   padding-right: 12px; }
   @media (min-width: 750px) {
     .main,
     .footer {
+      margin: 0 auto;
       max-width: 750px;
       padding-left: 100px; } }
   @media (min-width: 1070px) {
     .main,
     .footer {
-      max-width: 650px;
-      margin-left: 385px;
-      padding-left: 0; } }
+      max-width: 1035px;
+      padding-left: 385px; } }
+  @media (min-width: 650px) {
+    .main,
+    .footer {
+      max-width: 650px; } }
+  @media (min-width: 750px) {
+    .main,
+    .footer {
+      margin: 0 auto;
+      max-width: 750px;
+      padding-left: 100px; } }
+  @media (min-width: 1070px) {
+    .main,
+    .footer {
+      max-width: 1035px;
+      padding-left: 385px;
+      margin-left: 0; } }
 
 .main {
+  text-align: left;
   margin-top: 17px; }
   @media (min-width: 475px) {
     .main {
@@ -1220,6 +1243,9 @@ li {
   height: 0;
   overflow: hidden;
   opacity: 0; }
+  @media (min-width: 650px) {
+    .js-active {
+      position: static; } }
 
 .js-active.visible {
   opacity: 1;
