@@ -23,9 +23,9 @@
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}, on alanmoore.info{% else %}{{ site.title }}: {{ site.subtitle }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
     {% if page.header_image %}
-        <meta name="twitter:image" content="{{ site.imageurl }}/headers/{{ page.header_image }}" />
+        <meta name="twitter:image" content="http://alanmoore.github.io/{{ site.imageurl }}/headers/{{ page.header_image }}" />
     {% else %}
-        <meta name="twitter:image" content="{{ site.imageurl }}/photo.jpg" />
+        <meta name="twitter:image" content="http://alanmoore.github.io/{{ site.imageurl }}/photo.jpg" />
     {% endif %}
 </head>
 
