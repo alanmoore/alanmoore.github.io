@@ -34,7 +34,8 @@ order: 1
                     <h4 class="title  card-offset">{{ post.title }} </h4>
                     <h3 class="card__subtitle  card__subtitle--offset  text-shadow">{{ post.subtitle }} </h3>
                 </header>
-                <p>{{ post.intro }}</p>
+                <p><strong>{{ post.intro }}</strong></p>
+                {{ post.excerpt }}
                 <footer class="card__footer">
                     <a href="{{ post.permalink }}" class="btn  text-shadow">Read More <i class="fa  fa-caret-down"></i></a>
                 </footer>
