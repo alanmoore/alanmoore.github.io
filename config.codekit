@@ -2047,17 +2047,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/images\/posts\/stacked-tables.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 40628,
-		"inputAbbreviatedPath": "\/_site\/images\/posts\/stacked-tables.png",
-		"outputAbbreviatedPath": "\/_site\/images\/posts\/stacked-tables.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/images\/posts\/very-wide-table.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -1,0 +1,31 @@
+---
+layout: 		post
+title:  		"Wide Tables on Small Screens"
+date:   		2014-08-01 08:45
+month: 			"1st Aug. 2014"
+permalink: 		wide-tables-on-small-screens
+type:			post
+link: 			https://jsfiddle.net/alan_moore_regent/G3E6c/embedded/result/
+site_name:		JSfiddle Result
+subtitle: 		An 11 column table on a 320px screen?
+intro: 			A concept for responsive tables. 
+---
+
+<p>We deal with big tables of data at Regent. Because our clients do not necessarily follow 
+	standard school terms and their students may not be full-time, we can end up with balance 
+	sheets with ten columns of data&mdash; one per year. </p>
+<p>On a laptop, that might be fine. On a phone, it's not going to work even in portrait mode. 
+	Flipping the axis of the table so it has six columns and 11 rows isn't much help when we need to
+	show a total at the bottom of each column. What to do? </p>
+<!--more-->
+<p>Here's an example table containing typical types of data, but with an excessive number of years: </p>
+<img src="/images/posts/very-wide-table.png" alt="a-very-wide-table" />
+<p>The solution is to stop thinking in terms of the table, and start thinking in terms of the data
+	the table imparts. Presuming this is all useful information, the user should hopefully be 
+	absorbing it all by reading left-to-right, top-to-bottom. That means we can split the rows into 
+	multiple tables: </p>
+<img src="/images/posts/stacked-tables.png" alt="Stacked tables" />
+<p>The final table would contain all of the totals. While it might seem difficult to process the
+	different types of data on a year-by-year basis, it's pretty simple to scroll to each table in
+	turn and scan for the 'Year <em>x</em>' label. Certainly it's easier than trying to parse by
+	zooming and scrolling. </p> 
