@@ -327,7 +327,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/_sass\/_base.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -337,13 +337,13 @@
 		"outputAbbreviatedPath": "\/css\/_base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/_sass\/_fonts.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -353,13 +353,13 @@
 		"outputAbbreviatedPath": "\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/_sass\/_layout.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -369,13 +369,13 @@
 		"outputAbbreviatedPath": "\/css\/_layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/_sass\/_syntax-highlighting.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -385,13 +385,13 @@
 		"outputAbbreviatedPath": "\/css\/_syntax-highlighting.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/_sass\/alanmoore.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -401,7 +401,7 @@
 		"outputAbbreviatedPath": "\/css\/alanmoore.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -670,15 +670,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/contact\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/alanmoore.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/alanmoore.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2047,6 +2038,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/posts\/stacked-tables.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31886,
+		"inputAbbreviatedPath": "\/_site\/images\/posts\/stacked-tables.png",
+		"outputAbbreviatedPath": "\/_site\/images\/posts\/stacked-tables.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/posts\/very-wide-table.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2305,7 +2307,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/inuit-box-sizing\/_generic.box-sizing.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2315,7 +2317,7 @@
 		"outputAbbreviatedPath": "\/css\/_generic.box-sizing.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -2353,7 +2355,7 @@
 		"useCompatibilityMode": 0
 		},
 	"\/bower_components\/inuit-defaults\/_settings.defaults.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2363,7 +2365,7 @@
 		"outputAbbreviatedPath": "\/css\/_settings.defaults.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -2412,7 +2414,7 @@
 		"useCompatibilityMode": 0
 		},
 	"\/bower_components\/inuit-functions\/_tools.functions.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2422,7 +2424,7 @@
 		"outputAbbreviatedPath": "\/css\/_tools.functions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -2460,7 +2462,7 @@
 		"useCompatibilityMode": 0
 		},
 	"\/bower_components\/inuit-mixins\/_tools.mixins.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2470,7 +2472,7 @@
 		"outputAbbreviatedPath": "\/Users\/alan\/Work-Home\/css\/_tools.mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -2508,7 +2510,7 @@
 		"useCompatibilityMode": 0
 		},
 	"\/bower_components\/inuit-normalize\/_generic.normalize.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2518,7 +2520,7 @@
 		"outputAbbreviatedPath": "\/css\/_generic.normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -2567,7 +2569,7 @@
 		"useCompatibilityMode": 0
 		},
 	"\/bower_components\/inuit-page\/_base.page.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2577,7 +2579,7 @@
 		"outputAbbreviatedPath": "\/Users\/alan\/Work-Home\/css\/_base.page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 1,
 		"useLibsass": 0
@@ -4717,10 +4719,10 @@
 	"sassAutoOutputPathReplace1": "scss",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 1,
-	"sassCreateSourceMap": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
-	"sassOutputStyle": 0,
+	"sassOutputStyle": 3,
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 1,
