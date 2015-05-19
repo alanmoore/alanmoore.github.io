@@ -683,6 +683,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/alanmoore.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/alanmoore.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/huge-dropdowns\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2162,17 +2171,6 @@
 		"initialSize": 74962,
 		"inputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-open.png",
 		"outputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-open.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/posts\/stacked-tables.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 31886,
-		"inputAbbreviatedPath": "\/_site\/images\/posts\/stacked-tables.png",
-		"outputAbbreviatedPath": "\/_site\/images\/posts\/stacked-tables.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
