@@ -101,11 +101,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_posts\/2014-08-01-wide-tables-on-small-screens.html": {
+	"\/_posts\/2014-08-01-wide-tables-on-small-screens copy.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_posts\/2014-08-01-wide-tables-on-small-screens.html",
+		"inputAbbreviatedPath": "\/_posts\/2014-08-01-wide-tables-on-small-screens copy.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -115,6 +115,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_posts\/2014-11-30-complex-filtering.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_posts\/2015-01-21-huge-dropdowns.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2015-01-21-huge-dropdowns.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -670,6 +679,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/contact\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/huge-dropdowns\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/huge-dropdowns\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2034,6 +2052,50 @@
 		"initialSize": 11300,
 		"inputAbbreviatedPath": "\/_site\/images\/posts\/complex-filtering.png",
 		"outputAbbreviatedPath": "\/_site\/images\/posts\/complex-filtering.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/posts\/multi-select-closed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31706,
+		"inputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-closed.png",
+		"outputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-closed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/posts\/multi-select-open-selected-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68597,
+		"inputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-open-selected-2.png",
+		"outputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-open-selected-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/posts\/multi-select-open-selected.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70261,
+		"inputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-open-selected.png",
+		"outputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-open-selected.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/posts\/multi-select-open.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74962,
+		"inputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-open.png",
+		"outputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-open.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4003,6 +4065,61 @@
 		"initialSize": 24903,
 		"inputAbbreviatedPath": "\/images\/posts\/complex-filtering.png",
 		"outputAbbreviatedPath": "\/images\/posts\/complex-filtering.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/multi-select-closed-selected.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62136,
+		"inputAbbreviatedPath": "\/images\/posts\/multi-select-closed-selected.png",
+		"outputAbbreviatedPath": "\/images\/posts\/multi-select-closed-selected.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/multi-select-closed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60976,
+		"inputAbbreviatedPath": "\/images\/posts\/multi-select-closed.png",
+		"outputAbbreviatedPath": "\/images\/posts\/multi-select-closed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/multi-select-open-selected-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123354,
+		"inputAbbreviatedPath": "\/images\/posts\/multi-select-open-selected-2.png",
+		"outputAbbreviatedPath": "\/images\/posts\/multi-select-open-selected-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/multi-select-open-selected.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133275,
+		"inputAbbreviatedPath": "\/images\/posts\/multi-select-open-selected.png",
+		"outputAbbreviatedPath": "\/images\/posts\/multi-select-open-selected.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/posts\/multi-select-open.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146602,
+		"inputAbbreviatedPath": "\/images\/posts\/multi-select-open.png",
+		"outputAbbreviatedPath": "\/images\/posts\/multi-select-open.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
