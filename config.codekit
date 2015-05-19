@@ -2034,6 +2034,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/icons\/114.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3867,
+		"inputAbbreviatedPath": "\/_site\/images\/icons\/114.png",
+		"outputAbbreviatedPath": "\/_site\/images\/icons\/114.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/icons\/144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4863,
+		"inputAbbreviatedPath": "\/_site\/images\/icons\/144.png",
+		"outputAbbreviatedPath": "\/_site\/images\/icons\/144.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/icons\/57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2360,
+		"inputAbbreviatedPath": "\/_site\/images\/icons\/57.png",
+		"outputAbbreviatedPath": "\/_site\/images\/icons\/57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/icons\/72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2769,
+		"inputAbbreviatedPath": "\/_site\/images\/icons\/72.png",
+		"outputAbbreviatedPath": "\/_site\/images\/icons\/72.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/icons\/win8tile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4888,
+		"inputAbbreviatedPath": "\/_site\/images\/icons\/win8tile.png",
+		"outputAbbreviatedPath": "\/_site\/images\/icons\/win8tile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2052,6 +2107,17 @@
 		"initialSize": 11300,
 		"inputAbbreviatedPath": "\/_site\/images\/posts\/complex-filtering.png",
 		"outputAbbreviatedPath": "\/_site\/images\/posts\/complex-filtering.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/posts\/multi-select-closed-selected.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34734,
+		"inputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-closed-selected.png",
+		"outputAbbreviatedPath": "\/_site\/images\/posts\/multi-select-closed-selected.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4043,6 +4109,61 @@
 		"initialSize": 117742,
 		"inputAbbreviatedPath": "\/images\/headers\/tdc-waffle.png",
 		"outputAbbreviatedPath": "\/images\/headers\/tdc-waffle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/114.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3867,
+		"inputAbbreviatedPath": "\/images\/icons\/114.png",
+		"outputAbbreviatedPath": "\/images\/icons\/114.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4863,
+		"inputAbbreviatedPath": "\/images\/icons\/144.png",
+		"outputAbbreviatedPath": "\/images\/icons\/144.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2360,
+		"inputAbbreviatedPath": "\/images\/icons\/57.png",
+		"outputAbbreviatedPath": "\/images\/icons\/57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2769,
+		"inputAbbreviatedPath": "\/images\/icons\/72.png",
+		"outputAbbreviatedPath": "\/images\/icons\/72.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/win8tile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4888,
+		"inputAbbreviatedPath": "\/images\/icons\/win8tile.png",
+		"outputAbbreviatedPath": "\/images\/icons\/win8tile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
