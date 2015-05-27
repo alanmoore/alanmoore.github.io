@@ -74,7 +74,7 @@ intro:          My approach to coding, circa March 2014
      variables.less
      wells.less
 </pre>
-<p>Bootstrap is large and somewhat unweildy. Rather than @import 'vendors/bootstrap/bootstrap', 
+<p>Bootstrap is large and somewhat unwieldy. Rather than @import 'vendors/bootstrap/bootstrap', 
     the booststrap.less file has been duplicated to /less/custom-bootstrap.less and it has been 
     edited. Any Bootstrap component not yet needed in the site has been commented out and is not 
     imported. This reduces the size of the generated CSS files considerably. If, for example, 
@@ -131,7 +131,7 @@ nav[role="navigation"] li {...}        /* 3 */
 nav[role="navigation"] a {...}         /* 4 */
 {% endhighlight %}
 <p>Item 1 is fine, but items 2, 3 and 4 will be applied to the sub-nav, which can produce undesired 
-    results. There is, of course, specifity: </p>
+    results. There is, of course, specificity: </p>
 {% highlight css %}
 nav[role="navigation"] ul ul {...}     /* 5 */
 nav[role="navigation"] ul ul li {...}  /* 6 */
@@ -178,7 +178,7 @@ nav[role="navigation"] ul ul a {...}   /* 7 */
 <p>
 Not only is the CSS easier to parse, but a change to .main-nav cannot affect .sub-nav like a 
     change to nav[role="navigation"] ul can affect nav[role="navigation"] ul ul as we have 
-    sidestepped CSS inheritence. Individual classes do not have to be declared for every level: if 
+    sidestepped CSS inheritance. Individual classes do not have to be declared for every level: if 
     submenu links are the same as main menu links then use .nav-link for both and don't declare 
     .sub-nav-link. </p>
 <p>As a bonus, we can use these styles anywhere in the site without worrying about the HTML markup 
@@ -189,7 +189,7 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
     a class to any element you wish to style.Always prefer a new class rather than a complex 
     selector. </p>
 <h4 class="subtitle">Use Verbose HTML </h4>
-<p>It is a measure of pride for developers that we can use very little markup to acheive our goals. 
+<p>It is a measure of pride for developers that we can use very little markup to achieve our goals. 
     A side-effect of this methodology is convoluted CSS. OOCSS works better with extra code,  which 
     makes separating objects from the overall page markup a more achievable task. Once outside 
     frameworks and plugins with their own JS and CSS are added, this becomes much more 
@@ -240,12 +240,12 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
     Only other developers will see the HTML markup, but it's likely a lot ot time will be spent 
     debugging CSS. Knowing that one element cannot have an unexpected effect on another makes that 
     job much easier. </p>
-<p>This predicatbility means that if .col-x wraps to another line, the issue is with the column, 
+<p>This predictability means that if .col-x wraps to another line, the issue is with the column, 
     not its contents. This means less time in the Element Inspector and a faster bug fix. Verbosity 
     in HTML code is a small price to pay for predictability. </p>
 <h4 class="subtitle">A Note on BEM Notation </h4>
 <p>A problem with using classes throughout HTML markup is that eventually, a multiple-developer 
-    team will accidently reuse an existing class. This is not fun. </p>
+    team will accidentally reuse an existing class. This is not fun. </p>
 <p>BEM notation is a stylistic choice and stands for Block Element Modifier. It is a verbose method 
     of naming classes to avoid class name conflicts and make clear the structure of the object. </p>
 <p>Consider our previous example: </p>
@@ -337,7 +337,7 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
     unique to that element, use .block__element. If there is a pre-existing .element elsewhere 
     that will work, use that instead. </p>
 <p>As a reminder, BEM is a stylistic choice. It is not mandatory, but understanding it will make 
-    the protoype easier to follow. </p>
+    the prototype easier to follow. </p>
 <h4 class="subtitle">JavaScript and Progressive Enhancement </h4>
 <p>The prototype has been built using a philosophy of progressive enhancement: in short, if 
     JavaScript fails to load, contains an error, or is disabled, every function enhanced by 
@@ -350,7 +350,7 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
 <h4 class="subtitle">Classes for CSS, IDs for JavaScript </h4>
 <p>99% of the time, it is cleaner to reference a class selector in CSS. This allows for modularity 
     and reusability. Combined with BEM, the CSS can be specific without falling into the 
-    specicifity trap. An ID is 255 times more specific than a class. </p>
+    specificity trap. An ID is 255 times more specific than a class. </p>
 <p>However, when using JavaScript to manipulate the DOM, it is more efficient to target a specific 
     target by ID. To this end, ID's are added to objects that will be targeted, but they are styled 
     in CSS using classes. The ID is only for targeting. </p>
@@ -361,7 +361,7 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
 <p>To make debugging easier and to provide a clear separation between inserted by JavaScript and 
     those that belong in the HTML markup, all inserted classes are prefixed 'js-'. For example, 
     when toggleElement() opens a previously hidden element, it adds a class of 'js-open'; 
-    'js-active' is appened to the <body> tag upon successful load of the JS. This allows us to 
+    'js-active' is appended to the <body> tag upon successful load of the JS. This allows us to 
     move JS-injected CSS into the LESS files and out of the .js files whenever viable. </p>
     <h4 class="subtitle">Transitions: CSS vs. JS </h4>
 <p>It is better to use a CSS transform than a JavaScript animation: the CSS transitions are 
@@ -375,7 +375,7 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
     transition between pages. Should a user be on an older browser, they still get the same swift 
     response, but they lose the animated effect. </p>
 <h4 class="subtitle">CASE STUDY 2: SEARCH FILTERS </h4>
-<p>There are optional filters attached to the search bar. When these are revelaed, the rest of the 
+<p>There are optional filters attached to the search bar. When these are revealed, the rest of the 
     page moves down to make space, using jQuery slideUp() and slideDown(). The CSS transform 
     requires an explicit height in order to work, SlideDown() does not. It was undesirable to set 
     the height of the filter holder in CSS: it needs to be different at each breakpoint, and would 
@@ -384,8 +384,8 @@ Not only is the CSS easier to parse, but a change to .main-nav cannot affect .su
 <p>The other factor is one of UX: When we change an entire screen, the transition is a nice effect, 
     but since the change is so large, it is not necessary for the user to understand what has 
     happened. Conversely, when changing what might be a small area of the screen, the animation 
-    helps draw the eye to the change. This is why the eveal of the search criteria must be 
-    animated, but the page chanmge does not require it. </p>
+    helps draw the eye to the change. This is why the reveal of the search criteria must be 
+    animated, but the page change does not require it. </p>
 <h4 class="subtitle">Conclusion</h4>
 <p>If the UX requires animation, use transitions (provided they will work), or JS animations if 
     they won't. </p>
