@@ -36,7 +36,7 @@ order: 1
                 <p>Client: {{ post.client_name }}</p>
                 <p><strong>{{ post.intro }}</strong></p>
                 <footer class="card__footer">
-                    <a href="{{ post.permalink }}" class="btn  text-shadow">Read More 
+                    <a href="/{{ post.permalink }}" class="btn  text-shadow">Read More 
                         <i class="fa  fa-caret-down"></i></a>
                 </footer>
             </li>
@@ -52,7 +52,7 @@ order: 1
                 <p><strong>{{ post.intro }}</strong></p>
                 {{ post.excerpt }}
                 <footer class="card__footer">
-                    <a href="{{ post.permalink }}" class="btn  text-shadow">Read More 
+                    <a href="/{{ post.permalink }}" class="btn  text-shadow">Read More 
                         <i class="fa  fa-caret-down"></i></a>
                 </footer>
             </li>
