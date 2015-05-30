@@ -16,3 +16,5 @@ github_username: alanmoore
 # Build settings
 markdown: kramdown
 excerpt_separator: <!--more-->
+paginate: 8
+paginate_path: ":num/"

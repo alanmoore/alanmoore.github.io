@@ -717,3 +717,27 @@ td {
         display: none;
     }
 }
+
+.half,
+.quarter {
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.quarter {
+    width: 24%;
+}
+
+.page-number {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 50%;
+}
+
+.left { text-align: left; }
+
+.right { text-align: right; }
+
+.center { text-align: center; }
