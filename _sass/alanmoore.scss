@@ -83,7 +83,7 @@ a {
 pre {
     font-size: 0.8em;
     border-left: 7px solid $light-grey;
-    padding-left: 7px;
+    padding-left: 7px;   
 }
 
 p,
@@ -144,7 +144,7 @@ img {
 
 .page {
     text-align: center;
-
+    width: 100%; // fixes pre/code/.hightlighy {} overflow issues
 }
 
 .fixme {
