@@ -720,6 +720,16 @@ td {
     }
 }
 
+.pagination {
+    .btn {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .disabled {
+        background-color: $light-grey;
+    }
+}
+
 .half,
 .quarter {
     width: 50%;
