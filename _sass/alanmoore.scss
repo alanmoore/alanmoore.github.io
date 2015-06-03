@@ -1,3 +1,6 @@
+/*------------------------------------*\
+    #IMPORTS
+\*------------------------------------*/
 
 @import "../bower_components/inuit-defaults/settings.defaults";
 
@@ -10,6 +13,14 @@
 @import "../bower_components/inuit-page/base.page";
 
 @import "_fonts"; 
+
+
+
+
+
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
 
 $blue:      #69B9D4;
 $yellow:    #FED831;
@@ -38,6 +49,13 @@ font-family:'HelveticaNeueW01-65Medi';
 font-family:'HelveticaNeueW01-66Medi';
 */
 
+
+
+
+
+/*------------------------------------*\
+    #ROOT-ELEMENTS
+\*------------------------------------*/
 
 body {
     font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', helvetica, arial, sans-serif;
@@ -114,9 +132,24 @@ img {
     height: auto;
 }
 
+
+
+
+/*------------------------------------*\
+    #TEXT-STYLES
+\*------------------------------------*/
+
 .drop-shadow {
     box-shadow: 0px 3px 0px 0px rgba(139,139,139,0.75);
 }
+
+
+
+
+
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
 
 .text-shadow {
     text-shadow: 1px 1px 0px rgba(0,0,0,0.25);
@@ -142,10 +175,24 @@ img {
     }
 }
 
+
+
+
+/*------------------------------------*\
+    #PAGE
+\*------------------------------------*/
+
 .page {
     text-align: center;
     width: 100%; // fixes pre/code/.hightlighy {} overflow issues
 }
+
+
+
+
+/*------------------------------------*\
+    #HEADER-BAR
+\*------------------------------------*/
 
 .fixme {
     background-color: $green;
@@ -218,6 +265,13 @@ img {
         width: 170px;
     }
 }
+
+
+
+
+/*------------------------------------*\
+    #NAVIGATION
+\*------------------------------------*/
 
 .site-subtitle {
     display: inline-block;
@@ -398,6 +452,13 @@ img {
     }
 }
 
+
+
+
+/*------------------------------------*\
+    #PAGE-SECTIONS
+\*------------------------------------*/
+
 .main,
 .footer {
     margin: 0 auto;
@@ -440,6 +501,13 @@ img {
         margin-top: 56px;
     }
 }
+
+
+
+
+/*------------------------------------*\
+    #BODY-HEADERS
+\*------------------------------------*/
 
 .page-title {
     font-family:'Popgod';
@@ -485,6 +553,13 @@ img {
         font-size: 16px;
     }
 }
+
+
+
+
+/*------------------------------------*\
+    #CARDS
+\*------------------------------------*/
 
 .cards {
     margin-top: 2em;
@@ -616,6 +691,14 @@ img {
     text-decoration: none;
 }
 
+
+
+
+
+/*------------------------------------*\
+    #PORTFOLIO-GALLERIES
+\*------------------------------------*/
+
 .gallery {
     width: 100%;
     list-style-type: none;
@@ -637,6 +720,14 @@ img {
         border: 1px solid white;
     }
 }
+
+
+
+
+
+/*------------------------------------*\
+    #PAGE-FOOTER
+\*------------------------------------*/
 
 .footer {
     margin-bottom: 4em;
@@ -674,6 +765,14 @@ img {
     }
 }
 
+
+
+
+
+/*------------------------------------*\
+    #TABLES
+\*------------------------------------*/
+
 table {
     margin-bottom: 1em;
     width: 100%;
@@ -684,6 +783,13 @@ td {
     border-bottom: 1px solid $light-grey;
     padding-right: 5px;
 }
+
+
+
+
+/*------------------------------------*\
+    #JAVASCRIPT-RELATED
+\*------------------------------------*/
 
 .page {
     transition: opacity .5s;
@@ -720,6 +826,13 @@ td {
     }
 }
 
+
+
+
+/*------------------------------------*\
+    #PAGINATION
+\*------------------------------------*/
+
 .pagination {
     .btn {
         margin-left: 1em;
@@ -747,6 +860,13 @@ td {
     margin-right: 0.5em;
     border-radius: 50%;
 }
+
+
+
+
+/*------------------------------------*\
+    #TEXT-ALIGNMENT
+\*------------------------------------*/
 
 .left { text-align: left; }
 
