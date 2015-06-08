@@ -45,6 +45,15 @@
                     return false;
                 });
 
+                $('.btn').not('.disabled').hover(function() {
+                    $(this).addClass('animated').addClass('rubberBand');
+                });
+
+                $('.btn').not('.disabled').mouseout(function() {
+                    $(this).removeClass('animated').removeClass('rubberBand');
+                });
+
+
             });
 
             function doResize() {
