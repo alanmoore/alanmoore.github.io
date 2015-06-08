@@ -1,6 +1,6 @@
 ---
 layout: page
-menu-title: Blog
+menu-title: Work
 title: Work by 
 order: 1
 ---
@@ -30,8 +30,7 @@ order: 1
                     {% else %}
                     <h5 class="card__subtitle  card__subtitle--offset  text-shadow">
                         {{ post.skills }} </h5>
-                    {% endif %}
-                    
+                    {% endif %}                    
                 </header>
                 <p>Client: {{ post.client_name }}</p>
                 <p><strong>{{ post.intro }}</strong></p>
@@ -41,8 +40,8 @@ order: 1
                 </footer>
             </li>
         {% else %}
+            {% if post.type == 'post' %}
             <li class="card  animated  bounceInUp">
-                {% if post.type == 'post' %}
                 <header class="card__header">
                     <time datetime="{{ post.date }}" class="circle  circle--date  drop-shadow  
                         text-shadow">{{ post.month }}</time>
@@ -50,27 +49,14 @@ order: 1
                     <h3 class="card__subtitle  card__subtitle--offset  text-shadow">
                         {{ post.subtitle }} </h3>
                 </header>
-                {% else if post.type == 'blog' %}
-                <h4 class="title">{{ post.title }} </h4>
-                <h3 class="subtitle"><time datetime="{{ post.date }}">{{ post.month }}</time></h3>
-                {% endif %}
-                {% if post.type == 'post' %}
                 <p><strong>{{ post.intro }}</strong></p>
-                {% else if post.type == 'blog' %}
-                <p><strong>Blog Post: </strong>{{ post.intro }}</p>
-                {% endif %}
-                {% if post.type == 'post' %}
                 {{ post.excerpt }}
-                {% endif %}
-                {% if post.type == 'post' %}
                 <footer class="card__footer">
                     <a href="/{{ post.permalink }}" class="btn  text-shadow">Read More 
                         <i class="fa  fa-caret-down"></i></a>
                 </footer>
-                {% else if post.type == 'blog' %}
-                <a href="/{{ post.permalink }}" class="card__link">Continue Reading... </a>
-                {% endif %}
             </li>
+            {% endif %}
         {% endif %}
     {% endfor %}
 </ul>

@@ -1,0 +1,23 @@
+---
+layout: page
+menu-title: Blog
+title: Work by 
+order: 2
+---
+
+    <h3 class="title">Blog </h3>
+    <p>Things that don't really fit in the <a href="/">Work</a> section fo here. It's an infrequent endeavour. </p>
+
+<ul class="blog-list">
+    {% for post in site.posts %}
+        {% if post.type == 'words' %}
+            <li class="blog-post  animated  bounceInUp">
+                <h4 class="title">{{ post.title }} </h4>
+                <p><strong><time datetime="{{ post.date }}">{{ post.month }}</time> </strong><br />
+                   {{ post.intro }} </p>
+                {{ post.excerpt }}
+                <a href="/{{ post.permalink }}" class="card__link">Continue Reading... </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
