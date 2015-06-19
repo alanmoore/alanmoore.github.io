@@ -311,7 +311,7 @@ img {
            -moz-box-shadow: -3px 3px 0px 0px rgba(0,0,0,0.2);
                 box-shadow: -3px 3px 0px 0px rgba(0,0,0,0.2);
     }
-    @media (min-width: $max-page-width) {
+    @media (min-width: $max-page-plus-gutter) {
         display: none;
     }
 }
@@ -326,7 +326,7 @@ img {
     text-align: center;
     font-size: 20px;
     display: none;
-    @media (min-width: $max-page-width) {
+    @media (min-width: $max-page-plus-gutter) {
         height: auto;
         display: inline-block;
         position: static;
@@ -340,7 +340,7 @@ img {
     position: static;
     height: 100%;
     padding-bottom: 5000px;
-    @media (min-width: $max-page-width) {
+    @media (min-width: $max-page-plus-gutter) {
         display: none;
     }
 }
@@ -359,11 +359,13 @@ img {
     .main-nav-mobile & {
         text-align: center;
     }
+    /*
     @media (min-width: $max-page-width) {
         width: $max-page-width;
         display: inline-block;
         margin: 0;
     }
+    */
     @media (min-width: $max-page-plus-gutter) {
         width: ($max-page-plus-gutter);
         padding-left: $gutter - 12px;
@@ -387,7 +389,7 @@ img {
     margin: 0;
     color: inherit;
     width: 100%;
-    @media (min-width: $max-page-width) {
+    @media (min-width: $max-page-plus-gutter) {
         width: auto;
     }
     @media (min-width: $lg) {
@@ -419,7 +421,7 @@ img {
         color: $yellow;
         background: rgba(0,0,0,0.2); 
     }
-    @media (min-width: $max-page-width) {
+    @media (min-width: $max-page-plus-gutter) {
         width: auto;
     }
     @media (min-width: $lg) {
@@ -496,7 +498,7 @@ img {
     @media (min-width: $sm) {
         margin-top: 145px;
     }
-    @media (min-width: $max-page-width) {
+    @media (min-width: $max-page-plus-gutter) {
         margin-top: 175px;
     }
     @media (min-width: $lg) {
@@ -647,6 +649,8 @@ img {
     margin: 0;
     padding: 0;
     line-height: 1;
+    border: 1px solid $light-grey;
+    border-top: none;
 }
 
 .card__subtitle {
