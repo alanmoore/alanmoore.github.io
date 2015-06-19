@@ -24,9 +24,10 @@ order: 1
                         text-shadow">{{ post.year }}</time>
                     <h4 class="title  card-offset">{{ post.site_name }} </h4>
                     {% if post.header_image %}
+                    <h5 class="card__subtitle  card__subtitle--offset  text-shadow">{{ post.skills }} </h5>
                     <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" 
                         alt="{{ post.site_name }}" class="card__image" />
-                    <h5 class="card__subtitle  text-shadow">{{ post.skills }} </h5>
+                    
                     {% else %}
                     <h5 class="card__subtitle  card__subtitle--offset  text-shadow">
                         {{ post.skills }} </h5>
@@ -46,8 +47,15 @@ order: 1
                     <time datetime="{{ post.date }}" class="circle  circle--date  drop-shadow  
                         text-shadow">{{ post.month }}</time>
                     <h4 class="title  card-offset">{{ post.title }} </h4>
-                    <h3 class="card__subtitle  card__subtitle--offset  text-shadow">
-                        {{ post.subtitle }} </h3>
+                    {% if post.header_image %}
+                    <h5 class="card__subtitle  card__subtitle--offset  text-shadow">{{ post.subtitle }} </h5>
+                    <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" 
+                        alt="{{ post.site_name }}" class="card__image" />
+                    
+                    {% else %}
+                    <h5 class="card__subtitle  card__subtitle--offset  text-shadow">
+                        {{ post.subtitle }} </h5>
+                    {% endif %}   
                 </header>
                 <p><strong>{{ post.intro }}</strong></p>
                 {{ post.excerpt }}

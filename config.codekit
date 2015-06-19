@@ -1456,15 +1456,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/alanmoore.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/alanmoore.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/huge-dropdowns\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2398,6 +2389,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/headers\/cc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57421,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/cc.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/cc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/cc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116936,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/cc.png",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/cc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/headers\/chester-waffle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2460,6 +2473,72 @@
 		"initialSize": 196196,
 		"inputAbbreviatedPath": "\/_site\/images\/headers\/erickson-waffle.png",
 		"outputAbbreviatedPath": "\/_site\/images\/headers\/erickson-waffle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/erickson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83038,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/erickson.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/erickson.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/erickson.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 257679,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/erickson.png",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/erickson.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/filters.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24537,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/filters.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/filters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/filters.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25914,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/filters.png",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/filters.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/fp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69468,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/fp.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/fp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/fp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92487,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/fp.png",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/fp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2629,6 +2708,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/headers\/pbs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86270,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/pbs.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/pbs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/pbs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 276679,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/pbs.png",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/pbs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/headers\/pbslm-waffle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2794,6 +2895,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/headers\/sp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52510,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/sp.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/sp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/sp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70513,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/sp.png",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/sp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/headers\/tdc-waffle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2812,6 +2935,50 @@
 		"initialSize": 112468,
 		"inputAbbreviatedPath": "\/_site\/images\/headers\/tdc-waffle.png",
 		"outputAbbreviatedPath": "\/_site\/images\/headers\/tdc-waffle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/tdc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104672,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/tdc.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/tdc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/tdc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327954,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/tdc.png",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/tdc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/wide-tables.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28710,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/wide-tables.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/wide-tables.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/headers\/wide-tables.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36106,
+		"inputAbbreviatedPath": "\/_site\/images\/headers\/wide-tables.png",
+		"outputAbbreviatedPath": "\/_site\/images\/headers\/wide-tables.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5241,6 +5408,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/headers\/cc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57421,
+		"inputAbbreviatedPath": "\/images\/headers\/cc.jpg",
+		"outputAbbreviatedPath": "\/images\/headers\/cc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/cc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116936,
+		"inputAbbreviatedPath": "\/images\/headers\/cc.png",
+		"outputAbbreviatedPath": "\/images\/headers\/cc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/headers\/chester-waffle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5303,6 +5492,72 @@
 		"initialSize": 196259,
 		"inputAbbreviatedPath": "\/images\/headers\/erickson-waffle.png",
 		"outputAbbreviatedPath": "\/images\/headers\/erickson-waffle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/erickson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83038,
+		"inputAbbreviatedPath": "\/images\/headers\/erickson.jpg",
+		"outputAbbreviatedPath": "\/images\/headers\/erickson.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/erickson.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 257679,
+		"inputAbbreviatedPath": "\/images\/headers\/erickson.png",
+		"outputAbbreviatedPath": "\/images\/headers\/erickson.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/filters.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24537,
+		"inputAbbreviatedPath": "\/images\/headers\/filters.jpg",
+		"outputAbbreviatedPath": "\/images\/headers\/filters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/filters.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25914,
+		"inputAbbreviatedPath": "\/images\/headers\/filters.png",
+		"outputAbbreviatedPath": "\/images\/headers\/filters.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/fp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69468,
+		"inputAbbreviatedPath": "\/images\/headers\/fp.jpg",
+		"outputAbbreviatedPath": "\/images\/headers\/fp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/fp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92487,
+		"inputAbbreviatedPath": "\/images\/headers\/fp.png",
+		"outputAbbreviatedPath": "\/images\/headers\/fp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5472,6 +5727,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/headers\/pbs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86270,
+		"inputAbbreviatedPath": "\/images\/headers\/pbs.jpg",
+		"outputAbbreviatedPath": "\/images\/headers\/pbs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/pbs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 276679,
+		"inputAbbreviatedPath": "\/images\/headers\/pbs.png",
+		"outputAbbreviatedPath": "\/images\/headers\/pbs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/headers\/pbslm-waffle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5637,6 +5914,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/headers\/sp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52510,
+		"inputAbbreviatedPath": "\/images\/headers\/sp.jpg",
+		"outputAbbreviatedPath": "\/images\/headers\/sp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/sp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70513,
+		"inputAbbreviatedPath": "\/images\/headers\/sp.png",
+		"outputAbbreviatedPath": "\/images\/headers\/sp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/headers\/tdc-waffle.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5655,6 +5954,50 @@
 		"initialSize": 117742,
 		"inputAbbreviatedPath": "\/images\/headers\/tdc-waffle.png",
 		"outputAbbreviatedPath": "\/images\/headers\/tdc-waffle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/tdc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104672,
+		"inputAbbreviatedPath": "\/images\/headers\/tdc.jpg",
+		"outputAbbreviatedPath": "\/images\/headers\/tdc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/tdc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327954,
+		"inputAbbreviatedPath": "\/images\/headers\/tdc.png",
+		"outputAbbreviatedPath": "\/images\/headers\/tdc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/wide-tables.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28710,
+		"inputAbbreviatedPath": "\/images\/headers\/wide-tables.jpg",
+		"outputAbbreviatedPath": "\/images\/headers\/wide-tables.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/headers\/wide-tables.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36106,
+		"inputAbbreviatedPath": "\/images\/headers\/wide-tables.png",
+		"outputAbbreviatedPath": "\/images\/headers\/wide-tables.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
