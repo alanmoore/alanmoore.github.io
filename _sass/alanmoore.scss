@@ -727,9 +727,9 @@ img {
     padding: 12px;
     margin: 0;
     background-image: none;
-    background-color: white; // in case of png transparency
     text-align: center;
     img {
+        background-color: white;  // in case of png transparency
         max-width: 96%;
         height: auto;
         border: 1px solid white;
