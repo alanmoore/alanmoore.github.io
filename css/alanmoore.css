@@ -912,7 +912,7 @@ li {
 }
 
 img {
-  width: 100%;
+  width: auto;
   max-width: 100%;
   height: auto;
 }
@@ -1538,6 +1538,7 @@ img {
   padding: 12px;
   margin: 0;
   background-image: none;
+  background-color: white;
   text-align: center;
 }
 .gallery__item img {

@@ -4,19 +4,12 @@ menu-title: Work
 title: Work by 
 order: 1
 ---
-{% if paginator.page == 1 %}
     <h3 class="title">I'm Alan Moore </h3>
     <p>I design and build user interfaces to improve user experience in web sites and web 
         applications. This site is a combined blog, portfolio and resumé / C.V. showcasing my work 
         in the field of web design from the last 18 years. </p>
-{% else %}
-    <h3 class="title">Work </h3>
-    <p>I design and build user interfaces to improve user experience in web sites and web 
-        applications. You're reading page {{ paginator.page }} of {{ paginator.total_pages }}. </p>
-{% endif %}
-
 <ul class="cards">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
         {% if post.type == 'portfolio' %}
            <li class="card  animated  bounceInUp">
                 <header class="card__header">
@@ -68,24 +61,3 @@ order: 1
         {% endif %}
     {% endfor %}
 </ul>
-{% if paginator.total_pages > 1 %}
-<div class="pagination  center">
-    {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-            <a href="/" class="btn  text-shadow"><i class="fa  fa-caret-left"></i> Newer</a>
-        {% else %}
-            <a href="/{{ paginator.previous_page }}/" class="btn  text-shadow">
-                <i class="fa  fa-caret-left"></i> Newer</a>
-        {% endif %}
-    {% else %}
-        <a class="btn  text-shadow  disabled"><i class="fa  fa-caret-left"></i> Newer</a>
-    {% endif %}
-    Page {{ paginator.page }} of {{ paginator.total_pages }}
-    {% if paginator.next_page %}
-        <a href="/{{ paginator.next_page }}/" class="btn  text-shadow">Older 
-            <i class="fa  fa-caret-right"></i></a>
-    {% else %}
-        <a class="btn  text-shadow  disabled">Older <i class="fa  fa-caret-right"></i></a>
-    {% endif %}
-</div>
-{% endif %}

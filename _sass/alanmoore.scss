@@ -128,7 +128,7 @@ li {
 }
 
 img { 
-    width: 100%;
+    width: auto;
     max-width: 100%;
     height: auto;
 }
@@ -727,6 +727,7 @@ img {
     padding: 12px;
     margin: 0;
     background-image: none;
+    background-color: white; // in case of png transparency
     text-align: center;
     img {
         max-width: 96%;

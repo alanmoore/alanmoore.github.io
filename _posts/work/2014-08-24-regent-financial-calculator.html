@@ -11,15 +11,12 @@ type:			portfolio
 header_image:	fp.jpg
 intro: I redesigned this financial calculator to make it easier to use on small screens
 ---
-<p>On of Regent's newer products is an online financial calculator which can be customised and 
+<p>One of Regent's newer products is an online financial calculator which can be customised and 
 	branded for schools and other educational institutions. It guides students through a 
 	questionnaire which takes their personal information, applies it to their preferred program
 	and length of study, and outputs the funding available to them from grants, loans, scholarships
 	and other sources. This enables the student to make an informed decision– <strong>Can I afford
 	to go to school?</strong> </p>
-<p>The product is live, but I was asked to make it work for smaller screens. I knew that the 
-	existing design would be unsuitable for use on small tablets and smartphones, so I set about
-	researching ways to improve it. </p>
 <h4 class="subhead">Research</h4>
 <p>I was armed with the following assumptions: </p>
 <ul>
@@ -45,114 +42,34 @@ intro: I redesigned this financial calculator to make it easier to use on small 
 	<li>37% own a tablet </li>
 </ul>
 <p>These nuggets of information helped underline to assumptions and helped develop clear goals for
-	creating a new design. </p>
-<h4 class="subtitle">Analysis of the existing design </h4>
-<p>I analysed the existing design with the presumption that any where between 21% and 58% of users 
-	would not be on using a computer. I marked out the following technical requirements: </p>
-<table>
-	<tr>
-		<th>&nbsp;</th>
-		<th>Smartphone</th>
-		<th>Computer</th>
-		<th>Tablet</th>
-	</tr>
-	<tr>
-		<th>Single / multitasking</th>
-		<td>Single-task</td>
-		<td>Multi-task</td>
-		<td>Single-task</td>
-	</tr>
-	<tr>
-		<th>Typical screen orientation</th>
-		<td>Portrait</td>
-		<td>Landscape</td>
-		<td>Portrait and Landscape</td>
-	</tr>
-	<tr>
-		<th>Screen size</th>
-		<td>4” to 7”</td>
-		<td>11” to 27”</td>
-		<td>7” to 10”</td>
-	</tr>
-	<tr>
-		<th>Screen resolution (points)</th>
-		<td>320x480 to 480x800</td>
-		<td>1280x800 to 1920x1080</td>
-		<td>768x1024 or 800x1200</td>
-	</tr>
-</table>
-<p>Next, I broke down the functional areas of screen used in the existing design and ranked them
-	in importance: </p>
-<table>
-	<tr>
-		<th>Area </th>
-		<th>Functionality </th>
-		<th>Rank </th>
-	</tr>
-	<tr>
-		<td>Questionnaire</td>
-		<td>Main interactive area</td>
-		<td>1st</td>
-	</tr>
-	<tr>
-		<td>Plan Progress Information</td>
-		<td>Running total, funding status</td>
-		<td>2nd</td>
-	</tr>
-	<tr>
-		<td>Progress Bar</td>
-		<td>Displays progress as percentage</td>
-		<td>3rd</td>
-	</tr>	
-	<tr>
-		<td>Tabs</td>
-		<td>Navigate to previous sections</td>
-		<td>4th</td>
-	</tr>
-	<tr>
-		<td>Breadcrumbs</td>
-		<td>Navigate to previous subsections</td>
-		<td>5th</td>
-	</tr>
-</table>
-<p>I also noted that the questionnaire screens were often made up of smaller subsections, and that
-	many questions changed dynamically, depending on earlier responses. Observing our QA team test 
-	the application, it was common to see them miss a question which had appeared between two 
-	others. With anything up to 10 questions visible when entering a page, it was unsurprising that
-	sometimes the user would not notice until they clicked 'next' and the validation alerted 
-	them. </p>
+	creating a new design. </p>	<p> Finally, the format of the questionnaire was made available to me. </p>
 <h4 class="subtitle">UX/UI Design</h4>
-<p><strong>Sadly, I can't show the design here. Development is currently on hold, and I'm not 
-	comfortable displaying it online before it goes live. </strong></p>
-<p>The decision was made to show only the top three ranked areas. Additionally, I identified that 
-	the Plan Progress Information was updated so infrequently during the process. Since it was 
-	likely to become mere cognitive noise unless attention was drawn to it when it was updated,
-	it should only be displayed on the smaller screens when an update occurred. The screen should,
-	in fact, consist only of the progress bar and either the Questionnaire or the Plan Progress
-	Indicator&mdash; the Plan Progress being displayed between questionnaire screens when it had 
-	been updated. </p>
-<p>I also decided that screens with subsections should instead be multiple screens, one per 
-	subsection, and that only one question should be visible on entering a screen. As each question 
-	was completed, the next question would appear below it. This avoided any missed additions to the
-	screen and focused the user on the question to hand, not one further down the screen. It still 
-	allowed the user to change previous answers. </p>
-<p>All informational and help text was to be displayed inline, rather than hidden behind help icons.
-	The Progress Bar would update after every question, not just between screens. A conversational 
-	tone would be adopted to make the process less intimidating, and required documentation (W2, 
-	FAFSA, etc.) would be listed <em>before</em> the process began to prevent users leaving the 
-	process half-completed while they searched for the required information. </p>
-<p>The user would be informed what the process included before beginning, and how it would benefit
-	them. When a summary screen is displayed, it informs the user why it is being shown and when 
-	they will see it again, and then indicates what will happen when they hit 'Next'. </p>
-<p>Buttons would be descriptive: 'Start' rather than 'Begin My Future'; 'Save and Continue' 
-	rather than 'Next'. Questionnaire labels would be reworded to be friendly and indicate if they
-	directly affect the user: 'I would like to learn' [online]/[On-campus] rather than 'Location';
-	My chosen program is' rather than 'Program'. Even dates would be presented in a friendlier 
-	format: '11 August 2014' rather than '08/11/14'.</p>
-<p>I also revised the final summary screen to make it much easier to read, to highlight the most 
-	important information (Which years are funded/underfunded?), and to clearly indicate what the
-	user should do next. Describing it any further would be an exercise in futility, so I'll wait
-	until I'm able to post screenshots, rather than waste any more time. </p>
+<p>Here is a generic mockup of the calculator. It is unskinned and unbranded, with basic Bootstrap
+	styling. These two screens show a range of inputs, hints, buttons, and a progress bar, at 
+	mobile and tablet size: </p>
+<img src="/images/posts/fp-generic.png" alt="Generic Views" />
+<p>A conversational tone to instructions and text makes the process less intimidating, and required 
+	documentation (W2, FAFSA, etc.) is listed <em>before</em> the process begins to prevent 
+	students leaving the process half-completed while they search for the required information: </p>
+<img src="/images/posts/fp-start.png" alt="Start Screen" />
+<p>Only one question is visible on entering a questionnaire screen. As each question is completed, 
+	the next question appears below it. This avoids any missed additions to the	screen and focuses 
+	the student on the current question, without them skipping ahead. It still allows the student to 
+	change previous answers. The Progress Bar updates after every question.</p>
+<p>Here's a sequence of six mockups showing the screen as the student progresses through the 
+	questions: </p>
+<img src="/images/posts/fp-focused-inputs.png" alt="Focused Inputs" />
+<p>The Plan Progress Information is updated infrequently during the process. On a small screen, it 
+	would exist as cognitive noise, whereas on a larger screen it can be placed below 'the fold.' 
+	It should only be displayed on the smaller screens when an update occurred. The screen should,
+	in fact, consist only of the progress bar and either the Questionnaire <em>or</em> the Plan 
+	Progress Indicator&mdash; the Plan Progress being displayed between questionnaire screens when 
+	it is updated. Here's an example: </p>
+<img src="/images/posts/fp-progress.png" alt="Plan Progress" />
+<p>The final summary screen presents all necessary information, but highlights the most important 
+	information (Which years are funded/underfunded?). Clear calls to actions are placed at the 
+	bottom of the screen: </p>
+<img src="/images/posts/fp-complete.png" alt="Final Screen" />
 
 	
 	
