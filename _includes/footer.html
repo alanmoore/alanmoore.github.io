@@ -4,7 +4,7 @@
 	    <p><b>Built in HTML5 and CSS3 with Jekyll. </b> Hosted by 
 	        <a href="http://www.webfaction.com/signup?affiliate=alanmoore">Webfaction</a>. 
 	        <b><a href="{{ site.baseurl }}/colophon">Full credits &amp; colophon here</a>.</b> </p>
-	    <ul class="footer__list">
+	    <ul class="footer__list" role="navigation">
 		    {% assign sorted_pages = site.pages | sort:"order" %}
 		    <li class="footer__list-item"><a href="/">Home</a></li>
 		    {% for node in sorted_pages %}
