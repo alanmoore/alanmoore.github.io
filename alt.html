@@ -66,8 +66,8 @@ order: 1
 <h3 class="title">Everything Else</h3>
 <ul class="blog-list">
     {% for post in site.posts %}
-        {% if (post.type == 'portfolio') and post.promote and post.older  %}
-           {% unless post.promot %}
+        {% if (post.type == 'portfolio') and post.older  %}
+           {% unless post.promote %}
            <li class="">
               <a href="/{{ post.permalink }}">
                 <h4 class="title"><time datetime="{{ post.date }}" class="">{{ post.year }}</time> 
