@@ -24,7 +24,7 @@ order: 1
         {% for post in site.posts %}
             {% if (post.type == 'post') and post.header_image %}
                 {% unless post.older %}
-                    <li></li>
+                    <li>
                         <a href="/{{ post.permalink }}">
                             <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" 
                                 alt="{{ post.site_name }}" />
