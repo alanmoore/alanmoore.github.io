@@ -59,6 +59,13 @@ order: 1
                         alt="{{ post.site_name }}" class="card__image" />
               </a>
             </li>
+          {% else %}
+          <li class="">
+              <a href="/{{ post.permalink }}">
+                <h4 class="subtitle"><time datetime="{{ post.date }}">{{ post.year }}</time> 
+                    {{ post.site_name }} </h4>
+              </a>
+            </li>
           {% endif %}
         {% endif %}
     {% endfor %}
@@ -70,7 +77,7 @@ order: 1
            {% unless post.promote %}
            <li class="">
               <a href="/{{ post.permalink }}">
-                <h4 class="title"><time datetime="{{ post.date }}" class="">{{ post.year }}</time> 
+                <h4 class="subtitle"><time datetime="{{ post.date }}">{{ post.year }}</time> 
                     {{ post.site_name }} </h4>
               </a>
             </li>
