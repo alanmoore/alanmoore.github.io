@@ -5,11 +5,11 @@ title: Work by
 order: 1
 ---
 <h3 class="title">Portfolio</h3>
-<ul class="cards">
+<ul class="blog-list">
     {% for post in site.posts %}
         {% if (post.type == 'portfolio') and post.promote  %}
            {% if post.header_image %}
-           <li class="card  animated  bounceInUp">
+           <li class="">
               <a href="/{{ post.permalink }}">
                 <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" 
                         alt="{{ post.site_name }}" class="card__image" />
@@ -20,10 +20,10 @@ order: 1
     {% endfor %}
 </ul>
 <h3 class="title">UX / UI Concepts</h3>
-<ul class="cards">
+<ul class="blog-list">
         {% for post in site.posts %}
             {% if post.type == 'post' %}
-            <li class="card  animated  bounceInUp">
+            <li class="">
                 <header class="card__header">
                     <time datetime="{{ post.date }}" class="circle  circle--date  drop-shadow  
                         text-shadow">{{ post.month }}</time>
@@ -52,7 +52,7 @@ order: 1
 <ul class="blog-list">
     {% for post in site.posts %}
         {% if post.type == 'words' %}
-            <li class="blog-post  animated  bounceInUp">
+            <li class="blog-post">
                 <h4 class="title">{{ post.title }} </h4>
                 <p><strong><time datetime="{{ post.date }}">{{ post.month }}</time> </strong><br />
                    {{ post.intro }} </p>
@@ -63,11 +63,11 @@ order: 1
     {% endfor %}
 </ul>
 <h3 class="title">Older Work</h3>
-<ul class="cards">
+<ul class="blog-list">
     {% for post in site.posts %}
         {% if (post.type == 'portfolio') and post.promote and post.older  %}
            {% if post.header_image %}
-           <li class="card  animated  bounceInUp">
+           <li class="">
               <a href="/{{ post.permalink }}">
                 <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" 
                         alt="{{ post.site_name }}" class="card__image" />
