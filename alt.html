@@ -4,9 +4,10 @@ menu-title: Work
 title: Work by 
 order: 1
 ---
+<h3 class="title">Portfolio</h3>
 <ul class="cards">
     {% for post in site.posts %}
-        {% if post.type == 'portfolio' %}
+        {% if (post.type == 'portfolio') and post.promote  %}
            {% if post.header_image %}
            <li class="card  animated  bounceInUp">
               <a href="/{{ post.permalink }}">
@@ -18,6 +19,7 @@ order: 1
         {% endif %}
     {% endfor %}
 </ul>
+<h3 class="title">UX / UI Concepts</h3>
 <ul class="cards">
         {% for post in site.posts %}
             {% if post.type == 'post' %}
@@ -46,6 +48,7 @@ order: 1
             {% endif %}
     {% endfor %}
 </ul>
+<h3 class="title">Blog Posts</h3>
 <ul class="blog-list">
     {% for post in site.posts %}
         {% if post.type == 'words' %}
@@ -57,5 +60,20 @@ order: 1
                 <a href="/{{ post.permalink }}" class="card__link">Continue Reading... </a>
             </li>
         {% endif %} 
+    {% endfor %}
+</ul>
+<h3 class="title">Older Work</h3>
+<ul class="cards">
+    {% for post in site.posts %}
+        {% if (post.type == 'portfolio') and post.promote and post.older  %}
+           {% if post.header_image %}
+           <li class="card  animated  bounceInUp">
+              <a href="/{{ post.permalink }}">
+                <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" 
+                        alt="{{ post.site_name }}" class="card__image" />
+              </a>
+            </li>
+          {% endif %}
+        {% endif %}
     {% endfor %}
 </ul>
