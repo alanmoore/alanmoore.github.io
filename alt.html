@@ -7,44 +7,30 @@ order: 1
 <h3 class="title">Portfolio</h3>
 <ul class="blog-list">
     {% for post in site.posts %}
-        {% if (post.type == 'portfolio') and post.promote  %}
-           {% if post.header_image %}
+        {% if (post.type == 'portfolio') and post.promote and post.header_image  %}
+           {% unless post.older %}
            <li class="">
               <a href="/{{ post.permalink }}">
                 <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" 
                         alt="{{ post.site_name }}" class="card__image" />
               </a>
             </li>
-          {% endif %}
+          {% endunless %}
         {% endif %}
     {% endfor %}
 </ul>
 <h3 class="title">UX / UI Concepts</h3>
 <ul class="blog-list">
         {% for post in site.posts %}
-            {% if post.type == 'post' %}
-            <li class="">
-                <header class="card__header">
-                    <time datetime="{{ post.date }}" class="circle  circle--date  drop-shadow  
-                        text-shadow">{{ post.month }}</time>
-                    <h4 class="title  card-offset">{{ post.title }} </h4>
-                    {% if post.header_image %}
-                    <h5 class="card__subtitle  card__subtitle--offset  text-shadow">{{ post.subtitle }} </h5>
-                    <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" 
-                        alt="{{ post.site_name }}" class="card__image" />
-                    
-                    {% else %}
-                    <h5 class="card__subtitle  card__subtitle--offset  text-shadow">
-                        {{ post.subtitle }} </h5>
-                    {% endif %}   
-                </header>
-                <p><strong>{{ post.intro }}</strong></p>
-                {{ post.excerpt }}
-                <footer class="card__footer">
-                    <a href="/{{ post.permalink }}" class="btn  text-shadow">Read More 
-                        <i class="fa  fa-caret-down"></i></a>
-                </footer>
-            </li>
+            {% if (post.type == 'post') and post.header_image %}
+                {% unless post.older %}
+                    <li class="">
+                        <a href="/{{ post.permalink }}">
+                            <img src="{{ site.imageurl }}/headers/{{ post.header_image }}" 
+                                alt="{{ post.site_name }}" class="card__image" />
+                        </a>
+                    </li>
+                {% endunless %}
             {% endif %}
     {% endfor %}
 </ul>
@@ -74,6 +60,21 @@ order: 1
               </a>
             </li>
           {% endif %}
+        {% endif %}
+    {% endfor %}
+</ul>
+<h3 class="title">Everything Else</h3>
+<ul class="blog-list">
+    {% for post in site.posts %}
+        {% if (post.type == 'portfolio') and post.promote and post.older  %}
+           {% unless post.promot %}
+           <li class="">
+              <a href="/{{ post.permalink }}">
+                <h4 class="title"><time datetime="{{ post.date }}" class="">{{ post.year }}</time> 
+                    {{ post.site_name }} </h4>
+              </a>
+            </li>
+          {% endunless %}
         {% endif %}
     {% endfor %}
 </ul>
