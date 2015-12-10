@@ -70,7 +70,7 @@ order: 1
     {% for post in site.posts %}
         {% if (post.type == 'portfolio') and post.older  %}
            {% unless post.promote %}
-           <li></li>
+           <li>
               <h4><a href="/{{ post.permalink }}"><time datetime="{{ post.date }}">{{ post.year }}</time> 
                     {{ post.site_name }}</a> </h4>
             </li>
