@@ -42,12 +42,9 @@ $card-padding-sides: 15px;
 $basefont: 14px;
 
 /*
-font-family:'HelveticaNeueW01-45Ligh';
-font-family:'HelveticaNeueW01-46Ligh';
-font-family:'HelveticaNeueW01-75Bold';
-font-family:'HelveticaNeueW01-76Bold';
-font-family:'HelveticaNeueW01-65Medi';
-font-family:'HelveticaNeueW01-66Medi';
+font-family: 'Realtime-Regular';
+font-family: 'Realtime-Light';
+font-family: 'Realtime-Semibold';
 */
 
 
@@ -59,7 +56,7 @@ font-family:'HelveticaNeueW01-66Medi';
 \*------------------------------------*/
 
 body {
-    font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', helvetica, arial, sans-serif;
+    font-family: 'Realtime-Light', monospace;
     font-weight: normal;
     font-size: $basefont;
     @media(min-width: $sm) {
@@ -76,19 +73,19 @@ b, i {
 }
 
 em {
-    font-family: 'HelveticaNeueW01-46Ligh', 'Helvetica Neue', helvetica, arial, sans-serif;
+    font-family: 'Realtime-Regular', monospace;
     font-weight: normal;
     font-style: normal;
 }
 
 strong {
-    font-family: 'HelveticaNeueW01-65Medi', 'Helvetica Neue', helvetica, arial, sans-serif;
+    font-family: 'Realtime-SemiBold', monospace;
     font-weight: normal;
 }
 
 
 strong em {
-    font-family: 'HelveticaNeueW01-66Medi', 'Helvetica Neue', helvetica, arial, sans-serif;
+    font-family: 'Realtime-SemiBold', monospace;
     font-weight: normal;
 }
 
