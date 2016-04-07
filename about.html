@@ -6,26 +6,25 @@ order: 3
 ---
 
 
-        <header class="card__header">
         <img class="circle  circle--img" src="../images/photo.jpg" />
-            <h4 class="title  card-offset">About Me </h4>
-            <p class="card-offset">I'm Alan Moore, and I am a UI / UX Engineer 
-                for web sites and applications. I live in Baltimore, MD, with my 
-                wife, three cats, one dog, a ridiculous amount of books and a 
-                music collection no streaming service will ever match. </p>
-        </header>
-    
+        <h4 class="title">About Me </h4>
+        <p>I'm Alan Moore, and I am a UI / UX Engineer for web sites and applications. I live in 
+            Baltimore, MD, with my wife, three cats, one dog, a ridiculous amount of books and a 
+            music collection no streaming service will ever match. </p>
+        {% include cv_link.html %}
         <p>I spend most of my days in <a href="http://www.axure.com/" 
             target="_blank">Axure RP 7.0</a> and Bohemian Coding's 
             <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch 3</a>. 
             The rest of the time, I write neat and responsive HTML 5 and CSS 3. I 
             really don't touch databases or back-end systems any more. </p>
-        <p>I am the UI/UX Engineer at Regent Education in Frederick, MD. They 
-            produce financial aid management software in a SaaS model. Before that, 
+        <p>I am the UI/UX Engineer at ACGI Software in Columbia, MD. I have been working on the 
+            next major version of their Association Management System. Before that, 
             I spent six months at PBS in Crystal City, working on their 
             <a href="http://www.pbslearningmedia.org">LearningMedia</a> portal.</p>
         <p>Previously I have been:</p>
         <ul>
+            <li>UI/UX Designer at CSC in Woodlawn, MD. </li> 
+            <li>UI/UX Engineer for Regent Education in Frederick, MD. </li>
             <li>A web designer and developer at 
                 <a href="http://www.ericksonliving.com/" target="_blank">Erickson 
                 Living</a> in Catonsville, MD.</li>
@@ -36,10 +35,7 @@ order: 3
             <li>Internet Co-Ordinator for the newspaper group Trinity Mirror.</li>
         </ul>
         <p>There's 18 years of details in my resumé / CV. </p>
-        <footer class="card__footer">
-            {% include cv_link.html %}
-        </footer>
-
+        
         <h3 class="title">Apocrypha </h3>
         <p>I collect and listen to music. I blog about music, movies, books, comics 
             and art at 
@@ -51,10 +47,8 @@ order: 3
             outdated for sure, but just be aware it's not all factually correct 
             either.</del> <ins>Looks like this finally went offline after 12 
             years. </ins></p>
-        <footer class="card__footer">
-        <p><a href="{{ site.baseurl }}/colophon/" class="card__link">Colophon: More useless information</a> </p>
-            </footer>
-
+        <p class="center"><a href="{{ site.baseurl }}/colophon/">Colophon: More useless information</a> </p>
+        
 
 
     </li></ul>

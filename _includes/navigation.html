@@ -1,7 +1,4 @@
 <ul class="main-nav__items">
-    <li class="main-nav__item">
-        <a href="#" class="main-nav__link  main-nav__link--right  menu-hide">Close <i class="fa fa-close"></i></a>
-    </li>
     {% assign sorted_pages = site.pages | sort:"order" %}
     <li class="main-nav__item"><a href="/" class="main-nav__link">Home</a></li>
     {% for node in sorted_pages %}
@@ -16,18 +13,23 @@
                     </a></li>
         {% endif %}
     {% endfor %}
-    <li class="main-nav__item--social">
-       {% if site.twitter_username %}
-        <a href="https://twitter.com/{{ site.twitter_username }}" class="main-nav__link  main-nav__link--social">
-            <i class="ss-icon  ss-twitter"></i></a>
-        {% endif %}
-        {% if site.linkedin_username %}
-        <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}/" class="main-nav__link  main-nav__link--social">
-            <i class="ss-icon  ss-linkedin"></i></a>
-        {% endif %}
-        {% if site.github_username %}
-        <a href="https://github.com/{{ site.github_username }}/" class="main-nav__link  main-nav__link--social">
-            <i class="ss-icon  ss-github"></i></a>
-        {% endif %}
+</ul>
+<ul class="main-nav__items">
+    {% if site.twitter_username %}
+    <li class="main-nav__item  main-nav__item--social">
+        Twitter: <a href="https://twitter.com/{{ site.twitter_username }}" 
+            class="main-nav__link">@{{ site.twitter_username }}</a>
     </li>
+    {% endif %}
+    {% if site.linkedin_username %}
+    <li class="main-nav__item  main-nav__item--social">
+        LinkedIn: <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}/" 
+            class="main-nav__link">{{ site.linkedin_username }}</a>
+    </li>
+    {% endif %}
+    {% if site.github_username %}
+    <li class="main-nav__item  main-nav__item--social">
+        GitHub: <a href="https://github.com/{{ site.github_username }}/" 
+            class="main-nav__link">{{ site.github_username }}</a>
+    {% endif %}
 </ul>

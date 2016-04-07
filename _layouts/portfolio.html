@@ -2,40 +2,29 @@
 layout: page
 ---
 
-    <header class="card__header">
-        <time datetime="{{ page.date }}" class="circle  circle--year  drop-shadow  text-shadow">{{ page.year }}</time>
-        <h3 class="title  card-offset">{{ page.site_name }} </h3>
-        {% if page.header_image %}
-        <img src="{{ site.imageurl }}/headers/{{ page.header_image }}" alt="{{ page.site_name }}" class="card__image" />
-        <h4 class="card__subtitle  text-shadow">{{ page.skills }} </h4>
-        {% else %}
-        <h4 class="card__subtitle  card__subtitle--offset  text-shadow">{{ page.skills }} </h4>
-        {% endif %}        
-    </header>
-    <p>Client: {{ page.client_name }}</p>
-    <p><strong>{{ page.intro }}</strong></p>
-    {{ content }}
-    {% if page.link %}
-        <footer class="card__footer">
-            <a href="{{ page.link }}" target="_blank" class="btn  text-shadow">View 
-            {{ page.site_name }} <i class="fa  fa-external-link-square"></i></a>
-            {% if page.archived %} {{ include archived_site.html }}{% endif %}
-        </footer>
-    {% endif %}
-{% if page.images %}
-  
-       <h3 class="title">Gallery</h3>
-       <ul class="gallery">
-       {% for picture in page.images %}
-            <li class="gallery__item"><img src="{{ site.imageurl}}/galleries/{{ picture }}" alt="" /></li>
-        {% endfor %}
-        </ul>   
-        {% if page.link %}
-            <footer class="card__footer">
-                <a href="{{ page.link }}" target="_blank" class="btn  text-shadow">View 
-                {{ page.site_name }} <i class="fa  fa-external-link-square"></i></a>
-                {% if page.archived %} {{ include archived_site.html }}{% endif %}
-            </footer>
-        {% endif %} 
-   
+<header> 
+    <h3 class="title">{{ page.site_name }} </h3>
+    <h4 class="center  uppercase">{{ page.skills }} ({{ page.client_name }}, <time datetime="{{ page.date }}">{{ page.year }}</time>)</h4>     
+</header>
+{% if page.header_image %}
+    <img src="{{ site.imageurl}}/headers/{{ page.header_image }}" class="img--border" alt="A screenshot from {{ page.site_name }}" />
 {% endif %}
+<p class="center"><strong>{{ page.intro }}</strong></p>
+{{ content }}
+{% if page.link %}
+<p class="center"><i class="fa  fa-external-link"></i> <a href="{{ page.link }}" 
+    target="_blank">View {{ page.site_name }}</a>
+    {% if page.archived %} {{ include archived_site.html }}{% endif %} </p>
+{% endif %}  
+{% if page.images %}
+   <ul class="gallery">
+   {% for picture in page.images %}
+        <li class="gallery__item"><img src="{{ site.imageurl}}/galleries/{{ picture }}" alt="" /></li>
+    {% endfor %}
+    </ul>
+    {% if page.link %}
+    <p class="center"><i class="fa  fa-external-link"></i> <a href="{{ page.link }}" 
+        target="_blank">View {{ page.site_name }}</a>
+        {% if page.archived %} {{ include archived_site.html }}{% endif %} </p>
+    {% endif %}      
+{% endif %} 

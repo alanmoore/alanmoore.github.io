@@ -1,0 +1,137 @@
+.header-bar {
+    text-align: center;
+}
+
+.site-title,
+.site-subtitle {
+    width: 100%;
+    text-align: center;
+}
+
+.main-nav {
+    background-color: white;
+    text-align: center;
+}
+
+.main-nav__items {
+    max-width: $max-page-width;
+    margin: 0 auto;
+}
+
+.main-nav__link {
+    color: $green;
+    font-family: 'Realtime-SemiBold', monospace;
+    font-weight: normal;
+    text-decoration: underline;
+    &:hover {
+        background: transparent;
+        color: $dark-grey;
+    }
+}
+
+
+.featured-items {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.featured-item {
+    list-style-type: none;
+    background: none;
+    flex-grow: 1;
+    align-items: center;
+    float: left;
+    width: 30%;
+    height: 4rem;
+    padding: 0;
+    margin: 0.5rem;
+    vertical-align: middle;
+}
+
+.featured-item-link {
+    display: block;
+    text-align: center;
+    font-family:'Popgod';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    vertical-align: middle;
+    background-color: $blue;
+}
+
+.student-portal {       
+    background-color: #FF952D;    
+}
+
+.financial-calculator {
+    background-color: #428BCA;
+}
+
+.pbslm {
+    background-color: #556272;
+}
+
+.erickson-living {
+    background-color: #6DB141;
+}
+
+.crayon {
+    background-color: #C6100F;
+}
+
+time {
+    text-transform: uppercase;
+}
+
+li time::after {
+    content: '\0000a0';
+}
+
+.portfolio-list-links {
+    li{
+        background-image: none;
+        padding-left: 0;
+    }
+    a {
+        color: $dark-grey;
+    }
+    a:hover {
+        color: $blue;
+    }
+}
+
+.title {
+    font-size: 2rem;
+    color: $blue;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.columns-2 {
+    column-count: 2;
+    columns: 2;
+    column-width: auto;
+    li { 
+        min-width: 40%;
+        width: auto;
+    }
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.img--border {
+    border: 1px solid $light-grey;
+    margin-bottom: 2rem;
+}
+
+
+
+
+ 
