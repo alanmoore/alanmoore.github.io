@@ -6,7 +6,7 @@ order: 1
 ---
 <h3 class="title">I'm Alan Moore</h3>
 <p>I design and build user interfaces to improve user experience in web sites and web applications. This site is a combined blog, portfolio and resumé / C.V. showcasing my work in the field of web design from the last 18 years. </p>
-<h3 class="title">Portfolio</h3>
+<h3 class="title">Work</h3>
 <ul class="featured-items">
     {% for post in site.posts %}
         {% if (post.type == 'portfolio') and post.promote and post.header_image  %}
@@ -34,7 +34,7 @@ order: 1
         {% endif %}
     {% endfor %}
 </ul>
-<h3 class="title">Blog Posts</h3>
+<h3 class="title">Writing</h3>
 <ul class="portfolio-list-links">
     {% for post in site.posts %}
         {% if post.type == 'words' %}
@@ -44,7 +44,7 @@ order: 1
         {% endif %} 
     {% endfor %}
 </ul>
-<h3 class="title">Older Work</h3>
+<h3 class="title">More Work</h3>
 <ul class="featured-items">
     {% for post in site.posts %}
         {% if (post.type == 'portfolio') and post.promote and post.older  %}
