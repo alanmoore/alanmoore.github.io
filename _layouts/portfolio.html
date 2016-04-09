@@ -4,7 +4,7 @@ layout: page
 
 <header> 
     <h3 class="title">{{ page.site_name }} </h3>
-    <h4 class="center  uppercase">{{ page.skills }} ({{ page.client_name }}, <time datetime="{{ page.date }}">{{ page.year }}</time>)</h4>     
+    <h4 class="subtitle">{{ page.skills }} ({{ page.client_name }}, <time datetime="{{ page.date }}">{{ page.year }}</time>)</h4>     
 </header>
 {% if page.header_image %}
     <img src="{{ site.imageurl}}/headers/{{ page.header_image }}" class="img--border" alt="A screenshot from {{ page.site_name }}" />

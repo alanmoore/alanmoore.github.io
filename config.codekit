@@ -361,7 +361,7 @@
 		"useLibsass": 0
 		},
 	"\/_sass\/_fonts.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -371,9 +371,9 @@
 		"outputAbbreviatedPath": "\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 1,
+		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
 	"\/_sass\/_layout.scss": {
@@ -1459,6 +1459,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/contact\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/alanmoore.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/alanmoore.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3308,6 +3317,17 @@
 		"initialSize": 4888,
 		"inputAbbreviatedPath": "\/_site\/images\/icons\/win8tile.png",
 		"outputAbbreviatedPath": "\/_site\/images\/icons\/win8tile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/logos\/erickson-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71399,
+		"inputAbbreviatedPath": "\/_site\/images\/logos\/erickson-logo.png",
+		"outputAbbreviatedPath": "\/_site\/images\/logos\/erickson-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6709,6 +6729,17 @@
 		"initialSize": 4888,
 		"inputAbbreviatedPath": "\/images\/icons\/win8tile.png",
 		"outputAbbreviatedPath": "\/images\/icons\/win8tile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/erickson-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77444,
+		"inputAbbreviatedPath": "\/images\/logos\/erickson-logo.png",
+		"outputAbbreviatedPath": "\/images\/logos\/erickson-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

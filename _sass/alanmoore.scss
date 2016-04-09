@@ -21,23 +21,21 @@
     #VARIABLES
 \*------------------------------------*/
 
-$blue:      #69B9D4;
-$yellow:    #FED831;
-$green:     #8BC53F;
-$dark-grey: #4a4a4a;
-$light-grey:rgba(184, 184, 184, 0.9);
-$shadow:    rgb(139, 139, 139);
+$blue:          #69B9D4;
+$yellow:        #FED831;
+$green:         #8BC53F;
+$dark-grey:     #4a4a4a;
+$light-grey:    rgba(184, 184, 184, 0.9);
+$shadow:        rgb(139, 139, 139);
 
 $max-page-width: 42em;
 
 $xs: 22rem;
 $sm: 34rem;
+$sm-height: 38em;
 $md: 43rem;
 $lg: 77rem;
 
-$card-padding-sides: 15px;
-
-$basefont: 14px;
 
 /*
 font-family: 'Realtime-Regular';
@@ -57,8 +55,8 @@ font-family: 'Realtime-Bold';
 body {
     font-family: 'Realtime-Regular', monospace;
     font-weight: normal;
-    font-size: $basefont;
-    @media(min-width: $sm) {
+    font-size: 16px;
+    @media(min-width: $md) {
         font-size: 1rem;
     }
     @media(min-width: $lg) {
@@ -75,13 +73,13 @@ b, i {
 }
 
 em {
-    font-family: 'Realtime-Light', monospace;
+    font-family: 'Realtime-SemiBold', monospace;
     font-weight: normal;
     font-style: normal;
 }
 
 strong {
-    font-family: 'Realtime-SemiBold', monospace;
+    font-family: 'Realtime-Bold', monospace;
     font-weight: normal;
 }
 
@@ -107,7 +105,7 @@ pre {
 p,
 ul {
     margin-bottom: 1em;
-    line-height: 1.5em;  
+    line-height: 1.6em;  
     margin-left: 0; 
     padding-left: 0;
     list-style-type: none;
@@ -139,10 +137,6 @@ img {
     #TEXT-STYLES
 \*------------------------------------*/
 
-.drop-shadow {
-    box-shadow: 0px 3px 0px 0px rgba(139,139,139,0.75);
-}
-
 
 
 
@@ -161,7 +155,7 @@ img {
     background: $blue;
     border-radius: 8px;
     /* Read More  ▾: */
-    font-size: $basefont;
+    font-size: 1rem;
     @media(min-width: $sm) {
         font-size: 16px;
     }
@@ -203,37 +197,44 @@ img {
 }
 
 .header-bar {
-    padding-top: 105px;
+    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     max-width: $max-page-width;
     margin: 0 auto;
-    text-align: left;
-    background-image: url(../images/alanhead.png); 
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 83px 83px;
-    background-position: 50% 1rem;
+    @media(min-height: $sm-height) {
+        padding-top: 105px;
+        background-image: url(../images/alanhead.png); 
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 83px 83px;
+        background-position: 50% 1rem;
+    }
+    text-align: center;
 }
 
 .site-title {
-    font-size: 3rem;
+    font-size: 3em;
     font-family:'Popgod';
     font-weight: normal;
     font-style: normal;
     margin-top: 0;
     margin-bottom: 0;
     display: inline-block;
-    width: 100%;  
     line-height: 1em;
 }
 
 .site-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: normal;
     line-height: 1em;
     margin-top: 0;
 }
 
+.site-title,
+.site-subtitle {
+    width: 100%;
+    text-align: center;
+}
 
 
 
@@ -246,7 +247,9 @@ img {
 .main-nav {
     max-width: $max-page-width;
     margin: 0 auto;
-    font-size: 1.3rem;
+    font-size: 1.3em;
+    background-color: white;
+    text-align: center;
 }
 
 .main-nav__items {
@@ -254,8 +257,9 @@ img {
     list-style-type: none;
     padding: 0;
     text-align: center;
-    margin: 0 auto;
     text-transform: uppercase;
+    max-width: $max-page-width;
+    margin: 0 auto;
 }
 
 .main-nav__item,
@@ -278,23 +282,31 @@ img {
 
 .main-nav__link {
     color: $dark-grey;
-    text-decoration: underline;
+    font-family: 'Realtime-SemiBold', monospace;
+    font-weight: normal;
+    text-decoration: none;
     &:hover {
-        text-decoration: none;
+        background: transparent;
         color: $green;
+        text-decoration: underline;
     }
-    
-}
-
-.main-nav__link--right {
-    text-align: right;
-    font-size: 0.5em;
 }
 
 .main-nav__item--social {
-    font-size: 0.9rem;
+    font-size: 0.7em;
     color: $dark-grey;
-    }
+}
+
+.main-nav {
+    
+}
+
+.main-nav__items {
+    
+}
+
+
+
 
 
 
@@ -306,14 +318,14 @@ img {
 .main,
 .footer {
     margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1em;
+    padding-right: 1em;
     max-width: $max-page-width;
 }
 
 .main {
     text-align: left;
-    margin-top: 2rem;
+    margin-top: 2em;
 }
 
 
@@ -327,43 +339,32 @@ img {
     font-family:'Popgod';
     font-weight: normal;
     font-style: normal;
-    font-size: 40px;
+    font-size: 2.6em;
     color: $blue;
     margin-bottom: 0;
-    margin-top: 1rem;
-    @media (min-width: $sm) {
-
-    }
+    margin-top: 1em;
 }
 
 .title { 
     font-family: 'Popgod';
     font-weight: normal;
     font-style: normal;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 2.2em;
+    line-height: 2em;
     color: $blue;
     margin: 0;
-    .card__footer + & {
-        margin-top: 1em;
-    }
-    @media (min-width: $sm) {
-        font-size: 32px;
-        line-height: 36px;
-    }
 }
 
 .subtitle {
-    font-size: 1rem;
-    font-style: normal;
+    font-size: 1.1em;
+    font-family: 'Realtime-Bold', monospace;
     font-weight: normal;  
+    text-transform: uppercase;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 1em;
     .title + & {
         margin-top: 0.4em;
-    }
-    @media(min-width: $sm) {
-        font-size: 16px;
     }
 }
 
@@ -375,18 +376,19 @@ img {
 \*------------------------------------*/
 
 .gallery {
-    width: 100%;
+    width: 110%;
     list-style-type: none;
     padding: 0;
     margin: 0;
     margin-bottom: 2rem;
     padding-top: 1rem;
+    margin-left: -5%;
     background-color: $dark-grey;
 }
 
 .gallery__item {
     list-style-type: none;
-    padding: 12px;
+    padding: 0.85rem;
     margin: 0;
     background-image: none;
     text-align: center;
@@ -410,14 +412,13 @@ img {
     margin-bottom: 4em;
     text-align: left;
     font-size: 0.9rem;
-    
+    text-align: center;  
 }
 
 .footer__inner {
-    border-top: 1px solid #8BC53F;
-    border-bottom: 1px solid #8BC53F;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    text-transform: uppercase;
     p {
         margin: 0;
     }
@@ -432,8 +433,17 @@ img {
     background: none;
 }
 
+.footer__list {
+    text-align: center;  
+    width: 100%;  
+    margin-top: 1em;
+}
+
 .footer__list-item {
-    margin-right: 3px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2px; 
+    padding-right: 2px; 
 }
 
 
