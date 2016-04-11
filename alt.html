@@ -11,7 +11,7 @@ order: 1
     {% for post in site.posts %}
         {% if (post.type == 'portfolio') and post.promote and post.header_image  %}
            {% unless post.older %}
-           <li class="featured-item">
+           <li class="featured-item  {{ post.feature_class }}">
                 <a href="/{{ post.permalink }}" 
                     class="featured-item-link  {{ post.feature_class }}">
                         <img src="/images/logos/{{post.feature_logo}}" alt="{{ post.site_name }}"
@@ -48,9 +48,13 @@ order: 1
 <ul class="featured-items">
     {% for post in site.posts %}
         {% if (post.type == 'portfolio') and post.promote and post.older  %}
-            <li class="featured-item">
-              <a href="/{{ post.permalink }}" 
-                  class="featured-item-link  {{ post.feature_class }}">{{ post.site_name }}</a>
+            <li class="featured-item  {{ post.feature_class }}">
+                <a href="/{{ post.permalink }}" 
+                    class="featured-item-link  {{ post.feature_class }}">
+                        <!--<img src="/images/logos/{{post.feature_logo}}" alt="{{ post.site_name }}"
+                            class="featured-item-logo" />-->
+                        <h4>{{ post.title }}, <time datetime="{{ post.date }}">{{ post.year }}</time> </h4>            
+                </a>
             </li>
         {% endif %}
     {% endfor %}

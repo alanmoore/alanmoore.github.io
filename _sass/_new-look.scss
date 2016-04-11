@@ -3,6 +3,8 @@
     flex-flow: row wrap;
     list-style-type: none;
     justify-content: space-between;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
 }
 
 .featured-item {
@@ -21,6 +23,7 @@
     padding: 0;
     margin: 0.5rem;
     vertical-align: middle;
+    line-height: 1.2em;
 }
 
 .featured-item-link {
@@ -34,17 +37,21 @@
     background-color: $blue;
     padding: 1.4em;
     padding-bottom: 0;
+    &:hover {
+        background-color: $dark-grey;
+        color: white;
+    }
 }
 
 .featured-item-logo {
     width: auto;
     height: auto;
-    max-height: 5rem;
+    max-height: 4rem;
     @media(min-width:$sm) {
-        max-height: 7rem;    
+        max-height: 6rem;    
     }
     @media(min-width:$md) {
-        max-height: 8rem;    
+        max-height: 7rem;    
     }
     
 }
@@ -81,6 +88,7 @@ li time::after {
     li{
         background-image: none;
         padding-left: 0;
+        margin-left: 0;
     }
     a {
         color: $dark-grey;
