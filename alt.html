@@ -9,7 +9,7 @@ order: 1
 <h3 class="title">Work</h3>
 <ul class="featured-items">
     {% for post in site.posts %}
-        {% if (post.type == 'portfolio') and post.promote and post.header_image  %}
+        {% if (post.type == 'portfolio') and post.promote  %}
            {% unless post.older %}
            <li class="featured-item  {{ post.feature_class }}">
                 <a href="/{{ post.permalink }}" 
@@ -26,7 +26,7 @@ order: 1
 <h3 class="title">UX / UI Concepts</h3>
 <ul class="portfolio-list-links">
     {% for post in site.posts %}
-        {% if (post.type == 'post') and post.header_image %}
+        {% if (post.type == 'post') %}
             {% unless post.older %}
             <li><time datetime="{{ post.date }}">{{ post.month }}</time>
                 <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
