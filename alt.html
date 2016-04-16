@@ -12,12 +12,14 @@ order: 1
         {% if (post.type == 'portfolio') and post.promote  %}
            {% unless post.older %}
            <li class="featured-item  {{ post.feature_class }}">
+                <div class="holder">
                 <a href="/{{ post.permalink }}" 
                     class="featured-item-link  {{ post.feature_class }}">
                         <img src="/images/logos/{{post.feature_logo}}" alt="{{ post.site_name }}"
                             class="featured-item-logo" />
                         <h4>{{ post.title }}, <time datetime="{{ post.date }}">{{ post.year }}</time> </h4>            
                 </a>
+                </div>
             </li>
           {% endunless %}
         {% endif %}
