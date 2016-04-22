@@ -129,6 +129,7 @@ img {
     width: auto;
     max-width: 100%;
     height: auto;
+    margin: 1em auto;
 }
 
 
@@ -312,8 +313,8 @@ img {
 .main,
 .footer {
     margin: 0 auto;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     max-width: $max-page-width;
 }
 
