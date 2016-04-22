@@ -1,19 +1,25 @@
 ---
 layout: page
-menu-title: Work
-title: Work by 
+menu-title: Home
+title:  
 order: 1
 ---
 <h3 class="title">Hello </h3>
-<p>I'm <a href="/about">Alan</a>. I design and build <a href="#work">user interfaces</a> for web 
-    sites and web applications, with a focus on <a href="#ux">good user experience</a>. I've been 
-    doing this for <a href="/skills">18 years</a>. I live in <a href="http://baltimore.org" 
-    target="_blank">Baltimore</a><sup><i class="fa  fa-external-link  fa-fw"></i></sup> with my 
-    wife, three cats and one dog. I occasionally <a href="#blog">write about my work</a> and more 
-    frequently <a href="http://www.funkierthanthou.net">blog about music, movies, books and so 
-    on</a><sup><i class="fa  fa-external-link  fa-fw"></i></sup>. I work at 
-    <a href="http://www.acgisoftware.com" target="_blank">ACGI software</a><sup><i class="fa  
-    fa-external-link  fa-fw"></i></sup> in Columbia, MD. </p>
+<section class="media">
+    <img class="media__img  circle-img" src="../images/photo.jpg" />
+    <div class="media__body">
+        <p>I'm <a href="/about">Alan</a>. I design and build <a href="#work">user interfaces</a> 
+        for web sites and web applications, with a focus on <a href="#ux">good user experience</a>. 
+        I've been doing this for <a href="/skills">18 years.</a> I live in 
+        <a href="http://baltimore.org" target="_blank">Baltimore</a><sup><i class="fa  
+        fa-external-link  fa-fw"></i></sup> with my wife, three cats and one dog. I occasionally 
+        <a href="#blog">write about my work</a> and more frequently <a 
+        href="http://www.funkierthanthou.net">blog about music, movies, books and so 
+        on.</a><sup><i class="fa  fa-external-link  fa-fw"></i></sup> I work at 
+        <a href="http://www.acgisoftware.com" target="_blank">ACGI software</a><sup><i class="fa  
+        fa-external-link  fa-fw"></i></sup> in Columbia, MD. </p>
+    </div>
+</section>
 <h3 class="title" id="work">Work</h3>
 <ul class="featured-items">
     {% for post in site.posts %}
@@ -34,7 +40,7 @@ order: 1
 <h3 class="title" id="ux">UX / UI Concepts</h3>
 <ul class="portfolio-list-links">
     {% for post in site.posts %}
-        {% if (post.type == 'post') and post.header_image %}
+        {% if (post.type == 'post') %}
             {% unless post.older %}
             <li><time datetime="{{ post.date }}">{{ post.month }}</time>
                 <a href="/{{ post.permalink }}">{{ post.title }}</a></li>

@@ -16,6 +16,10 @@
 
 @import "../bower_components/inuit-page/base.page";
 
+@import "../bower_components/inuit-media/objects.media";
+
+@import "../bower_components/inuit-clearfix/trumps.clearfix";
+
 
 /*------------------------------------*\
     #VARIABLES
@@ -53,7 +57,7 @@ font-family: 'Realtime-Bold';
 \*------------------------------------*/
 
 body {
-    font-family: 'Realtime-Regular', monospace;
+    font-family: 'Realtime-Regular', Consolas, Monaco, 'Andale Mono', monospace;
     font-weight: normal;
     font-size: 16px;
     @media(min-width: $md) {
@@ -73,26 +77,33 @@ b, i {
 }
 
 em {
-    font-family: 'Realtime-SemiBold', monospace;
+    font-family: 'Realtime-SemiBold', Consolas, Monaco, 'Andale Mono', monospace;
     font-weight: normal;
     font-style: normal;
 }
 
 strong {
-    font-family: 'Realtime-Bold', monospace;
+    font-family: 'Realtime-Bold', Consolas, Monaco, 'Andale Mono', monospace;
     font-weight: normal;
 }
 
 
 strong em {
-    font-family: 'Realtime-Bold', monospace;
+    font-family: 'Realtime-Bold', Consolas, Monaco, 'Andale Mono', monospace;
     font-weight: normal;
 }
 
 a {
     color: $dark-grey;
+    background-image: linear-gradient(to bottom,$dark-grey 55%,$dark-grey 55%);
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    text-decoration: none;
+    background-position: 0 102%;
+    text-shadow: -2px 1px 0 white,-1px 1px 0 white,0 1px 0 white,1px 1px 0 white,2px 1px 0 white,-1px -1px 0 white,1px -1px 0 white,-1px 0 0 white,1px 0 0 white;
     &:hover {
         color: $blue;
+        background-image: linear-gradient(to bottom,$blue 75%,$blue 75%);
     }
 }
 
@@ -274,7 +285,7 @@ img {
     color: $green;
     padding: 0.3em 0.5em;       
     display: inline-block;
-    font-family: 'Realtime-SemiBold', monospace;
+    font-family: 'Realtime-SemiBold', Consolas, Monaco, 'Andale Mono', monospace;
     font-weight: normal;
 }
 
@@ -284,13 +295,12 @@ img {
 
 .main-nav__link {
     color: $dark-grey;
-    font-family: 'Realtime-SemiBold', monospace;
+    font-family: 'Realtime-SemiBold', Consolas, Monaco, 'Andale Mono', monospace;
     font-weight: normal;
     text-decoration: none;
     &:hover {
         background: transparent;
         color: $green;
-        text-decoration: underline;
     }
 }
 
@@ -352,7 +362,7 @@ img {
 
 .subtitle {
     font-size: 1.1em;
-    font-family: 'Realtime-Bold', monospace;
+    font-family: 'Realtime-Bold', Consolas, Monaco, 'Andale Mono', monospace;
     font-weight: normal;  
     text-transform: uppercase;
     text-align: center;
@@ -363,6 +373,29 @@ img {
     }
 }
 
+
+
+
+/*------------------------------------*\
+    #PORTFOLIO-GALLERIES
+\*------------------------------------*/
+
+.circle-img {
+    border-radius: 50%;
+    border: 3px solid $green;
+}
+
+.media__img {
+    width: 4rem;
+    height: auto;
+    @media(min-width: $sm) {
+        width: 6rem;
+    }
+    @media(min-width: $md) {
+        width: 8rem;
+    }
+
+}
 
 
 

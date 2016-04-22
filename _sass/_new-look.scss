@@ -37,6 +37,7 @@
     background-color: $blue;
     padding: 1.4em;
     padding-bottom: 0;
+    text-shadow: none;
     &:hover {
         background-color: $dark-grey;
         color: white;
@@ -80,18 +81,23 @@ time {
     text-transform: uppercase;
 }
 
-li time::after {
-    content: '\0000a0';
-}
-
 .portfolio-list-links {
-    li{
+    li {
+        display: table;
         background-image: none;
         padding-left: 0;
         margin-left: 0;
+        time {
+            display: table-cell;
+            white-space: nowrap;
+            padding-right: 1em;
+        }
     }
     a {
         color: $dark-grey;
+        display: table-cell;
+        padding: 0;
+        
     }
     a:hover {
         color: $blue;
@@ -106,14 +112,12 @@ li time::after {
 }
 
 .columns-2 {
-    column-width: auto;
+    column-width: 90%;
     @media(min-width:$md) {
         column-count: 2;
         columns: 2;    
     }
     li { 
-        min-width: 40%;
-        width: auto;
     }
 }
 
