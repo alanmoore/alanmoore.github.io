@@ -4,31 +4,35 @@ menu-title: Work
 title: Work by 
 order: 1
 ---
-<h3 class="title">I'm Alan Moore</h3>
-<p>I design and build user interfaces to improve user experience in web sites and web applications. This site is a combined blog, portfolio and resumé / C.V. showcasing my work in the field of web design from the last 18 years. </p>
-<h3 class="title">Work</h3>
+<h3 class="title">Hello </h3>
+<p>I'm <a href="/about">Alan</a>. I design and build <a href="#work">user interfaces</a> for web 
+    sites and web applications, with a focus on <a href="#ux">good user experience</a>. I've been 
+    doing this for <a href="/skills">18 years</a>. I live in <a href="http://baltimore.org" 
+    target="_blank">Baltimore</a> with my wife, three cats and a dog. I occasionally <a 
+    href="#blog">write about my work</a> and more frequently 
+    <a href="http://www.funkierthanthou.net">blog about music, movies, books and so on</a>. I work 
+    at <a href="http://www.acgisoftware.com" target="_blank">ACGI software</a> in Columbia, MND. </p>
+<h3 class="title" id="work">Work</h3>
 <ul class="featured-items">
     {% for post in site.posts %}
-        {% if (post.type == 'portfolio') and post.promote  %}
+        {% if (post.type == 'portfolio') and post.promote and post.header_image  %}
            {% unless post.older %}
            <li class="featured-item  {{ post.feature_class }}">
-                <div class="holder">
                 <a href="/{{ post.permalink }}" 
                     class="featured-item-link  {{ post.feature_class }}">
                         <img src="/images/logos/{{post.feature_logo}}" alt="{{ post.site_name }}"
                             class="featured-item-logo" />
                         <h4>{{ post.title }}, <time datetime="{{ post.date }}">{{ post.year }}</time> </h4>            
                 </a>
-                </div>
             </li>
-          {% endunless %}
+          {% endunless %} 
         {% endif %}
     {% endfor %}
 </ul>
-<h3 class="title">UX / UI Concepts</h3>
+<h3 class="title" id="ux">UX / UI Concepts</h3>
 <ul class="portfolio-list-links">
     {% for post in site.posts %}
-        {% if (post.type == 'post') %}
+        {% if (post.type == 'post') and post.header_image %}
             {% unless post.older %}
             <li><time datetime="{{ post.date }}">{{ post.month }}</time>
                 <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
@@ -36,7 +40,7 @@ order: 1
         {% endif %}
     {% endfor %}
 </ul>
-<h3 class="title">Writing</h3>
+<h3 class="title" id="blog">Writing</h3>
 <ul class="portfolio-list-links">
     {% for post in site.posts %}
         {% if post.type == 'words' %}
@@ -46,7 +50,7 @@ order: 1
         {% endif %} 
     {% endfor %}
 </ul>
-<h3 class="title">More Work</h3>
+<h3 class="title" id="older-work"">More Work</h3>
 <ul class="featured-items">
     {% for post in site.posts %}
         {% if (post.type == 'portfolio') and post.promote and post.older  %}
