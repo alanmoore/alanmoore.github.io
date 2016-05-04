@@ -24,20 +24,21 @@
     margin: 0.5rem;
     vertical-align: middle;
     line-height: 1.2em;
+    display: flex;
 }
 
 .featured-item-link {
-    display: block;
     text-align: center;
     font-size: 1rem;
     color: white;
     text-decoration: none;
-    height: 100%;
     vertical-align: middle;
     background-color: $blue;
     padding: 1.4em;
     padding-bottom: 0;
     text-shadow: none;
+    width: 100%;
+    align-self: stretch;
     &:hover {
         background-color: $dark-grey;
         color: white;
