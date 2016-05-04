@@ -40,7 +40,7 @@ order: 1
 <h3 class="title" id="ux">UX / UI Concepts</h3>
 <ul class="portfolio-list-links">
     {% for post in site.posts %}
-        {% if (post.type == 'post') %}
+        {% if (post.type == 'post')    %}
             {% unless post.older %}
             <li><time datetime="{{ post.date }}">{{ post.month }}</time>
                 <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
@@ -65,8 +65,8 @@ order: 1
             <li class="featured-item  {{ post.feature_class }}">
                 <a href="/{{ post.permalink }}" 
                     class="featured-item-link  {{ post.feature_class }}">
-                        <!--<img src="/images/logos/{{post.feature_logo}}" alt="{{ post.site_name }}"
-                            class="featured-item-logo" />-->
+                        <img src="/images/logos/{{post.feature_logo}}" alt="{{ post.site_name }}"
+                            class="featured-item-logo" />
                         <h4>{{ post.title }}, <time datetime="{{ post.date }}">{{ post.year }}</time> </h4>            
                 </a>
             </li>

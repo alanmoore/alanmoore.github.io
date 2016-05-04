@@ -34,14 +34,18 @@
     text-decoration: none;
     vertical-align: middle;
     background-color: $blue;
-    padding: 1.4em;
-    padding-bottom: 0;
+    background-image: none;
+    padding: 0 1.4em;
     text-shadow: none;
     width: 100%;
     align-self: stretch;
     &:hover {
         background-color: $dark-grey;
+        background-image: none;
         color: white;
+    }
+    h4 {
+        margin-top: 0;
     }
 }
 
@@ -77,6 +81,19 @@
 .crayon {
     background-color: #C6100F;
 }
+
+.tdc {
+    background-color: #669848;
+}
+
+.seddon {
+    background-color: black;
+}
+
+.rv {
+    background-color: #7DC0CF;
+}
+
 
 time {
     text-transform: uppercase;
