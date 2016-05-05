@@ -101,6 +101,7 @@ a {
     text-decoration: none;
     background-position: 0 98%;
     text-shadow: -2px 1px 0 white,-1px 1px 0 white,0 1px 0 white,1px 1px 0 white,2px 1px 0 white,-1px -1px 0 white,1px -1px 0 white,-1px 0 0 white,1px 0 0 white;
+    transition: color 600ms, background-image 600ms;
     &:hover {
         color: $blue;
         background-image: linear-gradient(to bottom,$blue 75%,$blue 75%);
@@ -437,6 +438,7 @@ img {
 \*------------------------------------*/
 
 .footer {
+    margin-top: 6em;
     margin-bottom: 4em;
     text-align: left;
     font-size: 0.9rem;
