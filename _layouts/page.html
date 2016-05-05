@@ -3,7 +3,22 @@ layout: default
 ---
 <main id="top" role="main" class="main">
     {{ content }}
+    <h3 class="title" id="contact">Contact Me</h3>
+    <p>Ask me a question via one of the following social networks: </p>
+    <ul>
+        {% if site.twitter_username %}
+        <li>
+            Twitter: <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>
+        </li>
+        {% endif %}
+        {% if site.linkedin_username %}
+        <li>
+            LinkedIn: <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}/">{{ site.linkedin_username }}</a>
+        </li>
+        {% endif %}
+        {% if site.github_username %}
+        <li>
+            GitHub: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+        {% endif %}
+    </ul>
 </main>
-<aside role="complimentary" class="back-to-top">
-	<a href="#top" class="backToTop  back-to-top__link"><i class="fa fa-icon-chevron-sign-up"></i></a>
-</aside> 
