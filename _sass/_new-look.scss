@@ -1,3 +1,10 @@
+.only-big {
+    display: none;
+    @media(min-width:$md) {
+        display: inline;    
+    }
+}
+
 .featured-items {
     display: flex;
     flex-flow: row wrap;
