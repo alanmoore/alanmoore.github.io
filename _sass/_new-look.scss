@@ -1,9 +1,24 @@
+.media--responsive {
+    @media(max-width:$sm) {
+        text-align: center;
+        .media__img {
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .media__body {
+            float: none;
+            text-align: left;
+        }
+    }
+}
+
 .only-big {
     display: none;
     @media(min-width:$md) {
         display: inline;    
     }
-}
+} 
 
 .featured-items {
     display: flex;
@@ -24,7 +39,7 @@
     @media(min-width:$sm) {
         width: 45%;    
     }
-    @media(min-width:$md) {
+    @media(min-width:$lg) {
         width: 30%;    
     }
     padding: 0;
