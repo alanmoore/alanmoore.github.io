@@ -95,16 +95,16 @@ strong em {
 
 a {
     color: $dark-grey;
-    background-image: linear-gradient(to bottom,$dark-grey 55%,$dark-grey 55%);
-    background-repeat: repeat-x;
-    background-size: 1px 1px;
-    text-decoration: none;
-    background-position: 0 98%;
-    text-shadow: -2px 1px 0 white,-1px 1px 0 white,0 1px 0 white,1px 1px 0 white,2px 1px 0 white,-1px -1px 0 white,1px -1px 0 white,-1px 0 0 white,1px 0 0 white;
+    //background-image: linear-gradient(to bottom,$dark-grey 55%,$dark-grey 55%);
+    //background-repeat: repeat-x;
+    //background-size: 1px 1px;
+    text-decoration: underline;
+    //background-position: 0 98%;
+    //text-shadow: -2px 1px 0 white,-1px 1px 0 white,0 1px 0 white,1px 1px 0 white,2px 1px 0 white,-1px -1px 0 white,1px -1px 0 white,-1px 0 0 white,1px 0 0 white;
     transition: color 600ms, background-image 600ms;
     &:hover {
         color: $blue;
-        background-image: linear-gradient(to bottom,$blue 75%,$blue 75%);
+        //background-image: linear-gradient(to bottom,$blue 75%,$blue 75%);
     }
 }
 
@@ -215,19 +215,26 @@ img {
     padding-bottom: 0.5rem;
     max-width: $max-page-width;
     margin: 0 auto;
-    @media(min-height: $sm-height) {
-        padding-top: 105px;
+    background-repeat: no-repeat;
+    background-size: 83px 83px;
+        @media(min-width: $sm) {
+        padding-top: 1rem;
+        padding-bottom: 0.8rem;
         background-image: url(../images/alanhead.png); 
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: 83px 83px;
+        background-position: 2rem 0.5rem;
+    }
+    @media(min-height: $sm-height) {
+        background-image: url(../images/alanhead.png); 
+        padding-top: 105px;
+        padding-bottom: 0.5rem;
         background-position: 50% 1rem;
+        height: auto;
     }
     text-align: center;
 }
 
 .site-title {
-    font-size: 3em;
+    font-size: 3rem;
     font-family:'Popgod';
     font-weight: normal;
     font-style: normal;
@@ -238,10 +245,11 @@ img {
 }
 
 .site-subtitle {
-    font-size: 1.5em;
+    font-size: 1.2rem;
     font-weight: normal;
     line-height: 1em;
     margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 .site-title,
@@ -298,7 +306,7 @@ img {
     color: $dark-grey;
     font-family: 'Realtime-SemiBold', Consolas, Monaco, 'Andale Mono', monospace;
     font-weight: normal;
-    text-decoration: none;
+    //text-decoration: none;
     &:hover {
         background: transparent;
         color: $green;
@@ -356,7 +364,7 @@ img {
     font-weight: normal;
     font-style: normal;
     font-size: 2.2em;
-    line-height: 2em;
+    line-height: 1em;
     color: $blue;
     margin: 0;
 }
