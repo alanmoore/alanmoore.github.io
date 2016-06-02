@@ -306,10 +306,12 @@ img {
     color: $dark-grey;
     font-family: 'Realtime-SemiBold', Consolas, Monaco, 'Andale Mono', monospace;
     font-weight: normal;
-    //text-decoration: none;
+    text-decoration: none;
+    border-bottom: 1px solid $dark-grey;
     &:hover {
         background: transparent;
         color: $green;
+        border-bottom: $green;
     }
 }
 
