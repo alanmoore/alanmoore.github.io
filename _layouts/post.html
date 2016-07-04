@@ -9,7 +9,9 @@ layout: page
 <p class="center"><strong>{{ page.intro }}</strong></p>
 {{ content }}
 {% if page.link %}
-    <p><a href="{{ page.link }}" target="_blank" class="center">View 
-        {{ page.site_name }}</a> <i class="fa  fa-external-link"></i>
-        {% if page.archived %} {{ include archived_site.html }}{% endif %}</p>
+<aside class="button-row">
+    <a href="{{ page.link }}" target="_blank" class="button  button-external-link">View 
+        {{ page.site_name }}</a>
+    {% if page.archived %} {{ include archived_site.html }}{% endif %} 
+</aside>
 {% endif %} 
