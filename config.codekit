@@ -465,6 +465,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/a-front-end-philosophy\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/a-front-end-philosophy\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/about\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -488,6 +497,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/back-to-the-essence.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/back-to-the-essence\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/back-to-the-essence\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1545,6 +1563,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/complex-filtering\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/complex-filtering\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/contact\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1762,6 +1789,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/huge-dropdowns\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/huge-dropdowns\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/images\/alan-head.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1777,7 +1813,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3830,
+		"initialSize": 3446,
 		"inputAbbreviatedPath": "\/_site\/images\/alanhead-ie.png",
 		"outputAbbreviatedPath": "\/_site\/images\/alanhead-ie.png",
 		"outputPathIsOutsideProject": 0,
@@ -1788,7 +1824,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17407,
+		"initialSize": 15053,
 		"inputAbbreviatedPath": "\/_site\/images\/alanhead.png",
 		"outputAbbreviatedPath": "\/_site\/images\/alanhead.png",
 		"outputPathIsOutsideProject": 0,
@@ -1799,7 +1835,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 252,
+		"initialSize": 142,
 		"inputAbbreviatedPath": "\/_site\/images\/bullet.png",
 		"outputAbbreviatedPath": "\/_site\/images\/bullet.png",
 		"outputPathIsOutsideProject": 0,
@@ -3482,7 +3518,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 75484,
+		"initialSize": 74142,
 		"inputAbbreviatedPath": "\/_site\/images\/posts\/focused-inputs.png",
 		"outputAbbreviatedPath": "\/_site\/images\/posts\/focused-inputs.png",
 		"outputPathIsOutsideProject": 0,
@@ -3504,7 +3540,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 75484,
+		"initialSize": 74142,
 		"inputAbbreviatedPath": "\/_site\/images\/posts\/fp-focused-inputs.png",
 		"outputAbbreviatedPath": "\/_site\/images\/posts\/fp-focused-inputs.png",
 		"outputPathIsOutsideProject": 0,
@@ -3515,7 +3551,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 136895,
+		"initialSize": 135851,
 		"inputAbbreviatedPath": "\/_site\/images\/posts\/fp-generic.png",
 		"outputAbbreviatedPath": "\/_site\/images\/posts\/fp-generic.png",
 		"outputPathIsOutsideProject": 0,
@@ -3614,7 +3650,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 62865,
+		"initialSize": 27110,
 		"inputAbbreviatedPath": "\/_site\/images\/posts\/stacked-tables.png",
 		"outputAbbreviatedPath": "\/_site\/images\/posts\/stacked-tables.png",
 		"outputPathIsOutsideProject": 0,
@@ -3689,6 +3725,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/wide-tables-on-small-screens\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/wide-tables-on-small-screens\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/work\/chester-dot-com.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3707,6 +3752,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/work\/crayon-cuties-designer\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/work\/crayon-cuties-designer\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/work\/custom-php-cms.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3721,6 +3775,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/work\/erickson-living.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/work\/erickson-living\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/work\/erickson-living\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3815,6 +3878,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/work\/pbs-learning-media\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/work\/pbs-learning-media\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/work\/proximo.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3829,6 +3901,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/work\/regent-financial-calculator.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/work\/regent-financial-calculator\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/work\/regent-financial-calculator\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3883,6 +3964,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/work\/student-portal.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/work\/student-portal\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/work\/student-portal\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -7179,15 +7269,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/skills.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Users\/alan\/Work-Home\/css\/alanmoore.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/alan\/Work-Home\/css\/alanmoore.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
