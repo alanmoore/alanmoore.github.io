@@ -16,31 +16,12 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-    {% if page.header_image %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@alanmooredesign">
-    {% else %}
-    <meta name="twitter:card" content="summary" />
-    {% endif %}
-    <meta name="twitter:site" content="@alanmooredesign" />
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% if page.type == 'post' %}, a blog post by{% endif %}{% if page.type == 'portfolio' %} from the portfolio of{% endif %} Alan Moore {% else %} {{ site.title }}: {{ site.subtitle }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-    {% if page.header_image %}
-    <meta name="twitter:image" content="{{ site.url }}{{ site.imageurl }}/headers/{{ page.header_image }}" />
-    {% else %}
-    <meta name="twitter:image" content="{{ site.url }}{{ site.imageurl }}/photo.jpg" />
-    {% endif %}
-    
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% if page.type == 'post' %}, a blog post by{% endif %}{% if page.type == 'portfolio' %} from the portfolio of{% endif %} Alan Moore {% else %} {{ site.title }}: {{ site.subtitle }}{% endif %}" />
-    <meta property="og:site_name" content="{{ site.title }}: {{ site.subtitle }}"/>
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-    <meta property="og:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:type" content="article" />
-    {% if page.header_image %}
-    <meta property="og:image" content="{{ site.url }}{{ site.imageurl }}/headers/{{ page.header_image }}" />
-    {% else %}
-    <meta property="og:image" content="{{ site.url }}{{ site.imageurl }}/icons/win8tile.png" />
-    {% endif %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@alanmooredesign">
+    <meta name="twitter:url" property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="twitter:title" property="og:title" content="{% if page.title %}{{ page.title }}{% if page.type == 'post' %}, a blog post by{% endif %}{% if page.type == 'portfolio' %} from the portfolio of{% endif %} Alan Moore {% else %} {{ site.title }}: {{ site.subtitle }}{% endif %}">
+    <meta name="twitter:description" property="og:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" property="og:image" content="{{ site.url }}{{ site.imageurl }}/icons/win8tile.png">
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/144.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/114.png">
