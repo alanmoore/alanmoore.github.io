@@ -8,8 +8,10 @@ layout: page
         datetime="{{ page.date }}">{{ page.year }}</time>)</h4>     
 </header>
 {% if page.header_image %}
+<figure>
     <img src="{{ site.imageurl}}/headers/{{ page.header_image }}" class="img--border" alt="A 
         screenshot from {{ page.site_name }}" />
+</figure>
 {% endif %}
 <p class="center"><strong>{{ page.intro }}</strong></p>
 {{ content }}

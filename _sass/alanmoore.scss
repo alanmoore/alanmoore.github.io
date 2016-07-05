@@ -132,11 +132,22 @@ li {
     margin-left: -1.2em;
 }
 
+figure {
+    text-align: center;
+    margin: 1px 0px;
+    width: 100%;
+    border: 1px solid $light-grey;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1em;
+}
+
 img { 
     width: auto;
     max-width: 100%;
     height: auto;
-    margin: 1em auto;
+    margin: 0 auto;
+    display: block;
 }
 
 
