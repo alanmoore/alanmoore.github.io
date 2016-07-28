@@ -125,11 +125,13 @@ p {
 li {
     margin-bottom: 0.4em;   
     list-style-type: none;
-    background: url(../images/bullet.svg) left 0.6em no-repeat;
+    background: url(../images/bullet.svg) 1em 0.6em no-repeat;
     background-size: 0.8em 0.6em;   
     margin-left: 0;
-    padding-left: 1.2em;
-    margin-left: -1.2em;
+    padding-left: 2em;
+    @media(min-width:$sm) {
+        padding-right: 2em;
+    }
 }
 
 figure {
