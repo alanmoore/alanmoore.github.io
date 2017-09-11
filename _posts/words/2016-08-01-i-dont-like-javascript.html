@@ -1,0 +1,88 @@
+---
+layout: 		post
+title:  		"Back to the Essence"
+date:   		2015-03-17 08:45
+month: 			"17 Mar 2015"
+permalink: 		back-to-the-essence/
+type:			words
+subtitle:		Blog Post
+intro: 			Why I switched from a dynamic, database driven custom CMS to a system of plain text files containing HTML. 
+---
+
+<p>I've just rebuilt this site in the closest form I can comfortably get to old-fashioned HTML files: 
+	Jekyll, some HTML templates, some minimal SASS and a whole bunch of text files. I can work 
+	faster, with minimal set up, from almost anywhere. It wasn't supposed to be this way. </p>
+<!--more-->
+<p>During my last 6 months at Erickson Living, we were hunting for a CMS. My preferred idea, having 
+	worked on the live site for 12 months and crafted it very carefully in then-new responsive 
+	HTML5 and CSS3, was to find a solution that would allow us to break apart the static HTML pages 
+	into templates. That way we wouldn't have to re-do all our hard work, and we wouldn't wind up
+	with loads of highly-opinionated cruft from a CMS such as Wordpress. </p>
+<p>My idea, then, was to build the site using Django. I knew it would allow us to rapidly model the
+	data, give us a ready-to-go admin system to populate the database with, and reuse our existing 
+	HTML, CSS and JavaScript. Once we'd done that, we could build a custom CMS for internal use, 
+	since even with Django Suit installed, the admin system wasn't simple enough for the users in 
+	the marketing department. </p>
+<p>We were trying out numerous solutions, so I quickly built a proof-of-concept. Since I didn't 
+	actually know Python or Django, I started with the tutorial on the Django site, and got a demo 
+	up and running in a day. </p>
+<p>In the end, they went with Drupal. Soon after that decision was made, I left. Coincidence? You be
+	the judge. The thing was, I'd fallen in love with Django. To keep using it, I built the 
+	previous version of this site, alanmoore.info, in Django, Python and PostgreSQL. Django just 
+	suited my thought process&mdash; rather than contort your content to fit the way another 
+	entity thought it should be structured, make the models fit your site's needs. </p>
+<h3 class="subtitle">Best Intentions </h3>
+<p>When I worked for PBS, we worked, coincidentally, in Django. I quickly understood, seeing an 
+	enterprise quality web application, how limited my knowledge was. No matter, I was working in 
+	HTML, CSS and JavaScript through Django templates. My previous exposure helped. It did, 
+	however, become apparent that the application powering alanmoore.info could be improved.</p>
+<p>I bought a copy of Think Python, and a copy of Two Scoops of Django. I read them both and vowed
+	to rebuild alanmoore.info the <em>right</em> way. It might be small, but the site would become
+	an exemplary Django site. I'd even host it publicly on GitHub, because my code would be so 
+	good. </p>
+<h3 class="subtitle">You'll never guess what happened next. </h3>
+<p>Apologies for the link-bait subheading. Things fell apart within six months as I realised that,
+	while I loved PBS, the people who were actually employing me, Celerity, had misled me a little 
+	over the nature of the job. If I could have stayed directly working for PBS, I would have done,
+	but the contract with Celerity prohibited that. </p>
+<p>There was a silver lining: I would up moving to my current job, with Regent Education. I didn't
+	even have time to rework my site, and then, adjusting to my second new job in less than a year, 
+	thoughts of working on the site fell by the wayside. </p>
+<h3 class="subtitle">A change of format</h3>
+<p>I've always been pretty good at keeping my portfolio up-to-date. I learned a long time ago that
+	it's easier to write about work while it's fresh and you're still excited about it. Several 
+	times, I've wanted to write about my work at Regent. The issue is that the work is not really
+	portfolio material. </p>
+<p>I'm working mostly on a large SaaS application for managing financial aid. I spend most of my 
+	time in Axure RP 7 and Sketch 3, occasionally putting together proofs of concept in a JS Fiddle
+	so the developers don't have to think about the HTML structure or the CSS. </p>
+<p>Add to that the fact that I can't morally expose even screenshots of this tightly-guarded product
+	to the world at large through this site (regardless of the fact maybe 12 people would see it), 
+	and my trusty portfolio format is no longer tenable.</p>
+<p>That's when it struck me that rearchitecting the Django application might take a <em>very</em>
+	long time. And really, what was it for? It was Resume Driven Development, and a rather futile 
+	take on RDD, because I'm unlikely to be building such solutions in the future. </p>
+<h3 class="su<b></b>title">No more complex toolchains </h3>
+<p>I've had many job titles over the years. Web designer, web developer, front-end developer, 
+	UI/UX Engineer... but web development has changed. An influx of ex-Flash developers, high on
+	the thought that ActionScript 3 isn't all that different from JavaScript, coupled with 
+	traditional software developers, who want to treat front-end like it's the back-end, have caused
+	a fundamental shift in the way we work. </p>
+<p>Suddenly, a front-end person has to be a JS expert, know three or four frameworks, use a CSS 
+	preprocessor, and often pretend progressive enhancement was never a thing. Throw in the need
+	to minify and concatenate the huge amount of code being produced so it will load in less than 
+	three minutes &mdash; seriously guys? a 2.5Mb website? &mdash; and people start talking about
+	toolchains and workflow. </p>
+<p>That all has its place, but this is a one-man site on a shared server. I can carefully code it to
+	be small. I don't need a CMS. Frankly, flat HTML, CSS, JS and images should be enough. I can
+	still use SASS for my CSS, but no-one else needs to use it so I can use CodeKit to manage it. A
+	framework? Sure, but something small and non-opinionated like Inuit-CSS. Why use something as
+	bloated as Bootstrap for a site this small? It's not like I don't know CSS. </p>
+<p>Frankly, the only downside is the lack of templating for HTML. So I chose Jekyll. It runs 
+	locally on my Mac for testing, I host it as my main GitHub pages at alanmoore.github.io, and 
+	for redundancy, when I update, I SFTP the contents of the _site directory to a folder on my
+	WebFaction server, where it's hosted as a static HTML site. </p>
+<p>It's great to get back to straight web development again. So long as I have CodeKit running in 
+	the background, a terminal window open to run the local Jekyll server, and GitHub for Mac when
+	it's time to commit, I can just concentrate on writing words and tweaking HTML and CSS. </p>
+	<p><strong>Back to the essence!</strong> </p>
