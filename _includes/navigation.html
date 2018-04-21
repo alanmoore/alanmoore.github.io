@@ -1,6 +1,7 @@
 <ul class="main-nav__items">
     {% assign sorted_pages = site.pages | sort:"order" %}
     <li class="main-nav__item"><a href="/" class="main-nav__link">Home</a></li>
+    <li class="main-nav__item"><a href="/static/alan_moore_cv.pdf" target="_blank" class="main-nav__link">Resume/CV</a></li>
     {% for node in sorted_pages %}
         {% if node.order > 1 %}
             <li class="main-nav__item">
