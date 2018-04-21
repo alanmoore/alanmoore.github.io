@@ -12,6 +12,6 @@ layout: page
 <aside class="button-row">
     <a href="{{ page.link }}" target="_blank" class="button  button-external-link">View 
         {{ page.site_name }}</a>
-    {% if page.archived %} {{ include archived_site.html }}{% endif %} 
+    {% if page.archived %} {% include archived_site.html %}{% endif %} 
 </aside>
 {% endif %} 

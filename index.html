@@ -24,7 +24,7 @@ order: 1
             student finance. I was their UX Engineer.</p>
         <ul class="portfolio-list-links">
             {% for post in site.posts %}
-                {% if (post.category == 'regent')  %}
+                {% if post.category == 'regent'  %}
                     <li><time datetime="{{ post.date }}">{{ post.year }}</time>
                         <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
                 {% endif %}
@@ -41,7 +41,7 @@ order: 1
         <h4>PBS Learning Media </h4>
         <ul class="portfolio-list-links">
             {% for post in site.posts %}
-                {% if (post.category == 'pbs')  %}
+                {% if post.category == 'pbs'  %}
                     <li><time datetime="{{ post.date }}">{{ post.year }}</time>
                         <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
                 {% endif %}
@@ -61,7 +61,7 @@ order: 1
         <p>Erickson Living manages high-end retirement homes across the US. </p>
         <ul class="portfolio-list-links">
             {% for post in site.posts %}
-                {% if (post.category == 'erickson')  %}
+                {% if post.category == 'erickson'  %}
                     <li><time datetime="{{ post.date }}">{{ post.year }}</time>
                         <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
                 {% endif %}
@@ -81,7 +81,7 @@ order: 1
         <p>Deluxe Checks print custom designs onto banking checks </p>
         <ul class="portfolio-list-links">
             {% for post in site.posts %}
-                {% if (post.category == 'deluxe')  %}
+                {% if post.category == 'deluxe'  %}
                     <li><time datetime="{{ post.date }}">{{ post.year }}</time>
                         <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
                 {% endif %}
@@ -94,7 +94,7 @@ order: 1
 <h3 class="title" id="older-work">Web Design, etc.</h3>
 <ul class="portfolio-list-links  columns-2">
     {% for post in site.posts %}
-        {% if (post.type == 'portfolio')  %}
+        {% if post.type == 'portfolio'  %}
             {% unless post.category %}
             <li><time datetime="{{ post.date }}">{{ post.year }}</time>
                 <a href="/{{ post.permalink }}">{{ post.title }} </a></li>

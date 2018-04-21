@@ -15,321 +15,374 @@
 		"uuidString": "91199DEB-1429-4AE3-8076-5AD157C60E86"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/_config.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
 	"\/_includes\/archived_site.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/archived_site.html",
 		"oF": 0
 		},
 	"\/_includes\/cv_link.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/cv_link.html",
 		"oF": 0
 		},
 	"\/_includes\/footer.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/footer.html",
 		"oF": 0
 		},
 	"\/_includes\/head.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
 	"\/_includes\/header.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/header.html",
 		"oF": 0
 		},
 	"\/_includes\/navigation.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/navigation.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/page.html",
 		"oF": 0
 		},
 	"\/_layouts\/portfolio.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/portfolio.html",
 		"oF": 0
 		},
 	"\/_layouts\/post.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
 	"\/_posts\/2014-08-01-wide-tables-on-small-screens copy.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/2014-08-01-wide-tables-on-small-screens copy.html",
 		"oF": 0
 		},
 	"\/_posts\/2014-11-30-complex-filtering.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/2014-11-30-complex-filtering.html",
 		"oF": 0
 		},
 	"\/_posts\/2015-01-21-huge-dropdowns.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/2015-01-21-huge-dropdowns.html",
 		"oF": 0
 		},
 	"\/_posts\/words\/2015-03-07-back-to-the-essence copy.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/words\/2015-03-07-back-to-the-essence copy.html",
 		"oF": 0
 		},
 	"\/_posts\/words\/2016-08-01-i-dont-like-javascript.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/words\/2016-08-01-i-dont-like-javascript.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2002-05-01-grahams-machinery-sales.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2002-05-01-grahams-machinery-sales.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2002-11-01-oaklands-college.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2002-11-01-oaklands-college.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2002-12-01-get-set-magazine.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2002-12-01-get-set-magazine.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2003-02-01-liberty-plc.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2003-02-01-liberty-plc.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2003-08-01-safe-in-mind.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2003-08-01-safe-in-mind.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2005-10-01-inspired-developments.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2005-10-01-inspired-developments.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2006-03-01-proximo.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2006-03-01-proximo.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2006-09-01-hanlys.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2006-09-01-hanlys.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2007-05-01-rhydymwyn-valley.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2007-05-01-rhydymwyn-valley.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2007-06-01-id-generation.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2007-06-01-id-generation.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2007-08-01-seddon-homes.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2007-08-01-seddon-homes.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2007-09-01-chester-dot-com.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2007-09-01-chester-dot-com.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2007-12-23-robbie-stocker.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2007-12-23-robbie-stocker.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2008-04-01-la-fattoria.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2008-04-01-la-fattoria.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2008-10-30-lunchtime-memories.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2008-10-30-lunchtime-memories.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2008-11-01-custom-php-cms.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2008-11-01-custom-php-cms.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2009-01-01-rhyme-times-tables.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2009-01-01-rhyme-times-tables.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2009-04-01-the-dutch-connection.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2009-04-01-the-dutch-connection.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2010-04-01-crayon-cuties-designer.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2010-04-01-crayon-cuties-designer.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2012-04-19-erickson-living.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2012-04-19-erickson-living.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2014-03-27-a-front-end-philosophy.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2014-03-27-a-front-end-philosophy.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2014-03-31-pbs-learning-media.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2014-03-31-pbs-learning-media.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2014-08-24-regent-financial-calculator.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2014-08-24-regent-financial-calculator.html",
 		"oF": 0
 		},
 	"\/_posts\/work\/2015-06-15-student-portal.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_posts\/work\/2015-06-15-student-portal.html",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/268600e798d6f77de2037127d8776382b863a4c7\/_objects.media.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/268600e798d6f77de2037127d8776382b863a4c7\/_objects.media.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/2e32c59015c583f3fb1093268c59abe983997563\/_tools.functions.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/2e32c59015c583f3fb1093268c59abe983997563\/_tools.functions.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/319962efe647fc38904a7c5b6968241bb7d8f1c6\/_settings.defaults.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/319962efe647fc38904a7c5b6968241bb7d8f1c6\/_settings.defaults.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/33f6723ad7c5823536ad809d61d797c19ad9a6b1\/_tools.mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/33f6723ad7c5823536ad809d61d797c19ad9a6b1\/_tools.mixins.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/4a65dce9c7a9eda1d7aa56b3dc5ec942cc25e7e6\/_fonts.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/4a65dce9c7a9eda1d7aa56b3dc5ec942cc25e7e6\/_fonts.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/4a65dce9c7a9eda1d7aa56b3dc5ec942cc25e7e6\/_links-buttons.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/4a65dce9c7a9eda1d7aa56b3dc5ec942cc25e7e6\/_links-buttons.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/4a65dce9c7a9eda1d7aa56b3dc5ec942cc25e7e6\/_new-look.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/4a65dce9c7a9eda1d7aa56b3dc5ec942cc25e7e6\/_new-look.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/4a65dce9c7a9eda1d7aa56b3dc5ec942cc25e7e6\/alanmoore.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_sass\/.sass-cache\/4a65dce9c7a9eda1d7aa56b3dc5ec942cc25e7e6\/alanmoore.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/7810c6cee0b78890cb2130d15e51ed6ec9dffce2\/_base.page.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/7810c6cee0b78890cb2130d15e51ed6ec9dffce2\/_base.page.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/8024184a9a0e6d9fa477797e706d7150f6238e3e\/_generic.normalize.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/8024184a9a0e6d9fa477797e706d7150f6238e3e\/_generic.normalize.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/d6db8a86605bcbabf12c42147367a93400aafbc3\/_generic.box-sizing.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/d6db8a86605bcbabf12c42147367a93400aafbc3\/_generic.box-sizing.scssc",
 		"oF": 0
 		},
 	"\/_sass\/.sass-cache\/eab31f3ec240d114f39aad4dc8d2b6a85d3fb047\/_trumps.clearfix.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_sass\/.sass-cache\/eab31f3ec240d114f39aad4dc8d2b6a85d3fb047\/_trumps.clearfix.scssc",
@@ -427,30 +480,38 @@
 		"uL": 1
 		},
 	"\/_site\/a-front-end-philosophy\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/a-front-end-philosophy\/index.html",
 		"oF": 0
 		},
 	"\/_site\/about\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
-	"\/_site\/alt.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/alt.html",
-		"oF": 0
+	"\/_site\/assets\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_site\/back-to-the-essence\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/back-to-the-essence\/index.html",
 		"oF": 0
 		},
 	"\/_site\/blog.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/blog.html",
@@ -1276,11 +1337,18 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_site\/bower_components\/inuit-box-sizing\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/bower_components\/inuit-box-sizing\/index.html",
+		"oF": 0
+		},
 	"\/_site\/bower_components\/inuit-box-sizing\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1302,6 +1370,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_site\/bower_components\/inuit-clearfix\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/bower_components\/inuit-clearfix\/index.html",
+		"oF": 0
+		},
 	"\/_site\/bower_components\/inuit-clearfix\/package.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -1311,10 +1386,10 @@
 		"oS": 1
 		},
 	"\/_site\/bower_components\/inuit-clearfix\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1336,6 +1411,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_site\/bower_components\/inuit-defaults\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/bower_components\/inuit-defaults\/index.html",
+		"oF": 0
+		},
 	"\/_site\/bower_components\/inuit-defaults\/package.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -1345,10 +1427,10 @@
 		"oS": 1
 		},
 	"\/_site\/bower_components\/inuit-defaults\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1370,11 +1452,18 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_site\/bower_components\/inuit-functions\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/bower_components\/inuit-functions\/index.html",
+		"oF": 0
+		},
 	"\/_site\/bower_components\/inuit-functions\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1396,11 +1485,18 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_site\/bower_components\/inuit-media\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/bower_components\/inuit-media\/index.html",
+		"oF": 0
+		},
 	"\/_site\/bower_components\/inuit-media\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1422,11 +1518,18 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_site\/bower_components\/inuit-mixins\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/bower_components\/inuit-mixins\/index.html",
+		"oF": 0
+		},
 	"\/_site\/bower_components\/inuit-mixins\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1448,6 +1551,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_site\/bower_components\/inuit-normalize.css\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/bower_components\/inuit-normalize.css\/index.html",
+		"oF": 0
+		},
 	"\/_site\/bower_components\/inuit-normalize.css\/package.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -1457,10 +1567,10 @@
 		"oS": 1
 		},
 	"\/_site\/bower_components\/inuit-normalize.css\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1482,6 +1592,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_site\/bower_components\/inuit-normalize\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/bower_components\/inuit-normalize\/index.html",
+		"oF": 0
+		},
 	"\/_site\/bower_components\/inuit-normalize\/package.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -1491,10 +1608,10 @@
 		"oS": 1
 		},
 	"\/_site\/bower_components\/inuit-normalize\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1516,11 +1633,18 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/_site\/bower_components\/inuit-page\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/bower_components\/inuit-page\/index.html",
+		"oF": 0
+		},
 	"\/_site\/bower_components\/inuit-page\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1535,21 +1659,17 @@
 		"uCM": 0
 		},
 	"\/_site\/colophon\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/colophon\/index.html",
 		"oF": 0
 		},
 	"\/_site\/complex-filtering\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/complex-filtering\/index.html",
-		"oF": 0
-		},
-	"\/_site\/contact\/index.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
 	"\/_site\/css\/alanmoore.css": {
@@ -1563,12 +1683,14 @@
 		"oS": 3
 		},
 	"\/_site\/css\/alanmoore.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/alanmoore.css.map",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/260ACA_0_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/260ACA_0_0.eot",
@@ -1585,30 +1707,35 @@
 		"prP": 0
 		},
 	"\/_site\/css\/webfonts\/260ACA_0_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/260ACA_0_0.ttf",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/260ACA_0_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/260ACA_0_0.woff",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/260ACA_0_unhinted_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/260ACA_0_unhinted_0.ttf",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/260ACA_0_unhinted_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/260ACA_0_unhinted_0.woff",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-black\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-black\/example.html",
@@ -1646,6 +1773,7 @@
 		"oS": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.eot",
@@ -1662,24 +1790,28 @@
 		"prP": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.ttf",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.woff",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.woff2",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-bold\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-bold\/example.html",
@@ -1717,6 +1849,7 @@
 		"oS": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.eot",
@@ -1733,24 +1866,28 @@
 		"prP": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.ttf",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.woff",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.woff2",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-light\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-light\/example.html",
@@ -1788,6 +1925,7 @@
 		"oS": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.eot",
@@ -1804,24 +1942,28 @@
 		"prP": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.ttf",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.woff",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.woff2",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-semibold\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-semibold\/example.html",
@@ -1859,6 +2001,7 @@
 		"oS": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.eot",
@@ -1875,24 +2018,28 @@
 		"prP": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.ttf",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.woff",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.woff2",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime\/example.html",
@@ -1930,6 +2077,7 @@
 		"oS": 0
 		},
 	"\/_site\/css\/webfonts\/realtime\/webfonts\/realtime.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime\/webfonts\/realtime.eot",
@@ -1946,24 +2094,28 @@
 		"prP": 0
 		},
 	"\/_site\/css\/webfonts\/realtime\/webfonts\/realtime.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime\/webfonts\/realtime.ttf",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime\/webfonts\/realtime.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime\/webfonts\/realtime.woff",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/realtime\/webfonts\/realtime.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/realtime\/webfonts\/realtime.woff2",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/ss-social-circle.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/ss-social-circle.eot",
@@ -1980,36 +2132,28 @@
 		"prP": 0
 		},
 	"\/_site\/css\/webfonts\/ss-social-circle.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/ss-social-circle.ttf",
 		"oF": 0
 		},
 	"\/_site\/css\/webfonts\/ss-social-circle.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/css\/webfonts\/ss-social-circle.woff",
 		"oF": 0
 		},
 	"\/_site\/feed.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/feed.xml",
 		"oF": 0
 		},
-	"\/_site\/Gemfile": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/Gemfile",
-		"oF": 0
-		},
-	"\/_site\/Gemfile.lock": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/Gemfile.lock",
-		"oF": 0
-		},
 	"\/_site\/huge-dropdowns\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/huge-dropdowns\/index.html",
@@ -2083,6 +2227,7 @@
 	"\/_site\/images\/galleries\/cc01.jpg": {
 		"ft": 16384,
 		"iS": 42072,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc01.jpg",
 		"oF": 0,
@@ -2101,6 +2246,7 @@
 	"\/_site\/images\/galleries\/cc03.jpg": {
 		"ft": 16384,
 		"iS": 50847,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc03.jpg",
 		"oF": 0,
@@ -2111,6 +2257,7 @@
 	"\/_site\/images\/galleries\/cc04.jpg": {
 		"ft": 16384,
 		"iS": 48981,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc04.jpg",
 		"oF": 0,
@@ -2121,6 +2268,7 @@
 	"\/_site\/images\/galleries\/cc05.jpg": {
 		"ft": 16384,
 		"iS": 48853,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc05.jpg",
 		"oF": 0,
@@ -2131,6 +2279,7 @@
 	"\/_site\/images\/galleries\/cc06.jpg": {
 		"ft": 16384,
 		"iS": 50086,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc06.jpg",
 		"oF": 0,
@@ -2141,6 +2290,7 @@
 	"\/_site\/images\/galleries\/cc07.jpg": {
 		"ft": 16384,
 		"iS": 32652,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc07.jpg",
 		"oF": 0,
@@ -2151,6 +2301,7 @@
 	"\/_site\/images\/galleries\/cc08.jpg": {
 		"ft": 16384,
 		"iS": 33714,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc08.jpg",
 		"oF": 0,
@@ -2161,6 +2312,7 @@
 	"\/_site\/images\/galleries\/cc09.jpg": {
 		"ft": 16384,
 		"iS": 49603,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc09.jpg",
 		"oF": 0,
@@ -2171,6 +2323,7 @@
 	"\/_site\/images\/galleries\/cc10.jpg": {
 		"ft": 16384,
 		"iS": 43275,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc10.jpg",
 		"oF": 0,
@@ -2181,6 +2334,7 @@
 	"\/_site\/images\/galleries\/cc11.jpg": {
 		"ft": 16384,
 		"iS": 49252,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc11.jpg",
 		"oF": 0,
@@ -2191,6 +2345,7 @@
 	"\/_site\/images\/galleries\/cc12.jpg": {
 		"ft": 16384,
 		"iS": 47768,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc12.jpg",
 		"oF": 0,
@@ -2201,6 +2356,7 @@
 	"\/_site\/images\/galleries\/cc13.jpg": {
 		"ft": 16384,
 		"iS": 48227,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc13.jpg",
 		"oF": 0,
@@ -2211,6 +2367,7 @@
 	"\/_site\/images\/galleries\/cc14.jpg": {
 		"ft": 16384,
 		"iS": 45069,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc14.jpg",
 		"oF": 0,
@@ -2221,6 +2378,7 @@
 	"\/_site\/images\/galleries\/cc15.jpg": {
 		"ft": 16384,
 		"iS": 37112,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/cc15.jpg",
 		"oF": 0,
@@ -2253,6 +2411,7 @@
 	"\/_site\/images\/galleries\/erickson_apartment.jpg": {
 		"ft": 16384,
 		"iS": 214050,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/erickson_apartment.jpg",
 		"oF": 0,
@@ -2263,6 +2422,7 @@
 	"\/_site\/images\/galleries\/erickson_attractions.jpg": {
 		"ft": 16384,
 		"iS": 276073,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/erickson_attractions.jpg",
 		"oF": 0,
@@ -2273,6 +2433,7 @@
 	"\/_site\/images\/galleries\/erickson_homepage.jpg": {
 		"ft": 16384,
 		"iS": 260644,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/erickson_homepage.jpg",
 		"oF": 0,
@@ -2283,6 +2444,7 @@
 	"\/_site\/images\/galleries\/erickson_navigation.jpg": {
 		"ft": 16384,
 		"iS": 177839,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/erickson_navigation.jpg",
 		"oF": 0,
@@ -2293,6 +2455,7 @@
 	"\/_site\/images\/galleries\/erickson_windcrest.jpg": {
 		"ft": 16384,
 		"iS": 296287,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/erickson_windcrest.jpg",
 		"oF": 0,
@@ -2314,6 +2477,7 @@
 	"\/_site\/images\/galleries\/gen1.jpg": {
 		"ft": 16384,
 		"iS": 37509,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/gen1.jpg",
 		"oF": 0,
@@ -2324,6 +2488,7 @@
 	"\/_site\/images\/galleries\/gen2.jpg": {
 		"ft": 16384,
 		"iS": 82574,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/gen2.jpg",
 		"oF": 0,
@@ -2334,6 +2499,7 @@
 	"\/_site\/images\/galleries\/gen3.jpg": {
 		"ft": 16384,
 		"iS": 81320,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/gen3.jpg",
 		"oF": 0,
@@ -2344,6 +2510,7 @@
 	"\/_site\/images\/galleries\/lf1.jpg": {
 		"ft": 16384,
 		"iS": 122729,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/lf1.jpg",
 		"oF": 0,
@@ -2354,6 +2521,7 @@
 	"\/_site\/images\/galleries\/lf2.jpg": {
 		"ft": 16384,
 		"iS": 142927,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/lf2.jpg",
 		"oF": 0,
@@ -2364,6 +2532,7 @@
 	"\/_site\/images\/galleries\/lf3.jpg": {
 		"ft": 16384,
 		"iS": 122945,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/lf3.jpg",
 		"oF": 0,
@@ -2374,6 +2543,7 @@
 	"\/_site\/images\/galleries\/ltm1.jpg": {
 		"ft": 16384,
 		"iS": 94540,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/ltm1.jpg",
 		"oF": 0,
@@ -2384,6 +2554,7 @@
 	"\/_site\/images\/galleries\/ltm2.jpg": {
 		"ft": 16384,
 		"iS": 101590,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/ltm2.jpg",
 		"oF": 0,
@@ -2394,6 +2565,7 @@
 	"\/_site\/images\/galleries\/ltm3.jpg": {
 		"ft": 16384,
 		"iS": 101023,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/ltm3.jpg",
 		"oF": 0,
@@ -2404,6 +2576,7 @@
 	"\/_site\/images\/galleries\/ltm4.jpg": {
 		"ft": 16384,
 		"iS": 120827,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/ltm4.jpg",
 		"oF": 0,
@@ -2414,6 +2587,7 @@
 	"\/_site\/images\/galleries\/ltm5.jpg": {
 		"ft": 16384,
 		"iS": 95716,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/ltm5.jpg",
 		"oF": 0,
@@ -2424,6 +2598,7 @@
 	"\/_site\/images\/galleries\/ltm6.jpg": {
 		"ft": 16384,
 		"iS": 85643,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/ltm6.jpg",
 		"oF": 0,
@@ -2478,6 +2653,7 @@
 	"\/_site\/images\/galleries\/pbslm-1024.jpg": {
 		"ft": 16384,
 		"iS": 210820,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/pbslm-1024.jpg",
 		"oF": 0,
@@ -2488,6 +2664,7 @@
 	"\/_site\/images\/galleries\/pbslm-1400.jpg": {
 		"ft": 16384,
 		"iS": 286138,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/pbslm-1400.jpg",
 		"oF": 0,
@@ -2498,6 +2675,7 @@
 	"\/_site\/images\/galleries\/pbslm-480.jpg": {
 		"ft": 16384,
 		"iS": 156806,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/pbslm-480.jpg",
 		"oF": 0,
@@ -2508,6 +2686,7 @@
 	"\/_site\/images\/galleries\/pbslm-768.jpg": {
 		"ft": 16384,
 		"iS": 277805,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/pbslm-768.jpg",
 		"oF": 0,
@@ -2518,6 +2697,7 @@
 	"\/_site\/images\/galleries\/proximo1.jpg": {
 		"ft": 16384,
 		"iS": 61399,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/proximo1.jpg",
 		"oF": 0,
@@ -2528,6 +2708,7 @@
 	"\/_site\/images\/galleries\/proximo2.jpg": {
 		"ft": 16384,
 		"iS": 68593,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/proximo2.jpg",
 		"oF": 0,
@@ -2538,6 +2719,7 @@
 	"\/_site\/images\/galleries\/proximo3.jpg": {
 		"ft": 16384,
 		"iS": 66210,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/proximo3.jpg",
 		"oF": 0,
@@ -2570,6 +2752,7 @@
 	"\/_site\/images\/galleries\/rv1.jpeg": {
 		"ft": 16384,
 		"iS": 223711,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv1.jpg",
 		"oF": 0,
@@ -2580,6 +2763,7 @@
 	"\/_site\/images\/galleries\/rv10.jpeg": {
 		"ft": 16384,
 		"iS": 89503,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv10.jpg",
 		"oF": 0,
@@ -2590,6 +2774,7 @@
 	"\/_site\/images\/galleries\/rv11.jpeg": {
 		"ft": 16384,
 		"iS": 191214,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv11.jpg",
 		"oF": 0,
@@ -2600,6 +2785,7 @@
 	"\/_site\/images\/galleries\/rv12.jpeg": {
 		"ft": 16384,
 		"iS": 237170,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv12.jpg",
 		"oF": 0,
@@ -2610,6 +2796,7 @@
 	"\/_site\/images\/galleries\/rv13.jpeg": {
 		"ft": 16384,
 		"iS": 243586,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv13.jpg",
 		"oF": 0,
@@ -2620,6 +2807,7 @@
 	"\/_site\/images\/galleries\/rv14.jpeg": {
 		"ft": 16384,
 		"iS": 197879,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv14.jpg",
 		"oF": 0,
@@ -2630,6 +2818,7 @@
 	"\/_site\/images\/galleries\/rv15.jpeg": {
 		"ft": 16384,
 		"iS": 216918,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv15.jpg",
 		"oF": 0,
@@ -2640,6 +2829,7 @@
 	"\/_site\/images\/galleries\/rv2.jpeg": {
 		"ft": 16384,
 		"iS": 171704,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv2.jpg",
 		"oF": 0,
@@ -2650,6 +2840,7 @@
 	"\/_site\/images\/galleries\/rv3.jpeg": {
 		"ft": 16384,
 		"iS": 164742,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv3.jpg",
 		"oF": 0,
@@ -2660,6 +2851,7 @@
 	"\/_site\/images\/galleries\/rv4.jpeg": {
 		"ft": 16384,
 		"iS": 174294,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv4.jpg",
 		"oF": 0,
@@ -2670,6 +2862,7 @@
 	"\/_site\/images\/galleries\/rv5.jpeg": {
 		"ft": 16384,
 		"iS": 146098,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv5.jpg",
 		"oF": 0,
@@ -2680,6 +2873,7 @@
 	"\/_site\/images\/galleries\/rv6.jpeg": {
 		"ft": 16384,
 		"iS": 196510,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv6.jpg",
 		"oF": 0,
@@ -2690,6 +2884,7 @@
 	"\/_site\/images\/galleries\/rv7.jpeg": {
 		"ft": 16384,
 		"iS": 163165,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv7.jpg",
 		"oF": 0,
@@ -2700,6 +2895,7 @@
 	"\/_site\/images\/galleries\/rv8.jpeg": {
 		"ft": 16384,
 		"iS": 172783,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv8.jpg",
 		"oF": 0,
@@ -2710,6 +2906,7 @@
 	"\/_site\/images\/galleries\/rv9.jpeg": {
 		"ft": 16384,
 		"iS": 146584,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rv9.jpg",
 		"oF": 0,
@@ -2720,6 +2917,7 @@
 	"\/_site\/images\/galleries\/rws1.jpeg": {
 		"ft": 16384,
 		"iS": 124938,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rws1.jpg",
 		"oF": 0,
@@ -2730,6 +2928,7 @@
 	"\/_site\/images\/galleries\/rws2.jpeg": {
 		"ft": 16384,
 		"iS": 139852,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rws2.jpg",
 		"oF": 0,
@@ -2740,6 +2939,7 @@
 	"\/_site\/images\/galleries\/rws3.jpeg": {
 		"ft": 16384,
 		"iS": 107610,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rws3.jpg",
 		"oF": 0,
@@ -2750,6 +2950,7 @@
 	"\/_site\/images\/galleries\/rws4.jpeg": {
 		"ft": 16384,
 		"iS": 61342,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rws4.jpg",
 		"oF": 0,
@@ -2760,6 +2961,7 @@
 	"\/_site\/images\/galleries\/rws5.jpeg": {
 		"ft": 16384,
 		"iS": 139287,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/rws5.jpg",
 		"oF": 0,
@@ -2770,6 +2972,7 @@
 	"\/_site\/images\/galleries\/Screen_shot_2013-03-05_at_3.25.46_PM.jpeg": {
 		"ft": 16384,
 		"iS": 90405,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/Screen_shot_2013-03-05_at_3.25.46_PM.jpg",
 		"oF": 0,
@@ -2780,6 +2983,7 @@
 	"\/_site\/images\/galleries\/Screen_shot_2013-03-05_at_3.26.44_PM.jpeg": {
 		"ft": 16384,
 		"iS": 95411,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/Screen_shot_2013-03-05_at_3.26.44_PM.jpg",
 		"oF": 0,
@@ -2790,6 +2994,7 @@
 	"\/_site\/images\/galleries\/Screen_shot_2013-03-05_at_3.26.56_PM.jpeg": {
 		"ft": 16384,
 		"iS": 91679,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/Screen_shot_2013-03-05_at_3.26.56_PM.jpg",
 		"oF": 0,
@@ -2811,6 +3016,7 @@
 	"\/_site\/images\/galleries\/seddon1.jpg": {
 		"ft": 16384,
 		"iS": 125198,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/seddon1.jpg",
 		"oF": 0,
@@ -2821,6 +3027,7 @@
 	"\/_site\/images\/galleries\/seddon2.jpg": {
 		"ft": 16384,
 		"iS": 115775,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/seddon2.jpg",
 		"oF": 0,
@@ -2831,6 +3038,7 @@
 	"\/_site\/images\/galleries\/seddon3.jpg": {
 		"ft": 16384,
 		"iS": 87233,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/seddon3.jpg",
 		"oF": 0,
@@ -2841,6 +3049,7 @@
 	"\/_site\/images\/galleries\/seddon4.jpg": {
 		"ft": 16384,
 		"iS": 119506,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/seddon4.jpg",
 		"oF": 0,
@@ -2851,6 +3060,7 @@
 	"\/_site\/images\/galleries\/seddon5.jpg": {
 		"ft": 16384,
 		"iS": 84062,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/seddon5.jpg",
 		"oF": 0,
@@ -2916,6 +3126,7 @@
 	"\/_site\/images\/galleries\/tdc1.jpeg": {
 		"ft": 16384,
 		"iS": 182844,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/tdc1.jpg",
 		"oF": 0,
@@ -2937,6 +3148,7 @@
 	"\/_site\/images\/galleries\/tdc3.jpeg": {
 		"ft": 16384,
 		"iS": 194979,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/tdc3.jpg",
 		"oF": 0,
@@ -2947,6 +3159,7 @@
 	"\/_site\/images\/galleries\/tdc4.jpeg": {
 		"ft": 16384,
 		"iS": 186627,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/galleries\/tdc4.jpg",
 		"oF": 0,
@@ -2968,6 +3181,7 @@
 	"\/_site\/images\/headers\/cc.jpg": {
 		"ft": 16384,
 		"iS": 57421,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/cc.jpg",
 		"oF": 0,
@@ -2989,6 +3203,7 @@
 	"\/_site\/images\/headers\/chester-waffle.jpg": {
 		"ft": 16384,
 		"iS": 40207,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/chester-waffle.jpg",
 		"oF": 0,
@@ -3010,6 +3225,7 @@
 	"\/_site\/images\/headers\/cuties-waffle.jpg": {
 		"ft": 16384,
 		"iS": 24926,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/cuties-waffle.jpg",
 		"oF": 0,
@@ -3031,6 +3247,7 @@
 	"\/_site\/images\/headers\/erickson-waffle.jpg": {
 		"ft": 16384,
 		"iS": 35015,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/erickson-waffle.jpg",
 		"oF": 0,
@@ -3052,6 +3269,7 @@
 	"\/_site\/images\/headers\/erickson.jpg": {
 		"ft": 16384,
 		"iS": 83038,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/erickson.jpg",
 		"oF": 0,
@@ -3073,6 +3291,7 @@
 	"\/_site\/images\/headers\/filters.jpg": {
 		"ft": 16384,
 		"iS": 24537,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/filters.jpg",
 		"oF": 0,
@@ -3094,6 +3313,7 @@
 	"\/_site\/images\/headers\/fp.jpg": {
 		"ft": 16384,
 		"iS": 69468,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/fp.jpg",
 		"oF": 0,
@@ -3115,6 +3335,7 @@
 	"\/_site\/images\/headers\/ftt-waffle.jpg": {
 		"ft": 16384,
 		"iS": 32151,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/ftt-waffle.jpg",
 		"oF": 0,
@@ -3136,6 +3357,7 @@
 	"\/_site\/images\/headers\/getset-waffle.jpg": {
 		"ft": 16384,
 		"iS": 39652,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/getset-waffle.jpg",
 		"oF": 0,
@@ -3157,6 +3379,7 @@
 	"\/_site\/images\/headers\/gms-waffle.jpg": {
 		"ft": 16384,
 		"iS": 24558,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/gms-waffle.jpg",
 		"oF": 0,
@@ -3178,6 +3401,7 @@
 	"\/_site\/images\/headers\/id-header-waffle.jpg": {
 		"ft": 16384,
 		"iS": 41515,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/id-header-waffle.jpg",
 		"oF": 0,
@@ -3188,6 +3412,7 @@
 	"\/_site\/images\/headers\/idgen-waffle.jpg": {
 		"ft": 16384,
 		"iS": 31822,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/idgen-waffle.jpg",
 		"oF": 0,
@@ -3209,6 +3434,7 @@
 	"\/_site\/images\/headers\/lafattoria-waffle.jpg": {
 		"ft": 16384,
 		"iS": 40179,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/lafattoria-waffle.jpg",
 		"oF": 0,
@@ -3230,6 +3456,7 @@
 	"\/_site\/images\/headers\/liberty-waffle.jpg": {
 		"ft": 16384,
 		"iS": 21989,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/liberty-waffle.jpg",
 		"oF": 0,
@@ -3251,6 +3478,7 @@
 	"\/_site\/images\/headers\/ltm-waffle.jpg": {
 		"ft": 16384,
 		"iS": 34179,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/ltm-waffle.jpg",
 		"oF": 0,
@@ -3272,6 +3500,7 @@
 	"\/_site\/images\/headers\/pbs.jpg": {
 		"ft": 16384,
 		"iS": 86270,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/pbs.jpg",
 		"oF": 0,
@@ -3293,6 +3522,7 @@
 	"\/_site\/images\/headers\/pbslm-waffle.jpg": {
 		"ft": 16384,
 		"iS": 53012,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/pbslm-waffle.jpg",
 		"oF": 0,
@@ -3314,6 +3544,7 @@
 	"\/_site\/images\/headers\/proximo-waffle.jpg": {
 		"ft": 16384,
 		"iS": 33490,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/proximo-waffle.jpg",
 		"oF": 0,
@@ -3335,6 +3566,7 @@
 	"\/_site\/images\/headers\/rtt-waffle.jpg": {
 		"ft": 16384,
 		"iS": 27166,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/rtt-waffle.jpg",
 		"oF": 0,
@@ -3356,6 +3588,7 @@
 	"\/_site\/images\/headers\/rv-waffle.jpg": {
 		"ft": 16384,
 		"iS": 39325,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/rv-waffle.jpg",
 		"oF": 0,
@@ -3377,6 +3610,7 @@
 	"\/_site\/images\/headers\/rws-waffle.jpg": {
 		"ft": 16384,
 		"iS": 23644,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/rws-waffle.jpg",
 		"oF": 0,
@@ -3409,6 +3643,7 @@
 	"\/_site\/images\/headers\/rws-waffle_2.jpg": {
 		"ft": 16384,
 		"iS": 34307,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/rws-waffle_2.jpg",
 		"oF": 0,
@@ -3430,6 +3665,7 @@
 	"\/_site\/images\/headers\/seddon-waffle.jpg": {
 		"ft": 16384,
 		"iS": 41386,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/seddon-waffle.jpg",
 		"oF": 0,
@@ -3451,6 +3687,7 @@
 	"\/_site\/images\/headers\/sp.jpg": {
 		"ft": 16384,
 		"iS": 52510,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/sp.jpg",
 		"oF": 0,
@@ -3472,6 +3709,7 @@
 	"\/_site\/images\/headers\/tdc-waffle.jpg": {
 		"ft": 16384,
 		"iS": 32704,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/tdc-waffle.jpg",
 		"oF": 0,
@@ -3493,6 +3731,7 @@
 	"\/_site\/images\/headers\/tdc.jpg": {
 		"ft": 16384,
 		"iS": 104672,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/tdc.jpg",
 		"oF": 0,
@@ -3514,6 +3753,7 @@
 	"\/_site\/images\/headers\/wide-tables.jpg": {
 		"ft": 16384,
 		"iS": 28710,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/headers\/wide-tables.jpg",
 		"oF": 0,
@@ -3725,17 +3965,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/images\/logos\/sometimes.png": {
-		"ft": 32768,
-		"iS": 8327980,
-		"oA": 0,
-		"oAP": "\/_site\/images\/logos\/sometimes.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/_site\/images\/logos\/tdc-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3749,6 +3978,7 @@
 	"\/_site\/images\/photo.jpg": {
 		"ft": 16384,
 		"iS": 6344,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_site\/images\/photo.jpg",
 		"oF": 0,
@@ -3933,16 +4163,17 @@
 		"q": 100
 		},
 	"\/_site\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
 	"\/_site\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3957,12 +4188,14 @@
 		"uCM": 0
 		},
 	"\/_site\/skills\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/skills\/index.html",
 		"oF": 0
 		},
 	"\/_site\/ss-social-circle.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/ss-social-circle.eot",
@@ -3979,174 +4212,196 @@
 		"prP": 0
 		},
 	"\/_site\/ss-social-circle.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/ss-social-circle.ttf",
 		"oF": 0
 		},
 	"\/_site\/ss-social-circle.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/ss-social-circle.woff",
 		"oF": 0
 		},
-	"\/_site\/static\/alan_moore_cv.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/static\/alan_moore_cv.pdf",
-		"oF": 0
-		},
 	"\/_site\/wide-tables-on-small-screens\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/wide-tables-on-small-screens\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/chester-dot-com\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/chester-dot-com\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/crayon-cuties-designer\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/crayon-cuties-designer\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/custom-php-cms\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/custom-php-cms\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/erickson-living\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/erickson-living\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/get-set-magazine\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/get-set-magazine\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/grahams-machinery-sales\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/grahams-machinery-sales\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/hanlys\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/hanlys\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/id-generation\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/id-generation\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/inspired-developments\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/inspired-developments\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/la-fattoria\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/la-fattoria\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/liberty-plc\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/liberty-plc\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/lunchtime-memories\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/lunchtime-memories\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/oaklands-college\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/oaklands-college\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/pbs-learning-media\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/pbs-learning-media\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/proximo\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/proximo\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/regent-financial-calculator\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/regent-financial-calculator\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/rhydymwyn-valley\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/rhydymwyn-valley\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/rhyme-times-tables\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/rhyme-times-tables\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/robbie-stocker\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/robbie-stocker\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/safe-in-mind\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/safe-in-mind\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/seddon-homes\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/seddon-homes\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/student-portal\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/student-portal\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/the-dutch-connection\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/work\/the-dutch-connection\/index.html",
 		"oF": 0
 		},
 	"\/about.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/about.html",
 		"oF": 0
 		},
 	"\/blog.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/blog.html",
@@ -5012,10 +5267,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-box-sizing\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5067,10 +5322,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-clearfix\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5122,10 +5377,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-defaults\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5169,10 +5424,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-functions\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5195,6 +5450,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-media\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/inuit-media\/.gitignore",
@@ -5222,10 +5478,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-media\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5248,6 +5504,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-mixins\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/inuit-mixins\/.gitignore",
@@ -5275,10 +5532,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-mixins\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5330,10 +5587,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-normalize.css\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5385,10 +5642,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-normalize\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5411,6 +5668,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-page\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/inuit-page\/.gitignore",
@@ -5438,10 +5696,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/inuit-page\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5456,12 +5714,14 @@
 		"uCM": 0
 		},
 	"\/build\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
 	"\/colophon.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/colophon.html",
@@ -5478,12 +5738,14 @@
 		"oS": 0
 		},
 	"\/css\/alanmoore.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/css\/alanmoore.css.map",
 		"oF": 0
 		},
 	"\/css\/webfonts\/260ACA_0_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/260ACA_0_0.eot",
@@ -5500,30 +5762,35 @@
 		"prP": 0
 		},
 	"\/css\/webfonts\/260ACA_0_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/260ACA_0_0.ttf",
 		"oF": 0
 		},
 	"\/css\/webfonts\/260ACA_0_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/260ACA_0_0.woff",
 		"oF": 0
 		},
 	"\/css\/webfonts\/260ACA_0_unhinted_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/260ACA_0_unhinted_0.ttf",
 		"oF": 0
 		},
 	"\/css\/webfonts\/260ACA_0_unhinted_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/260ACA_0_unhinted_0.woff",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-black\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/css\/webfonts\/realtime-black\/example.html",
@@ -5561,6 +5828,7 @@
 		"oS": 0
 		},
 	"\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.eot",
@@ -5577,24 +5845,28 @@
 		"prP": 0
 		},
 	"\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.ttf",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.woff",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-black\/webfonts\/realtime-black.woff2",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-bold\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/css\/webfonts\/realtime-bold\/example.html",
@@ -5632,6 +5904,7 @@
 		"oS": 0
 		},
 	"\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.eot",
@@ -5648,24 +5921,28 @@
 		"prP": 0
 		},
 	"\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.ttf",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.woff",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-bold\/webfonts\/realtime-bold.woff2",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-light\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/css\/webfonts\/realtime-light\/example.html",
@@ -5703,6 +5980,7 @@
 		"oS": 0
 		},
 	"\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.eot",
@@ -5719,24 +5997,28 @@
 		"prP": 0
 		},
 	"\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.ttf",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.woff",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-light\/webfonts\/realtime-light.woff2",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-semibold\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/css\/webfonts\/realtime-semibold\/example.html",
@@ -5774,6 +6056,7 @@
 		"oS": 0
 		},
 	"\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.eot",
@@ -5790,24 +6073,28 @@
 		"prP": 0
 		},
 	"\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.ttf",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.woff",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime-semibold\/webfonts\/realtime-semibold.woff2",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/css\/webfonts\/realtime\/example.html",
@@ -5845,6 +6132,7 @@
 		"oS": 0
 		},
 	"\/css\/webfonts\/realtime\/webfonts\/realtime.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime\/webfonts\/realtime.eot",
@@ -5861,24 +6149,28 @@
 		"prP": 0
 		},
 	"\/css\/webfonts\/realtime\/webfonts\/realtime.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime\/webfonts\/realtime.ttf",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime\/webfonts\/realtime.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime\/webfonts\/realtime.woff",
 		"oF": 0
 		},
 	"\/css\/webfonts\/realtime\/webfonts\/realtime.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/realtime\/webfonts\/realtime.woff2",
 		"oF": 0
 		},
 	"\/css\/webfonts\/ss-social-circle.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/ss-social-circle.eot",
@@ -5895,30 +6187,35 @@
 		"prP": 0
 		},
 	"\/css\/webfonts\/ss-social-circle.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/ss-social-circle.ttf",
 		"oF": 0
 		},
 	"\/css\/webfonts\/ss-social-circle.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/webfonts\/ss-social-circle.woff",
 		"oF": 0
 		},
 	"\/feed.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/feed.xml",
 		"oF": 0
 		},
 	"\/Gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Gemfile",
 		"oF": 0
 		},
 	"\/Gemfile.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Gemfile.lock",
@@ -5992,6 +6289,7 @@
 	"\/images\/galleries\/cc01.jpg": {
 		"ft": 16384,
 		"iS": 42072,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc01.jpg",
 		"oF": 0,
@@ -6010,6 +6308,7 @@
 	"\/images\/galleries\/cc03.jpg": {
 		"ft": 16384,
 		"iS": 50847,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc03.jpg",
 		"oF": 0,
@@ -6020,6 +6319,7 @@
 	"\/images\/galleries\/cc04.jpg": {
 		"ft": 16384,
 		"iS": 48981,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc04.jpg",
 		"oF": 0,
@@ -6030,6 +6330,7 @@
 	"\/images\/galleries\/cc05.jpg": {
 		"ft": 16384,
 		"iS": 48853,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc05.jpg",
 		"oF": 0,
@@ -6040,6 +6341,7 @@
 	"\/images\/galleries\/cc06.jpg": {
 		"ft": 16384,
 		"iS": 50086,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc06.jpg",
 		"oF": 0,
@@ -6050,6 +6352,7 @@
 	"\/images\/galleries\/cc07.jpg": {
 		"ft": 16384,
 		"iS": 32652,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc07.jpg",
 		"oF": 0,
@@ -6060,6 +6363,7 @@
 	"\/images\/galleries\/cc08.jpg": {
 		"ft": 16384,
 		"iS": 33714,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc08.jpg",
 		"oF": 0,
@@ -6070,6 +6374,7 @@
 	"\/images\/galleries\/cc09.jpg": {
 		"ft": 16384,
 		"iS": 49603,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc09.jpg",
 		"oF": 0,
@@ -6080,6 +6385,7 @@
 	"\/images\/galleries\/cc10.jpg": {
 		"ft": 16384,
 		"iS": 43275,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc10.jpg",
 		"oF": 0,
@@ -6090,6 +6396,7 @@
 	"\/images\/galleries\/cc11.jpg": {
 		"ft": 16384,
 		"iS": 49252,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc11.jpg",
 		"oF": 0,
@@ -6100,6 +6407,7 @@
 	"\/images\/galleries\/cc12.jpg": {
 		"ft": 16384,
 		"iS": 47768,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc12.jpg",
 		"oF": 0,
@@ -6110,6 +6418,7 @@
 	"\/images\/galleries\/cc13.jpg": {
 		"ft": 16384,
 		"iS": 48227,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc13.jpg",
 		"oF": 0,
@@ -6120,6 +6429,7 @@
 	"\/images\/galleries\/cc14.jpg": {
 		"ft": 16384,
 		"iS": 45069,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc14.jpg",
 		"oF": 0,
@@ -6130,6 +6440,7 @@
 	"\/images\/galleries\/cc15.jpg": {
 		"ft": 16384,
 		"iS": 37112,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/cc15.jpg",
 		"oF": 0,
@@ -6162,6 +6473,7 @@
 	"\/images\/galleries\/erickson_apartment.jpg": {
 		"ft": 16384,
 		"iS": 234119,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/erickson_apartment.jpg",
 		"oF": 0,
@@ -6172,6 +6484,7 @@
 	"\/images\/galleries\/erickson_attractions.jpg": {
 		"ft": 16384,
 		"iS": 296758,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/erickson_attractions.jpg",
 		"oF": 0,
@@ -6182,6 +6495,7 @@
 	"\/images\/galleries\/erickson_homepage.jpg": {
 		"ft": 16384,
 		"iS": 275550,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/erickson_homepage.jpg",
 		"oF": 0,
@@ -6192,6 +6506,7 @@
 	"\/images\/galleries\/erickson_navigation.jpg": {
 		"ft": 16384,
 		"iS": 196016,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/erickson_navigation.jpg",
 		"oF": 0,
@@ -6202,6 +6517,7 @@
 	"\/images\/galleries\/erickson_windcrest.jpg": {
 		"ft": 16384,
 		"iS": 312076,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/erickson_windcrest.jpg",
 		"oF": 0,
@@ -6223,6 +6539,7 @@
 	"\/images\/galleries\/gen1.jpg": {
 		"ft": 16384,
 		"iS": 37509,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/gen1.jpg",
 		"oF": 0,
@@ -6233,6 +6550,7 @@
 	"\/images\/galleries\/gen2.jpg": {
 		"ft": 16384,
 		"iS": 82574,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/gen2.jpg",
 		"oF": 0,
@@ -6243,6 +6561,7 @@
 	"\/images\/galleries\/gen3.jpg": {
 		"ft": 16384,
 		"iS": 81320,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/gen3.jpg",
 		"oF": 0,
@@ -6253,6 +6572,7 @@
 	"\/images\/galleries\/lf1.jpg": {
 		"ft": 16384,
 		"iS": 130951,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/lf1.jpg",
 		"oF": 0,
@@ -6263,6 +6583,7 @@
 	"\/images\/galleries\/lf2.jpg": {
 		"ft": 16384,
 		"iS": 152849,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/lf2.jpg",
 		"oF": 0,
@@ -6273,6 +6594,7 @@
 	"\/images\/galleries\/lf3.jpg": {
 		"ft": 16384,
 		"iS": 130650,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/lf3.jpg",
 		"oF": 0,
@@ -6283,6 +6605,7 @@
 	"\/images\/galleries\/ltm1.jpg": {
 		"ft": 16384,
 		"iS": 94540,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/ltm1.jpg",
 		"oF": 0,
@@ -6293,6 +6616,7 @@
 	"\/images\/galleries\/ltm2.jpg": {
 		"ft": 16384,
 		"iS": 101590,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/ltm2.jpg",
 		"oF": 0,
@@ -6303,6 +6627,7 @@
 	"\/images\/galleries\/ltm3.jpg": {
 		"ft": 16384,
 		"iS": 101023,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/ltm3.jpg",
 		"oF": 0,
@@ -6313,6 +6638,7 @@
 	"\/images\/galleries\/ltm4.jpg": {
 		"ft": 16384,
 		"iS": 120827,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/ltm4.jpg",
 		"oF": 0,
@@ -6323,6 +6649,7 @@
 	"\/images\/galleries\/ltm5.jpg": {
 		"ft": 16384,
 		"iS": 95716,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/ltm5.jpg",
 		"oF": 0,
@@ -6333,6 +6660,7 @@
 	"\/images\/galleries\/ltm6.jpg": {
 		"ft": 16384,
 		"iS": 85643,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/ltm6.jpg",
 		"oF": 0,
@@ -6387,6 +6715,7 @@
 	"\/images\/galleries\/pbslm-1024.jpg": {
 		"ft": 16384,
 		"iS": 210820,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/pbslm-1024.jpg",
 		"oF": 0,
@@ -6397,6 +6726,7 @@
 	"\/images\/galleries\/pbslm-1400.jpg": {
 		"ft": 16384,
 		"iS": 286138,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/pbslm-1400.jpg",
 		"oF": 0,
@@ -6407,6 +6737,7 @@
 	"\/images\/galleries\/pbslm-480.jpg": {
 		"ft": 16384,
 		"iS": 156806,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/pbslm-480.jpg",
 		"oF": 0,
@@ -6417,6 +6748,7 @@
 	"\/images\/galleries\/pbslm-768.jpg": {
 		"ft": 16384,
 		"iS": 277805,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/pbslm-768.jpg",
 		"oF": 0,
@@ -6427,6 +6759,7 @@
 	"\/images\/galleries\/proximo1.jpg": {
 		"ft": 16384,
 		"iS": 61399,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/proximo1.jpg",
 		"oF": 0,
@@ -6437,6 +6770,7 @@
 	"\/images\/galleries\/proximo2.jpg": {
 		"ft": 16384,
 		"iS": 68593,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/proximo2.jpg",
 		"oF": 0,
@@ -6447,6 +6781,7 @@
 	"\/images\/galleries\/proximo3.jpg": {
 		"ft": 16384,
 		"iS": 66210,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/proximo3.jpg",
 		"oF": 0,
@@ -6479,6 +6814,7 @@
 	"\/images\/galleries\/rv1.jpeg": {
 		"ft": 16384,
 		"iS": 244120,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv1.jpg",
 		"oF": 0,
@@ -6489,6 +6825,7 @@
 	"\/images\/galleries\/rv10.jpeg": {
 		"ft": 16384,
 		"iS": 100329,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv10.jpg",
 		"oF": 0,
@@ -6499,6 +6836,7 @@
 	"\/images\/galleries\/rv11.jpeg": {
 		"ft": 16384,
 		"iS": 209343,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv11.jpg",
 		"oF": 0,
@@ -6509,6 +6847,7 @@
 	"\/images\/galleries\/rv12.jpeg": {
 		"ft": 16384,
 		"iS": 256413,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv12.jpg",
 		"oF": 0,
@@ -6519,6 +6858,7 @@
 	"\/images\/galleries\/rv13.jpeg": {
 		"ft": 16384,
 		"iS": 263779,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv13.jpg",
 		"oF": 0,
@@ -6529,6 +6869,7 @@
 	"\/images\/galleries\/rv14.jpeg": {
 		"ft": 16384,
 		"iS": 213180,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv14.jpg",
 		"oF": 0,
@@ -6539,6 +6880,7 @@
 	"\/images\/galleries\/rv15.jpeg": {
 		"ft": 16384,
 		"iS": 234321,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv15.jpg",
 		"oF": 0,
@@ -6549,6 +6891,7 @@
 	"\/images\/galleries\/rv2.jpeg": {
 		"ft": 16384,
 		"iS": 184696,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv2.jpg",
 		"oF": 0,
@@ -6559,6 +6902,7 @@
 	"\/images\/galleries\/rv3.jpeg": {
 		"ft": 16384,
 		"iS": 177324,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv3.jpg",
 		"oF": 0,
@@ -6569,6 +6913,7 @@
 	"\/images\/galleries\/rv4.jpeg": {
 		"ft": 16384,
 		"iS": 188126,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv4.jpg",
 		"oF": 0,
@@ -6579,6 +6924,7 @@
 	"\/images\/galleries\/rv5.jpeg": {
 		"ft": 16384,
 		"iS": 157380,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv5.jpg",
 		"oF": 0,
@@ -6589,6 +6935,7 @@
 	"\/images\/galleries\/rv6.jpeg": {
 		"ft": 16384,
 		"iS": 214080,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv6.jpg",
 		"oF": 0,
@@ -6599,6 +6946,7 @@
 	"\/images\/galleries\/rv7.jpeg": {
 		"ft": 16384,
 		"iS": 174561,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv7.jpg",
 		"oF": 0,
@@ -6609,6 +6957,7 @@
 	"\/images\/galleries\/rv8.jpeg": {
 		"ft": 16384,
 		"iS": 186115,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv8.jpg",
 		"oF": 0,
@@ -6619,6 +6968,7 @@
 	"\/images\/galleries\/rv9.jpeg": {
 		"ft": 16384,
 		"iS": 157136,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rv9.jpg",
 		"oF": 0,
@@ -6629,6 +6979,7 @@
 	"\/images\/galleries\/rws1.jpeg": {
 		"ft": 16384,
 		"iS": 139843,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rws1.jpg",
 		"oF": 0,
@@ -6639,6 +6990,7 @@
 	"\/images\/galleries\/rws2.jpeg": {
 		"ft": 16384,
 		"iS": 155000,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rws2.jpg",
 		"oF": 0,
@@ -6649,6 +7001,7 @@
 	"\/images\/galleries\/rws3.jpeg": {
 		"ft": 16384,
 		"iS": 119984,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rws3.jpg",
 		"oF": 0,
@@ -6659,6 +7012,7 @@
 	"\/images\/galleries\/rws4.jpeg": {
 		"ft": 16384,
 		"iS": 73368,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rws4.jpg",
 		"oF": 0,
@@ -6669,6 +7023,7 @@
 	"\/images\/galleries\/rws5.jpeg": {
 		"ft": 16384,
 		"iS": 157736,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/rws5.jpg",
 		"oF": 0,
@@ -6679,6 +7034,7 @@
 	"\/images\/galleries\/Screen_shot_2013-03-05_at_3.25.46_PM.jpeg": {
 		"ft": 16384,
 		"iS": 112761,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/Screen_shot_2013-03-05_at_3.25.46_PM.jpg",
 		"oF": 0,
@@ -6689,6 +7045,7 @@
 	"\/images\/galleries\/Screen_shot_2013-03-05_at_3.26.44_PM.jpeg": {
 		"ft": 16384,
 		"iS": 117964,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/Screen_shot_2013-03-05_at_3.26.44_PM.jpg",
 		"oF": 0,
@@ -6699,6 +7056,7 @@
 	"\/images\/galleries\/Screen_shot_2013-03-05_at_3.26.56_PM.jpeg": {
 		"ft": 16384,
 		"iS": 117051,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/Screen_shot_2013-03-05_at_3.26.56_PM.jpg",
 		"oF": 0,
@@ -6720,6 +7078,7 @@
 	"\/images\/galleries\/seddon1.jpg": {
 		"ft": 16384,
 		"iS": 125198,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/seddon1.jpg",
 		"oF": 0,
@@ -6730,6 +7089,7 @@
 	"\/images\/galleries\/seddon2.jpg": {
 		"ft": 16384,
 		"iS": 115775,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/seddon2.jpg",
 		"oF": 0,
@@ -6740,6 +7100,7 @@
 	"\/images\/galleries\/seddon3.jpg": {
 		"ft": 16384,
 		"iS": 87233,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/seddon3.jpg",
 		"oF": 0,
@@ -6750,6 +7111,7 @@
 	"\/images\/galleries\/seddon4.jpg": {
 		"ft": 16384,
 		"iS": 119506,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/seddon4.jpg",
 		"oF": 0,
@@ -6760,6 +7122,7 @@
 	"\/images\/galleries\/seddon5.jpg": {
 		"ft": 16384,
 		"iS": 84062,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/seddon5.jpg",
 		"oF": 0,
@@ -6825,6 +7188,7 @@
 	"\/images\/galleries\/tdc1.jpeg": {
 		"ft": 16384,
 		"iS": 205248,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/tdc1.jpg",
 		"oF": 0,
@@ -6846,6 +7210,7 @@
 	"\/images\/galleries\/tdc3.jpeg": {
 		"ft": 16384,
 		"iS": 218323,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/tdc3.jpg",
 		"oF": 0,
@@ -6856,6 +7221,7 @@
 	"\/images\/galleries\/tdc4.jpeg": {
 		"ft": 16384,
 		"iS": 210231,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/galleries\/tdc4.jpg",
 		"oF": 0,
@@ -6877,6 +7243,7 @@
 	"\/images\/headers\/cc.jpg": {
 		"ft": 16384,
 		"iS": 57421,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/cc.jpg",
 		"oF": 0,
@@ -6898,6 +7265,7 @@
 	"\/images\/headers\/chester-waffle.jpg": {
 		"ft": 16384,
 		"iS": 43565,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/chester-waffle.jpg",
 		"oF": 0,
@@ -6919,6 +7287,7 @@
 	"\/images\/headers\/cuties-waffle.jpg": {
 		"ft": 16384,
 		"iS": 27667,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/cuties-waffle.jpg",
 		"oF": 0,
@@ -6940,6 +7309,7 @@
 	"\/images\/headers\/erickson-waffle.jpg": {
 		"ft": 16384,
 		"iS": 37427,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/erickson-waffle.jpg",
 		"oF": 0,
@@ -6961,6 +7331,7 @@
 	"\/images\/headers\/erickson.jpg": {
 		"ft": 16384,
 		"iS": 83038,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/erickson.jpg",
 		"oF": 0,
@@ -6982,6 +7353,7 @@
 	"\/images\/headers\/filters.jpg": {
 		"ft": 16384,
 		"iS": 24537,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/filters.jpg",
 		"oF": 0,
@@ -7003,6 +7375,7 @@
 	"\/images\/headers\/fp.jpg": {
 		"ft": 16384,
 		"iS": 69468,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/fp.jpg",
 		"oF": 0,
@@ -7024,6 +7397,7 @@
 	"\/images\/headers\/ftt-waffle.jpg": {
 		"ft": 16384,
 		"iS": 35081,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/ftt-waffle.jpg",
 		"oF": 0,
@@ -7045,6 +7419,7 @@
 	"\/images\/headers\/getset-waffle.jpg": {
 		"ft": 16384,
 		"iS": 42931,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/getset-waffle.jpg",
 		"oF": 0,
@@ -7066,6 +7441,7 @@
 	"\/images\/headers\/gms-waffle.jpg": {
 		"ft": 16384,
 		"iS": 27206,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/gms-waffle.jpg",
 		"oF": 0,
@@ -7087,6 +7463,7 @@
 	"\/images\/headers\/id-header-waffle.jpg": {
 		"ft": 16384,
 		"iS": 41515,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/id-header-waffle.jpg",
 		"oF": 0,
@@ -7097,6 +7474,7 @@
 	"\/images\/headers\/idgen-waffle.jpg": {
 		"ft": 16384,
 		"iS": 34307,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/idgen-waffle.jpg",
 		"oF": 0,
@@ -7118,6 +7496,7 @@
 	"\/images\/headers\/lafattoria-waffle.jpg": {
 		"ft": 16384,
 		"iS": 42941,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/lafattoria-waffle.jpg",
 		"oF": 0,
@@ -7139,6 +7518,7 @@
 	"\/images\/headers\/liberty-waffle.jpg": {
 		"ft": 16384,
 		"iS": 23985,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/liberty-waffle.jpg",
 		"oF": 0,
@@ -7160,6 +7540,7 @@
 	"\/images\/headers\/ltm-waffle.jpg": {
 		"ft": 16384,
 		"iS": 36576,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/ltm-waffle.jpg",
 		"oF": 0,
@@ -7181,6 +7562,7 @@
 	"\/images\/headers\/pbs.jpg": {
 		"ft": 16384,
 		"iS": 86270,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/pbs.jpg",
 		"oF": 0,
@@ -7202,6 +7584,7 @@
 	"\/images\/headers\/pbslm-waffle.jpg": {
 		"ft": 16384,
 		"iS": 53012,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/pbslm-waffle.jpg",
 		"oF": 0,
@@ -7223,6 +7606,7 @@
 	"\/images\/headers\/proximo-waffle.jpg": {
 		"ft": 16384,
 		"iS": 35812,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/proximo-waffle.jpg",
 		"oF": 0,
@@ -7244,6 +7628,7 @@
 	"\/images\/headers\/rtt-waffle.jpg": {
 		"ft": 16384,
 		"iS": 29928,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/rtt-waffle.jpg",
 		"oF": 0,
@@ -7265,6 +7650,7 @@
 	"\/images\/headers\/rv-waffle.jpg": {
 		"ft": 16384,
 		"iS": 41637,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/rv-waffle.jpg",
 		"oF": 0,
@@ -7286,6 +7672,7 @@
 	"\/images\/headers\/rws-waffle.jpg": {
 		"ft": 16384,
 		"iS": 25654,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/rws-waffle.jpg",
 		"oF": 0,
@@ -7318,6 +7705,7 @@
 	"\/images\/headers\/rws-waffle_2.jpg": {
 		"ft": 16384,
 		"iS": 36489,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/rws-waffle_2.jpg",
 		"oF": 0,
@@ -7339,6 +7727,7 @@
 	"\/images\/headers\/seddon-waffle.jpg": {
 		"ft": 16384,
 		"iS": 44280,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/seddon-waffle.jpg",
 		"oF": 0,
@@ -7360,6 +7749,7 @@
 	"\/images\/headers\/sp.jpg": {
 		"ft": 16384,
 		"iS": 52510,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/sp.jpg",
 		"oF": 0,
@@ -7381,6 +7771,7 @@
 	"\/images\/headers\/tdc-waffle.jpg": {
 		"ft": 16384,
 		"iS": 35576,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/tdc-waffle.jpg",
 		"oF": 0,
@@ -7402,6 +7793,7 @@
 	"\/images\/headers\/tdc.jpg": {
 		"ft": 16384,
 		"iS": 104672,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/tdc.jpg",
 		"oF": 0,
@@ -7423,6 +7815,7 @@
 	"\/images\/headers\/wide-tables.jpg": {
 		"ft": 16384,
 		"iS": 28710,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/headers\/wide-tables.jpg",
 		"oF": 0,
@@ -7647,6 +8040,7 @@
 	"\/images\/photo.jpg": {
 		"ft": 16384,
 		"iS": 6972,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/photo.jpg",
 		"oF": 0,
@@ -7831,16 +8225,17 @@
 		"q": 100
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 0,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7855,12 +8250,14 @@
 		"uCM": 0
 		},
 	"\/skills.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/skills.html",
 		"oF": 0
 		},
 	"\/ss-social-circle.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/ss-social-circle.eot",
@@ -7877,18 +8274,21 @@
 		"prP": 0
 		},
 	"\/ss-social-circle.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/ss-social-circle.ttf",
 		"oF": 0
 		},
 	"\/ss-social-circle.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/ss-social-circle.woff",
 		"oF": 0
 		},
 	"\/static\/alan_moore_cv.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/static\/alan_moore_cv.pdf",
@@ -7903,14 +8303,16 @@
 	"creationDate": 500304359,
 	"displayValue": "alanmoore.info (Jekyll)",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-cryingJordan"
+	"iconImageName": "meme-cryingJordan",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -8439,6 +8841,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -8470,6 +8876,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -8503,9 +8913,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -8535,6 +8945,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -8544,14 +8958,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -9293,7 +9699,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/127.0.0.1:4000",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -9655,7 +10061,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -9688,6 +10095,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -9699,6 +10107,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -9729,7 +10138,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -9761,13 +10171,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -9776,7 +10186,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -9796,7 +10207,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -9824,7 +10236,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
