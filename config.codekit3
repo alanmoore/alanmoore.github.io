@@ -1552,6 +1552,22 @@
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
+	"\/_site\/css\/alanmoore.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/css\/alanmoore-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/css\/alanmoore.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/css\/alanmoore.css.map",
+		"oF": 0
+		},
 	"\/_site\/css\/webfonts\/260ACA_0_0.eot": {
 		"ft": 8192,
 		"oA": 2,
