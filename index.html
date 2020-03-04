@@ -53,65 +53,21 @@ order: 1
     </div>
 </div>
 
-<div class="portfolio-group  pbs  media">
-    <div class="media__img  featured-item  pbslm">
-        <img src="/images/logos/pbs-logo.svg" alt="PBS logo" class="featured-item-logo" />
-    </div>
-    <div class="media__body">
-        <h4>PBS Learning Media </h4>
-        <ul class="portfolio-list-links">
-            {% for post in site.posts %}
-                {% if post.category == 'pbs'  %}
-                    <li><time datetime="{{ post.date }}">{{ post.year }}</time>
-                        <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-            
-    </div>
-</div>
-
-<div class="portfolio-group  erickson  media">
-    <div class="media__img  featured-item  erickson-living">
-        <img src="/images/logos/erickson-logo.svg" alt="Erickson Living logo" 
-            class="featured-item-logo" />
-    </div>
-    <div class="media__body">
-        <h4>Erickson Living </h4>
-        <p>Erickson Living manages high-end retirement homes across the US. </p>
-        <ul class="portfolio-list-links">
-            {% for post in site.posts %}
-                {% if post.category == 'erickson'  %}
-                    <li><time datetime="{{ post.date }}">{{ post.year }}</time>
-                        <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-            
-    </div>
-</div>
-
-<div class="portfolio-group  deluxe  media">
-    <div class="media__img  featured-item  crayon">
-        <img src="/images/logos/deluxe-logo.svg" alt="Deluxe Checks logo" 
-            class="featured-item-logo" />
-    </div>
-    <div class="media__body">
-        <h4>Deluxe Checks </h4>
-        <p>Deluxe Checks print custom designs onto banking checks </p>
-        <ul class="portfolio-list-links">
-            {% for post in site.posts %}
-                {% if post.category == 'deluxe'  %}
-                    <li><time datetime="{{ post.date }}">{{ post.year }}</time>
-                        <a href="/{{ post.permalink }}">{{ post.title }}</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-            
-    </div>
-</div>
-
+<h3 class="title" id="older-work">Early American</h3>
+<p>Work created in the USA between 2008 and 2014, before I refocused on User Experience.</p> 
+<ul class="portfolio-list-links  columns-2">
+    {% for post in site.posts %}
+        {% if post.type == 'portfolio'  %}
+            {% if post.category == 'early-american'  %}
+                <li><time datetime="{{ post.date }}">{{ post.year }}</time>
+                    <a href="/{{ post.permalink }}">{{ post.title }} </a></li>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</ul>
+    
 <h3 class="title" id="older-work">Web Design, etc.</h3>
+<p>My early career, from hacking HTML in the late 1990's, through the Flash years and on to semantic HTML and CSS. </p> 
 <ul class="portfolio-list-links  columns-2">
     {% for post in site.posts %}
         {% if post.type == 'portfolio'  %}
