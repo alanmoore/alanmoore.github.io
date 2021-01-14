@@ -1,0 +1,52 @@
+---
+site_title: Alan Moore
+site_subtitle: Interaction Design
+site_url: www.alanmoore.info
+---
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{title}} :.: Interaction Design by Alan Moore</title>
+        <meta name="description" content="{{description}}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:title" content="">
+        <meta property="og:type" content="">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <meta name="theme-color" content="#fafafa">
+    </head>
+
+    <body>
+        <a href="#main-content">Skip to main content</a>
+        <header>
+            <h1>{{site_title}}</h1>
+            <h2>{{site_subtitle}}</h2>
+            <h3>{{site_url}}</h3>
+        </header>
+        <nav>
+            {% include _navigation.html %}}
+        </nav>
+        <main id="main-content">
+            {{content | safe}}
+        </main>
+        <footer>
+            <p>Copyright &copy; 2004-2021 Alan Moore.
+                Built in HTML and SCSS with <a href="https://www.11ty.dev" target="_blank">11ty</a>.
+                Hosted by <a hef="https://www.opalstack.com/" target="_blank">OpalStack</a>.
+                <a href="">Full credits and colophon here</a>. </p>
+        </footer>
+        <nav>
+            {% include _navigation.html %}}
+        </nav>
+    </body>
+</html>
