@@ -16,24 +16,44 @@ site_url: www.alanmoore.info
         <meta property="og:url" content="">
         <meta property="og:image" content="">
 
-        <link rel="manifest" href="site.webmanifest">
+<!--        <link rel="manifest" href="site.webmanifest">-->
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link rel="preload" href="fonts/Popgod/font.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="fonts/realtime/webfonts/realtime.woff2" as="font" type="font/woff2" crossorigin>
 
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/am.css">
 
         <meta name="theme-color" content="#fafafa">
+
+        <style>
+            @font-face {
+                font-family: Realtime;
+                src: url(fonts/realtime/webfonts/realtime.woff2) format("woff2"),
+                url(fonts/realtime/webfonts/realtime.woff) format("woff");
+                font-weight: 700;
+                font-display: swap;
+            }
+            @font-face {
+                font-family: Popgod;
+                src: url(fonts/Popgod/font.woff2) format("woff2"),
+                url(fonts/Popgod/font.woff) format("woff");
+                font-weight: 400;
+                font-display: swap;
+            }
+        </style>
+
+
+
     </head>
 
     <body>
         <a href="#main-content">Skip to main content</a>
-        <header>
-            <h1>{{site_title}}</h1>
-            <h2>{{site_subtitle}}</h2>
-            <h3>{{site_url}}</h3>
+        <header class="masthead">
+            <h1 class="masthead__title">{{site_title}}</h1>
+            <h2 class="masthead__subtitle">{{site_subtitle}}</h2>
+            <h3 class="masthead_url">{{site_url}}</h3>
         </header>
         <nav>
             {% include _navigation.html %}}

@@ -1,1 +1,75 @@
 @import "../node_modules/normalize-scss/sass/normalize/import-now";
+
+@font-face {
+  font-family: Popgod;
+  src: url('fonts/Popgod/font.woff2') format('woff2'),
+  url('fonts/Popgod/font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Realtime;
+  src: url('fonts/realtime/webfonts/realtime.woff2') format('woff2'),
+  url('fonts/realtime/webfonts/realtime.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//@font-face {
+//  font-family: Lato;
+//  src: url('font-lato/lato-italic-webfont.woff2') format('woff2'),
+//  url('font-lato/lato-italic-webfont.woff') format('woff');
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: Lato;
+//  src: url('font-lato/lato-bolditalic-webfont.woff2') format('woff2'),
+//  url('font-lato/lato-bolditalic-webfont.woff') format('woff');
+//  font-weight: 700;
+//  font-style: italic;
+//}
+body {
+  font-family: Lato, sans-serif;
+}
+
+
+html,
+body {
+  font-family: Realtime;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Popgod;
+}
+
+.masthead {
+  background-color: #8BC53F;
+  color: #fff;
+  display: flex;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+
+.masthead__title,
+.masthead__subtitle {
+  font-family: Popgod;
+}
+
+.masthead__title {
+  font-size: 3rem;
+}
+
+.masthead__subtitle {
+  font-size: 2rem;
+}
+
+.masthead_url {
+  font-family: Realtime;
+  font-size: 1rem;
+}
+
