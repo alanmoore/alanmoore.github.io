@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("static");
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("fonts");
 
 
     return {
