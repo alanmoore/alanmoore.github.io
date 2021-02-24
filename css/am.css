@@ -463,11 +463,6 @@ template {
   font-style: normal;
 }
 body {
-  font-family: Lato, sans-serif;
-}
-
-html,
-body {
   font-family: Realtime;
   font-size: 16px;
 }
@@ -478,10 +473,15 @@ h3 {
   font-family: Popgod;
 }
 
+a[href="#main-content"] {
+  display: none;
+}
+
 .masthead {
   background-color: #8BC53F;
   color: #fff;
   display: flex;
+  flex-direction: column;
   padding: 0.5rem;
   width: 100%;
 }
@@ -502,6 +502,40 @@ h3 {
 .masthead_url {
   font-family: Realtime;
   font-size: 1rem;
+}
+
+.main-navigation {
+  text-align: center;
+  width: 100%;
+}
+
+.main-navigation__items {
+  display: inline-flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.main-navigation__item {
+  font-size: 1.4rem;
+  list-style-type: none;
+  padding: 0.3em 0.5em;
+  text-transform: uppercase;
+}
+
+.page-header {
+  color: #69B9D4;
+  text-align: center;
+}
+
+.section-header {
+  color: #41a7c9;
+  font-size: 1.4rem;
+}
+
+section,
+main {
+  max-width: 42rem;
+  padding-left: calc(50% - 21rem);
 }
 
 /*# sourceMappingURL=am.css.map */

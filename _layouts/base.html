@@ -50,13 +50,13 @@ site_url: www.alanmoore.info
 
     <body>
         <a href="#main-content">Skip to main content</a>
-        <header class="masthead">
+        <header class="masthead" role="banner">
             <h1 class="masthead__title">{{site_title}}</h1>
             <h2 class="masthead__subtitle">{{site_subtitle}}</h2>
             <h3 class="masthead_url">{{site_url}}</h3>
         </header>
-        <nav>
-            {% include _navigation.html %}}
+        <nav class="main-navigation" role="navigation">
+            {% include _navigation.html %}
         </nav>
         <main id="main-content">
             {{content | safe}}
