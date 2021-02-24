@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
     // If you use a subdirectory, it’ll copy using the same directory structure.
     eleventyConfig.addPassthroughCopy("static");
     eleventyConfig.addPassthroughCopy("images");
+    eleventyConfig.addPassthroughCopy("css");
 
 
     return {

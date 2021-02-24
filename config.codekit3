@@ -77,6 +77,24 @@
 		"oAP": "/_site/index.html",
 		"oF": 0
 		},
+	"/css/am.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/am-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/am.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/css/am.css.map",
+		"oF": 0
+		},
 	"/images/alan-head.png": {
 		"ft": 32768,
 		"iS": 20525,
@@ -2119,6 +2137,19 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/scss/am.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/am.css",
+		"oF": 2,
+		"oS": 0,
+		"sct": 0
 		},
 	"/static/alan_moore_cv.pdf": {
 		"cB": 0,
