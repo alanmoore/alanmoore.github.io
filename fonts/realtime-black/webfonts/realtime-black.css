@@ -1,0 +1,27 @@
+/*
+Font: 		Realtime
+Style: 		Black
+URL: 		https://www.youworkforthem.com/font/T5701/realtime
+Foundry: 	Juri Zaech
+Foundry: 	https://www.youworkforthem.com/designer/253/juri-zaech
+Copyright:	Copyright © 2015 by Juri Zaech. All rights reserved.
+Version: 	17
+Created:	May 06, 2015
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Realtime-Black';
+	src: url('realtime-black.eot');
+	src: url('realtime-black.eot?#iefix') format('embedded-opentype'),
+             url('realtime-black.woff2') format('woff2'),
+	     url('realtime-black.woff') format('woff'),
+	     url('realtime-black.ttf') format('truetype'),
+	     url('realtime-black.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
