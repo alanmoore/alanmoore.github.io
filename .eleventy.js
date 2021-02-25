@@ -4,8 +4,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setWatchThrottleWaitTime(2000);
 
     // Watch the /scss folder for changes
-    eleventyConfig.addWatchTarget("./css/");
-    eleventyConfig.addWatchTarget("./scss/");
+    eleventyConfig.addWatchTarget("./css/**/*.css");
+    eleventyConfig.addWatchTarget("./scss/**/*.scss");
 
 
     // Output directory: _site
