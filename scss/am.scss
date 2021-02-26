@@ -26,6 +26,10 @@ $default-color: #333;
 $green: #8BC53F;
 $blue: #69B9D4;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: $default-color;
   font-family: Realtime;
@@ -55,7 +59,19 @@ a {
     border-bottom-color: $default-color;
     border-bottom-style: dotted;
   }
+}
 
+section,
+main,
+footer {
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100%;
+  @media(min-width: 45rem ) {
+    max-width: 42rem;
+    margin-left: calc(50% - 21rem);
+    padding: 0;
+  }
 }
 
 .masthead {
@@ -67,6 +83,7 @@ a {
   color: #fff;
   display: flex;
   flex-direction: column;
+  margin: 0;
   padding: 0.5rem;
   padding-top: 6rem;
   width: 100%;
@@ -104,6 +121,7 @@ a {
 
 .main-navigation__items {
   display: inline-flex;
+  flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
   margin: 0.5rem 0;
@@ -132,12 +150,6 @@ a {
   text-align: center;
 }
 
-section,
-main {
-  max-width: 42rem;
-  padding-left: calc(50% - 21rem);
-}
-
 .header-with-logo {
   align-items: center;
   display: flex;
@@ -150,9 +162,13 @@ main {
   }
 }
 
+.header-with-logo--first {
+  margin-top: 5rem;
+}
+
 .header-with-logo--regent {
   .section-header {
-    color: darken(#428BCA, 8%);
+    color: lighten(#01365f, 15%);
   }
 }
 
@@ -165,7 +181,7 @@ main {
 
 .header-with-logo--sd {
   .section-header {
-    color: darken(#DD472A, 8%);
+    color: lighten(#DD472A, 8%);
   }
 }
 
@@ -184,7 +200,7 @@ main {
 }
 
 .company-logo--regent {
-  background-color: #428BCA;
+  background-color: #01365f;
 }
 
 .company-logo--sd {
