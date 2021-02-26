@@ -466,6 +466,10 @@ template {
   src: url("fonts/realtime-semibold/webfonts/realtime-semibold.woff2") format("woff2"), url("fonts/realtime-semibold/webfonts/realtime-semibold.woff") format("woff");
   font-weight: 400;
 }
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #333;
   font-family: Realtime;
@@ -496,6 +500,23 @@ a:hover {
   border-bottom-style: dotted;
 }
 
+section,
+main,
+footer {
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100%;
+}
+@media (min-width: 45rem) {
+  section,
+main,
+footer {
+    max-width: 42rem;
+    margin-left: calc(50% - 21rem);
+    padding: 0;
+  }
+}
+
 .masthead {
   background-color: #8BC53F;
   background-image: url(/images/alanhead.png);
@@ -505,6 +526,7 @@ a:hover {
   color: #fff;
   display: flex;
   flex-direction: column;
+  margin: 0;
   padding: 0.5rem;
   padding-top: 6rem;
   width: 100%;
@@ -541,6 +563,7 @@ a:hover {
 
 .main-navigation__items {
   display: inline-flex;
+  flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
   margin: 0.5rem 0;
@@ -569,12 +592,6 @@ a:hover {
   text-align: center;
 }
 
-section,
-main {
-  max-width: 42rem;
-  padding-left: calc(50% - 21rem);
-}
-
 .header-with-logo {
   align-items: center;
   display: flex;
@@ -587,8 +604,12 @@ main {
   width: calc(100% - 5rem);
 }
 
+.header-with-logo--first {
+  margin-top: 5rem;
+}
+
 .header-with-logo--regent .section-header {
-  color: #3276b1;
+  color: #0261ab;
 }
 
 .header-with-logo--acgi .section-header {
@@ -596,7 +617,7 @@ main {
 }
 
 .header-with-logo--sd .section-header {
-  color: #c0391f;
+  color: #e3654d;
 }
 
 .company-logo {
@@ -613,7 +634,7 @@ main {
 }
 
 .company-logo--regent {
-  background-color: #428BCA;
+  background-color: #01365f;
 }
 
 .company-logo--sd {
